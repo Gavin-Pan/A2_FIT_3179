@@ -15,7 +15,6 @@
     <div class="container">
       <h1 class="site-title">The Scarcity of Obesity</h1>
 
-      <!-- Choropleth Map -->
       <section class="card">
         <h2 class="center">Global Adult Obesity Rates 2023</h2>
         <div id="map" aria-label="Choropleth: global adult obesity rate"></div>
@@ -30,7 +29,6 @@
         </p>
       </section>
 
-      <!-- Scatter Plot -->
       <section class="card mt-24">
         <h2 class="center">Obesity Rate vs Sugar Consumption</h2>
         <div
@@ -47,7 +45,6 @@
         </p>
       </section>
 
-      <!-- Line Chart: BMI Trend -->
       <section class="card mt-24">
         <h2 class="center">Trend of Average BMI in Australia by Sex</h2>
         <div
@@ -62,8 +59,21 @@
           the years.
         </p>
       </section>
+
+      <section class="card mt-24">
+        <h2 class="center">Top 10 Vegetables — Lowest in Sugar and Calories</h2>
+        <div
+          id="veg-grouped"
+          aria-label="Grouped bar chart showing top 10 lowest-sugar and calorie vegetables"
+        ></div>
+        <p class="eda">
+          Each pair of bars compares sugar (blue) and calories (orange) for the
+          10 lowest-sugar vegetables.
+        </p>
+      </section>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
     <script>
       vegaEmbed("#map", "js/obesity_choropleth.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
@@ -74,6 +84,10 @@
       }).catch(console.error);
 
       vegaEmbed("#bmi-line", "js/bmi_trend_aus.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#veg-grouped", "js/veg_grouped_bar.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
     </script>

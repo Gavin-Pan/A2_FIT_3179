@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Grouped bar chart showing the top 10 vegetables lowest in sugar and calories.",
+  "title": "Top 10 Vegetables Lowest in Sugar and Calories",
+  "data": { "url": "data/NutritionalFacts_Fruit_Vegetables_Seafood.csv" },
+
+  "transform": [
+    {
+      "calculate": "datum['Food Type']",
+      "as": "Category"
+    },
+    {
+      "calculate": "split(datum['Food and Serving'], ',')[0]",
+      "as": "Food"
+    },
+    {
+      "calculate": "toNumber(datum.Sugars)",
+      "as": "Sugar"
+    },
+    {
+      "calculate": "toNumber(datum.Calories)",
+      "as": "Calories"
+    },
+    {
+      "filter": "datum.Category && indexof(lower(datum.Category), 'vegetable') >= 0"
+    },
+    {
+      "filter": "isFinite(datum.Sugar) && isFinite(datum.Calories) && datum.Sugar >= 0 && datum.Calories > 0"
+    },
+    {
+      "window": [{ "op": "rank", "as": "rk" }],
+      "sort": [
+        { "field": "Sugar", "order": "ascending" },
+        { "field": "Calories", "order": "ascending" }
+      ]
+    },
+    { "filter": "datum.rk <= 10" },
+    {
+      "fold": ["Sugar", "Calories"],
+      "as": ["Nutrient", "Value"]
+    }
+  ],
+
+  "mark": { "type": "bar" },
+
+  "encoding": {
+    "x": {
+      "field": "Food",
+      "type": "nominal",
+      "title": "Vegetable",
+      "axis": { "labelAngle": -40 },
+      "sort": { "field": "Sugar", "order": "ascending" }
+    },
+    "y": {
+      "field": "Value",
+      "type": "quantitative",
+      "title": "Amount (g / kcal)"
+    },
+    "color": {
+      "field": "Nutrient",
+      "type": "nominal",
+      "scale": { "range": ["#ec4899", "#f59e0b"] },
+      "title": "Metric",
+      "legend": {
+        "orient": "top"
+      }
+    },
+    "xOffset": {
+      "field": "Nutrient"
+    },
+    "tooltip": [
+      { "field": "Food", "title": "Vegetable" },
+      { "field": "Nutrient", "title": "Type" },
+      {
+        "field": "Value",
+        "type": "quantitative",
+        "format": ".1f",
+        "title": "Amount"
+      }
+    ]
+  },
+
+  "width": 700,
+  "height": 400,
+  "config": {
+    "view": { "stroke": null },
+    "axis": { "labelFontSize": 11, "titleFontSize": 13 }
+  }
+}
