@@ -15,6 +15,7 @@
     <div class="container">
       <h1 class="site-title">The Scarcity of Obesity</h1>
 
+      <!-- Choropleth Map -->
       <section class="card">
         <h2 class="center">Global Adult Obesity Rates 2023</h2>
         <div id="map" aria-label="Choropleth: global adult obesity rate"></div>
@@ -29,6 +30,7 @@
         </p>
       </section>
 
+      <!-- Scatter Plot -->
       <section class="card mt-24">
         <h2 class="center">Obesity Rate vs Sugar Consumption</h2>
         <div
@@ -37,11 +39,27 @@
         ></div>
         <p class="eda">
           Sugar can be an amending tool to help with lowering an individual's
-          obesity. With the limied data avalaible in terms of countries, it's
-          suggested that for the most part, couunties that engange in a lower
-          average sugar consumption (kg per capita) that their obesity rates are
-          lower. However, this is a weak association and high-obesity country
-          appear despite relatively modest sugar intake.
+          obesity. With the limited data available in terms of countries, it's
+          suggested that for the most part, countries that engage in a lower
+          average sugar consumption (kg per capita) have lower obesity rates.
+          However, this is a weak association, and high-obesity countries appear
+          despite relatively modest sugar intake.
+        </p>
+      </section>
+
+      <!-- Line Chart: BMI Trend -->
+      <section class="card mt-24">
+        <h2 class="center">Trend of Average BMI in Australia by Sex</h2>
+        <div
+          id="bmi-line"
+          aria-label="Line chart: BMI trend by sex in Australia"
+        ></div>
+        <p class="eda">
+          This line chart shows how the average BMI in Australia has changed
+          over time for males, females, and the population overall. The steady
+          upward trend across all groups highlights the gradual increase in
+          average BMI, reflecting changes in lifestyle and dietary habits over
+          the years.
         </p>
       </section>
     </div>
@@ -52,6 +70,10 @@
       }).catch(console.error);
 
       vegaEmbed("#scatter", "js/obesity_sugar_scatter.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#bmi-line", "js/bmi_trend_aus.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
     </script>

@@ -1,0 +1,36 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Line chart showing BMI trend in Australia over years for both sexes, male, and female (tidy format).",
+  "data": { "url": "data/clean_BMI_long.csv" },
+  "title": "Trend of Average BMI in Australia by Sex",
+  "transform": [{ "filter": "datum.Country == 'Australia'" }],
+  "mark": { "type": "line", "point": true },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "temporal",
+      "title": "Year"
+    },
+    "y": {
+      "field": "BMI",
+      "type": "quantitative",
+      "title": "Average BMI"
+    },
+    "color": {
+      "field": "Sex",
+      "type": "nominal",
+      "title": "Sex",
+      "scale": {
+        "domain": ["Both sexes", "Male", "Female"],
+        "range": ["#636EFA", "#EF553B", "#00CC96"]
+      }
+    },
+    "tooltip": [
+      { "field": "Year", "type": "temporal" },
+      { "field": "Sex", "type": "nominal" },
+      { "field": "BMI", "type": "quantitative", "format": ".2f" }
+    ]
+  },
+  "width": 600,
+  "height": 400
+}

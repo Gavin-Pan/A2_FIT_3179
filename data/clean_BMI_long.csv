@@ -1,0 +1,3511 @@
+Country,Sex,Year,BMI
+Afghanistan,Both sexes,2023,5.5
+Afghanistan,Male,2023,3.2
+Afghanistan,Female,2023,7.6
+Afghanistan,Both sexes,2022,5.2
+Afghanistan,Male,2022,3
+Afghanistan,Female,2022,7.3
+Afghanistan,Both sexes,2021,4.9
+Afghanistan,Male,2021,2.8
+Afghanistan,Female,2021,7
+Afghanistan,Both sexes,2020,4.7
+Afghanistan,Male,2020,2.7
+Afghanistan,Female,2020,6.6
+Afghanistan,Both sexes,2019,4.4
+Afghanistan,Male,2019,2.5
+Afghanistan,Female,2019,6.3
+Afghanistan,Both sexes,2018,4.2
+Afghanistan,Male,2018,2.4
+Afghanistan,Female,2018,6
+Albania,Both sexes,2023,21.7
+Albania,Male,2023,21.6
+Albania,Female,2023,21.8
+Albania,Both sexes,2022,21.1
+Albania,Male,2022,20.9
+Albania,Female,2022,21.3
+Albania,Both sexes,2021,20.5
+Albania,Male,2021,20.2
+Albania,Female,2021,20.8
+Albania,Both sexes,2020,19.9
+Albania,Male,2020,19.5
+Albania,Female,2020,20.4
+Albania,Both sexes,2019,19.3
+Albania,Male,2019,18.8
+Albania,Female,2019,19.9
+Albania,Both sexes,2018,18.8
+Albania,Male,2018,18.1
+Albania,Female,2018,19.4
+Algeria,Both sexes,2023,27.4
+Algeria,Male,2023,19.9
+Algeria,Female,2023,34.9
+Algeria,Both sexes,2022,26.7
+Algeria,Male,2022,19.2
+Algeria,Female,2022,34.2
+Algeria,Both sexes,2021,26
+Algeria,Male,2021,18.5
+Algeria,Female,2021,33.6
+Algeria,Both sexes,2020,25.3
+Algeria,Male,2020,17.8
+Algeria,Female,2020,32.9
+Algeria,Both sexes,2019,24.7
+Algeria,Male,2019,17.1
+Algeria,Female,2019,32.2
+Algeria,Both sexes,2018,24
+Algeria,Male,2018,16.5
+Algeria,Female,2018,31.5
+Andorra,Both sexes,2023,25.6
+Andorra,Male,2023,25.9
+Andorra,Female,2023,25.3
+Andorra,Both sexes,2022,25.4
+Andorra,Male,2022,25.5
+Andorra,Female,2022,25.2
+Andorra,Both sexes,2021,25.2
+Andorra,Male,2021,25.2
+Andorra,Female,2021,25.1
+Andorra,Both sexes,2020,25
+Andorra,Male,2020,24.8
+Andorra,Female,2020,25.1
+Andorra,Both sexes,2019,24.8
+Andorra,Male,2019,24.5
+Andorra,Female,2019,25
+Andorra,Both sexes,2018,24.6
+Andorra,Male,2018,24.2
+Andorra,Female,2018,24.9
+Angola,Both sexes,2023,8.2
+Angola,Male,2023,4
+Angola,Female,2023,12.1
+Angola,Both sexes,2022,7.9
+Angola,Male,2022,3.8
+Angola,Female,2022,11.6
+Angola,Both sexes,2021,7.5
+Angola,Male,2021,3.6
+Angola,Female,2021,11.1
+Angola,Both sexes,2020,7.1
+Angola,Male,2020,3.3
+Angola,Female,2020,10.6
+Angola,Both sexes,2019,6.8
+Angola,Male,2019,3.1
+Angola,Female,2019,10.2
+Angola,Both sexes,2018,6.5
+Angola,Male,2018,2.9
+Angola,Female,2018,9.7
+Antigua and Barbuda,Both sexes,2023,18.9
+Antigua and Barbuda,Male,2023,11.6
+Antigua and Barbuda,Female,2023,25.9
+Antigua and Barbuda,Both sexes,2022,18.4
+Antigua and Barbuda,Male,2022,11.2
+Antigua and Barbuda,Female,2022,25.3
+Antigua and Barbuda,Both sexes,2021,18
+Antigua and Barbuda,Male,2021,10.8
+Antigua and Barbuda,Female,2021,24.8
+Antigua and Barbuda,Both sexes,2020,17.5
+Antigua and Barbuda,Male,2020,10.5
+Antigua and Barbuda,Female,2020,24.2
+Antigua and Barbuda,Both sexes,2019,17.1
+Antigua and Barbuda,Male,2019,10.1
+Antigua and Barbuda,Female,2019,23.7
+Antigua and Barbuda,Both sexes,2018,16.7
+Antigua and Barbuda,Male,2018,9.8
+Antigua and Barbuda,Female,2018,23.2
+Argentina,Both sexes,2023,28.3
+Argentina,Male,2023,27.3
+Argentina,Female,2023,29
+Argentina,Both sexes,2022,27.8
+Argentina,Male,2022,26.8
+Argentina,Female,2022,28.5
+Argentina,Both sexes,2021,27.3
+Argentina,Male,2021,26.2
+Argentina,Female,2021,28.1
+Argentina,Both sexes,2020,26.8
+Argentina,Male,2020,25.7
+Argentina,Female,2020,27.6
+Argentina,Both sexes,2019,26.3
+Argentina,Male,2019,25.1
+Argentina,Female,2019,27.2
+Argentina,Both sexes,2018,25.8
+Argentina,Male,2018,24.6
+Argentina,Female,2018,26.7
+Armenia,Both sexes,2023,20.2
+Armenia,Male,2023,17.1
+Armenia,Female,2023,23
+Armenia,Both sexes,2022,19.7
+Armenia,Male,2022,16.6
+Armenia,Female,2022,22.6
+Armenia,Both sexes,2021,19.2
+Armenia,Male,2021,16.1
+Armenia,Female,2021,22.1
+Armenia,Both sexes,2020,18.8
+Armenia,Male,2020,15.7
+Armenia,Female,2020,21.7
+Armenia,Both sexes,2019,18.3
+Armenia,Male,2019,15.2
+Armenia,Female,2019,21.2
+Armenia,Both sexes,2018,17.9
+Armenia,Male,2018,14.8
+Armenia,Female,2018,20.8
+Australia,Both sexes,2023,29
+Australia,Male,2023,29.6
+Australia,Female,2023,28.4
+Australia,Both sexes,2022,28.4
+Australia,Male,2022,28.9
+Australia,Female,2022,27.9
+Australia,Both sexes,2021,27.9
+Australia,Male,2021,28.3
+Australia,Female,2021,27.4
+Australia,Both sexes,2020,27.3
+Australia,Male,2020,27.7
+Australia,Female,2020,26.9
+Australia,Both sexes,2019,26.7
+Australia,Male,2019,27
+Australia,Female,2019,26.4
+Australia,Both sexes,2018,26.2
+Australia,Male,2018,26.4
+Australia,Female,2018,25.9
+Austria,Both sexes,2023,20.1
+Austria,Male,2023,21.9
+Austria,Female,2023,18.3
+Austria,Both sexes,2022,19.7
+Austria,Male,2022,21.3
+Austria,Female,2022,18
+Austria,Both sexes,2021,19.2
+Austria,Male,2021,20.8
+Austria,Female,2021,17.7
+Austria,Both sexes,2020,18.8
+Austria,Male,2020,20.3
+Austria,Female,2020,17.3
+Austria,Both sexes,2019,18.4
+Austria,Male,2019,19.8
+Austria,Female,2019,17
+Austria,Both sexes,2018,18
+Austria,Male,2018,19.3
+Austria,Female,2018,16.7
+Azerbaijan,Both sexes,2023,19.9
+Azerbaijan,Male,2023,15.8
+Azerbaijan,Female,2023,23.6
+Azerbaijan,Both sexes,2022,19.3
+Azerbaijan,Male,2022,15.3
+Azerbaijan,Female,2022,23
+Azerbaijan,Both sexes,2021,18.8
+Azerbaijan,Male,2021,14.7
+Azerbaijan,Female,2021,22.4
+Azerbaijan,Both sexes,2020,18.2
+Azerbaijan,Male,2020,14.2
+Azerbaijan,Female,2020,21.8
+Azerbaijan,Both sexes,2019,17.7
+Azerbaijan,Male,2019,13.7
+Azerbaijan,Female,2019,21.2
+Azerbaijan,Both sexes,2018,17.2
+Azerbaijan,Male,2018,13.2
+Azerbaijan,Female,2018,20.7
+Bahamas,Both sexes,2023,31.6
+Bahamas,Male,2023,24.4
+Bahamas,Female,2023,38.1
+Bahamas,Both sexes,2022,31
+Bahamas,Male,2022,23.8
+Bahamas,Female,2022,37.6
+Bahamas,Both sexes,2021,30.5
+Bahamas,Male,2021,23.2
+Bahamas,Female,2021,37.2
+Bahamas,Both sexes,2020,30
+Bahamas,Male,2020,22.6
+Bahamas,Female,2020,36.7
+Bahamas,Both sexes,2019,29.5
+Bahamas,Male,2019,22.1
+Bahamas,Female,2019,36.3
+Bahamas,Both sexes,2018,29
+Bahamas,Male,2018,21.5
+Bahamas,Female,2018,35.8
+Bahrain,Both sexes,2023,29.8
+Bahrain,Male,2023,25.5
+Bahrain,Female,2023,36.8
+Bahrain,Both sexes,2022,29.3
+Bahrain,Male,2022,24.9
+Bahrain,Female,2022,36.4
+Bahrain,Both sexes,2021,28.8
+Bahrain,Male,2021,24.4
+Bahrain,Female,2021,36
+Bahrain,Both sexes,2020,28.2
+Bahrain,Male,2020,23.8
+Bahrain,Female,2020,35.6
+Bahrain,Both sexes,2019,27.6
+Bahrain,Male,2019,23.2
+Bahrain,Female,2019,35.1
+Bahrain,Both sexes,2018,27.1
+Bahrain,Male,2018,22.7
+Bahrain,Female,2018,34.7
+Bangladesh,Both sexes,2023,3.6
+Bangladesh,Male,2023,2.3
+Bangladesh,Female,2023,5
+Bangladesh,Both sexes,2022,3.4
+Bangladesh,Male,2022,2.1
+Bangladesh,Female,2022,4.7
+Bangladesh,Both sexes,2021,3.2
+Bangladesh,Male,2021,2
+Bangladesh,Female,2021,4.4
+Bangladesh,Both sexes,2020,3
+Bangladesh,Male,2020,1.8
+Bangladesh,Female,2020,4.2
+Bangladesh,Both sexes,2019,2.8
+Bangladesh,Male,2019,1.7
+Bangladesh,Female,2019,4
+Bangladesh,Both sexes,2018,2.6
+Bangladesh,Male,2018,1.6
+Bangladesh,Female,2018,3.8
+Barbados,Both sexes,2023,23.1
+Barbados,Male,2023,14.7
+Barbados,Female,2023,31.3
+Barbados,Both sexes,2022,22.5
+Barbados,Male,2022,14.2
+Barbados,Female,2022,30.7
+Barbados,Both sexes,2021,22
+Barbados,Male,2021,13.7
+Barbados,Female,2021,30
+Barbados,Both sexes,2020,21.4
+Barbados,Male,2020,13.2
+Barbados,Female,2020,29.4
+Barbados,Both sexes,2019,20.9
+Barbados,Male,2019,12.7
+Barbados,Female,2019,28.8
+Barbados,Both sexes,2018,20.4
+Barbados,Male,2018,12.3
+Barbados,Female,2018,28.2
+Belarus,Both sexes,2023,24.5
+Belarus,Male,2023,22.1
+Belarus,Female,2023,26.3
+Belarus,Both sexes,2022,24.1
+Belarus,Male,2022,21.6
+Belarus,Female,2022,26
+Belarus,Both sexes,2021,23.7
+Belarus,Male,2021,21.1
+Belarus,Female,2021,25.8
+Belarus,Both sexes,2020,23.4
+Belarus,Male,2020,20.6
+Belarus,Female,2020,25.6
+Belarus,Both sexes,2019,23
+Belarus,Male,2019,20.1
+Belarus,Female,2019,25.3
+Belarus,Both sexes,2018,22.7
+Belarus,Male,2018,19.6
+Belarus,Female,2018,25.1
+Belgium,Both sexes,2023,22.1
+Belgium,Male,2023,23.1
+Belgium,Female,2023,21
+Belgium,Both sexes,2022,21.7
+Belgium,Male,2022,22.6
+Belgium,Female,2022,20.7
+Belgium,Both sexes,2021,21.4
+Belgium,Male,2021,22.2
+Belgium,Female,2021,20.5
+Belgium,Both sexes,2020,21
+Belgium,Male,2020,21.7
+Belgium,Female,2020,20.3
+Belgium,Both sexes,2019,20.7
+Belgium,Male,2019,21.3
+Belgium,Female,2019,20.1
+Belgium,Both sexes,2018,20.4
+Belgium,Male,2018,20.8
+Belgium,Female,2018,19.9
+Belize,Both sexes,2023,24.1
+Belize,Male,2023,16.5
+Belize,Female,2023,31.5
+Belize,Both sexes,2022,23.6
+Belize,Male,2022,16
+Belize,Female,2022,30.9
+Belize,Both sexes,2021,23
+Belize,Male,2021,15.5
+Belize,Female,2021,30.3
+Belize,Both sexes,2020,22.5
+Belize,Male,2020,15
+Belize,Female,2020,29.8
+Belize,Both sexes,2019,22
+Belize,Male,2019,14.5
+Belize,Female,2019,29.2
+Belize,Both sexes,2018,21.5
+Belize,Male,2018,14
+Belize,Female,2018,28.7
+Benin,Both sexes,2023,9.6
+Benin,Male,2023,4.7
+Benin,Female,2023,14.2
+Benin,Both sexes,2022,9.3
+Benin,Male,2022,4.5
+Benin,Female,2022,13.7
+Benin,Both sexes,2021,8.9
+Benin,Male,2021,4.2
+Benin,Female,2021,13.2
+Benin,Both sexes,2020,8.6
+Benin,Male,2020,4
+Benin,Female,2020,12.7
+Benin,Both sexes,2019,8.2
+Benin,Male,2019,3.8
+Benin,Female,2019,12.3
+Benin,Both sexes,2018,7.9
+Benin,Male,2018,3.6
+Benin,Female,2018,11.8
+Bhutan,Both sexes,2023,6.4
+Bhutan,Male,2023,4.7
+Bhutan,Female,2023,8.5
+Bhutan,Both sexes,2022,6.1
+Bhutan,Male,2022,4.4
+Bhutan,Female,2022,8.1
+Bhutan,Both sexes,2021,5.7
+Bhutan,Male,2021,4.2
+Bhutan,Female,2021,7.8
+Bhutan,Both sexes,2020,5.5
+Bhutan,Male,2020,3.9
+Bhutan,Female,2020,7.4
+Bhutan,Both sexes,2019,5.2
+Bhutan,Male,2019,3.7
+Bhutan,Female,2019,7.1
+Bhutan,Both sexes,2018,4.9
+Bhutan,Male,2018,3.5
+Bhutan,Female,2018,6.7
+Bolivia (Plurinational State of),Both sexes,2023,20.2
+Bolivia (Plurinational State of),Male,2023,14.5
+Bolivia (Plurinational State of),Female,2023,25.6
+Bolivia (Plurinational State of),Both sexes,2022,19.7
+Bolivia (Plurinational State of),Male,2022,14
+Bolivia (Plurinational State of),Female,2022,25
+Bolivia (Plurinational State of),Both sexes,2021,19.3
+Bolivia (Plurinational State of),Male,2021,13.6
+Bolivia (Plurinational State of),Female,2021,24.5
+Bolivia (Plurinational State of),Both sexes,2020,18.8
+Bolivia (Plurinational State of),Male,2020,13.1
+Bolivia (Plurinational State of),Female,2020,24
+Bolivia (Plurinational State of),Both sexes,2019,18.3
+Bolivia (Plurinational State of),Male,2019,12.7
+Bolivia (Plurinational State of),Female,2019,23.5
+Bolivia (Plurinational State of),Both sexes,2018,17.9
+Bolivia (Plurinational State of),Male,2018,12.3
+Bolivia (Plurinational State of),Female,2018,23
+Bosnia and Herzegovina,Both sexes,2023,17.9
+Bosnia and Herzegovina,Male,2023,17.1
+Bosnia and Herzegovina,Female,2023,18.4
+Bosnia and Herzegovina,Both sexes,2022,17.5
+Bosnia and Herzegovina,Male,2022,16.7
+Bosnia and Herzegovina,Female,2022,18.1
+Bosnia and Herzegovina,Both sexes,2021,17.1
+Bosnia and Herzegovina,Male,2021,16.2
+Bosnia and Herzegovina,Female,2021,17.8
+Bosnia and Herzegovina,Both sexes,2020,16.7
+Bosnia and Herzegovina,Male,2020,15.8
+Bosnia and Herzegovina,Female,2020,17.4
+Bosnia and Herzegovina,Both sexes,2019,16.3
+Bosnia and Herzegovina,Male,2019,15.3
+Bosnia and Herzegovina,Female,2019,17.1
+Bosnia and Herzegovina,Both sexes,2018,16
+Bosnia and Herzegovina,Male,2018,14.9
+Bosnia and Herzegovina,Female,2018,16.8
+Botswana,Both sexes,2023,18.9
+Botswana,Male,2023,8.1
+Botswana,Female,2023,29.3
+Botswana,Both sexes,2022,18.6
+Botswana,Male,2022,7.8
+Botswana,Female,2022,28.9
+Botswana,Both sexes,2021,18.2
+Botswana,Male,2021,7.5
+Botswana,Female,2021,28.4
+Botswana,Both sexes,2020,17.9
+Botswana,Male,2020,7.2
+Botswana,Female,2020,27.9
+Botswana,Both sexes,2019,17.5
+Botswana,Male,2019,6.9
+Botswana,Female,2019,27.5
+Botswana,Both sexes,2018,17.2
+Botswana,Male,2018,6.6
+Botswana,Female,2018,27
+Brazil,Both sexes,2023,22.1
+Brazil,Male,2023,18.5
+Brazil,Female,2023,25.4
+Brazil,Both sexes,2022,21.6
+Brazil,Male,2022,18
+Brazil,Female,2022,24.9
+Brazil,Both sexes,2021,21.1
+Brazil,Male,2021,17.5
+Brazil,Female,2021,24.4
+Brazil,Both sexes,2020,20.6
+Brazil,Male,2020,17
+Brazil,Female,2020,23.9
+Brazil,Both sexes,2019,20.1
+Brazil,Male,2019,16.5
+Brazil,Female,2019,23.4
+Brazil,Both sexes,2018,19.6
+Brazil,Male,2018,16
+Brazil,Female,2018,22.9
+Brunei Darussalam,Both sexes,2023,14.1
+Brunei Darussalam,Male,2023,12.5
+Brunei Darussalam,Female,2023,15.7
+Brunei Darussalam,Both sexes,2022,13.6
+Brunei Darussalam,Male,2022,11.9
+Brunei Darussalam,Female,2022,15.3
+Brunei Darussalam,Both sexes,2021,13.1
+Brunei Darussalam,Male,2021,11.3
+Brunei Darussalam,Female,2021,14.8
+Brunei Darussalam,Both sexes,2020,12.6
+Brunei Darussalam,Male,2020,10.8
+Brunei Darussalam,Female,2020,14.3
+Brunei Darussalam,Both sexes,2019,12.1
+Brunei Darussalam,Male,2019,10.3
+Brunei Darussalam,Female,2019,13.9
+Brunei Darussalam,Both sexes,2018,11.6
+Brunei Darussalam,Male,2018,9.8
+Brunei Darussalam,Female,2018,13.4
+Bulgaria,Both sexes,2023,25
+Bulgaria,Male,2023,25.5
+Bulgaria,Female,2023,24.3
+Bulgaria,Both sexes,2022,24.5
+Bulgaria,Male,2022,24.9
+Bulgaria,Female,2022,24
+Bulgaria,Both sexes,2021,24.1
+Bulgaria,Male,2021,24.4
+Bulgaria,Female,2021,23.7
+Bulgaria,Both sexes,2020,23.7
+Bulgaria,Male,2020,23.8
+Bulgaria,Female,2020,23.4
+Bulgaria,Both sexes,2019,23.2
+Bulgaria,Male,2019,23.2
+Bulgaria,Female,2019,23.1
+Bulgaria,Both sexes,2018,22.8
+Bulgaria,Male,2018,22.7
+Bulgaria,Female,2018,22.8
+Burkina Faso,Both sexes,2023,5.6
+Burkina Faso,Male,2023,2.6
+Burkina Faso,Female,2023,8.1
+Burkina Faso,Both sexes,2022,5.3
+Burkina Faso,Male,2022,2.4
+Burkina Faso,Female,2022,7.7
+Burkina Faso,Both sexes,2021,5
+Burkina Faso,Male,2021,2.2
+Burkina Faso,Female,2021,7.3
+Burkina Faso,Both sexes,2020,4.7
+Burkina Faso,Male,2020,2.1
+Burkina Faso,Female,2020,6.9
+Burkina Faso,Both sexes,2019,4.5
+Burkina Faso,Male,2019,2
+Burkina Faso,Female,2019,6.5
+Burkina Faso,Both sexes,2018,4.2
+Burkina Faso,Male,2018,1.8
+Burkina Faso,Female,2018,6.1
+Burundi,Both sexes,2023,5.4
+Burundi,Male,2023,2.1
+Burundi,Female,2023,8.6
+Burundi,Both sexes,2022,5.1
+Burundi,Male,2022,2
+Burundi,Female,2022,8.2
+Burundi,Both sexes,2021,4.9
+Burundi,Male,2021,1.9
+Burundi,Female,2021,7.8
+Burundi,Both sexes,2020,4.6
+Burundi,Male,2020,1.8
+Burundi,Female,2020,7.4
+Burundi,Both sexes,2019,4.4
+Burundi,Male,2019,1.7
+Burundi,Female,2019,7.1
+Burundi,Both sexes,2018,4.2
+Burundi,Male,2018,1.6
+Burundi,Female,2018,6.7
+Cabo Verde,Both sexes,2023,11.8
+Cabo Verde,Male,2023,6.9
+Cabo Verde,Female,2023,16.3
+Cabo Verde,Both sexes,2022,11.4
+Cabo Verde,Male,2022,6.6
+Cabo Verde,Female,2022,15.8
+Cabo Verde,Both sexes,2021,11
+Cabo Verde,Male,2021,6.2
+Cabo Verde,Female,2021,15.3
+Cabo Verde,Both sexes,2020,10.7
+Cabo Verde,Male,2020,5.9
+Cabo Verde,Female,2020,14.8
+Cabo Verde,Both sexes,2019,10.3
+Cabo Verde,Male,2019,5.6
+Cabo Verde,Female,2019,14.4
+Cabo Verde,Both sexes,2018,9.9
+Cabo Verde,Male,2018,5.4
+Cabo Verde,Female,2018,13.9
+Cambodia,Both sexes,2023,3.9
+Cambodia,Male,2023,2.7
+Cambodia,Female,2023,4.8
+Cambodia,Both sexes,2022,3.7
+Cambodia,Male,2022,2.5
+Cambodia,Female,2022,4.6
+Cambodia,Both sexes,2021,3.5
+Cambodia,Male,2021,2.4
+Cambodia,Female,2021,4.3
+Cambodia,Both sexes,2020,3.3
+Cambodia,Male,2020,2.2
+Cambodia,Female,2020,4.1
+Cambodia,Both sexes,2019,3.1
+Cambodia,Male,2019,2.1
+Cambodia,Female,2019,3.9
+Cambodia,Both sexes,2018,2.9
+Cambodia,Male,2018,1.9
+Cambodia,Female,2018,3.7
+Cameroon,Both sexes,2023,11.4
+Cameroon,Male,2023,6.1
+Cameroon,Female,2023,16.4
+Cameroon,Both sexes,2022,11
+Cameroon,Male,2022,5.8
+Cameroon,Female,2022,15.9
+Cameroon,Both sexes,2021,10.6
+Cameroon,Male,2021,5.5
+Cameroon,Female,2021,15.4
+Cameroon,Both sexes,2020,10.2
+Cameroon,Male,2020,5.3
+Cameroon,Female,2020,14.9
+Cameroon,Both sexes,2019,9.8
+Cameroon,Male,2019,5
+Cameroon,Female,2019,14.4
+Cameroon,Both sexes,2018,9.4
+Cameroon,Male,2018,4.8
+Cameroon,Female,2018,13.9
+Canada,Both sexes,2023,29.4
+Canada,Male,2023,29.5
+Canada,Female,2023,29.3
+Canada,Both sexes,2022,28.8
+Canada,Male,2022,28.8
+Canada,Female,2022,28.8
+Canada,Both sexes,2021,28.3
+Canada,Male,2021,28.2
+Canada,Female,2021,28.3
+Canada,Both sexes,2020,27.7
+Canada,Male,2020,27.6
+Canada,Female,2020,27.7
+Canada,Both sexes,2019,27.1
+Canada,Male,2019,27
+Canada,Female,2019,27.2
+Canada,Both sexes,2018,26.6
+Canada,Male,2018,26.4
+Canada,Female,2018,26.7
+Central African Republic,Both sexes,2023,7.5
+Central African Republic,Male,2023,3.7
+Central African Republic,Female,2023,10.9
+Central African Republic,Both sexes,2022,7.2
+Central African Republic,Male,2022,3.5
+Central African Republic,Female,2022,10.5
+Central African Republic,Both sexes,2021,6.9
+Central African Republic,Male,2021,3.3
+Central African Republic,Female,2021,10.1
+Central African Republic,Both sexes,2020,6.6
+Central African Republic,Male,2020,3.2
+Central African Republic,Female,2020,9.7
+Central African Republic,Both sexes,2019,6.4
+Central African Republic,Male,2019,3
+Central African Republic,Female,2019,9.4
+Central African Republic,Both sexes,2018,6.1
+Central African Republic,Male,2018,2.9
+Central African Republic,Female,2018,9
+Chad,Both sexes,2023,6.1
+Chad,Male,2023,3.1
+Chad,Female,2023,8.9
+Chad,Both sexes,2022,5.8
+Chad,Male,2022,2.9
+Chad,Female,2022,8.5
+Chad,Both sexes,2021,5.6
+Chad,Male,2021,2.8
+Chad,Female,2021,8.2
+Chad,Both sexes,2020,5.3
+Chad,Male,2020,2.6
+Chad,Female,2020,7.9
+Chad,Both sexes,2019,5.1
+Chad,Male,2019,2.5
+Chad,Female,2019,7.5
+Chad,Both sexes,2018,4.9
+Chad,Male,2018,2.4
+Chad,Female,2018,7.2
+Chile,Both sexes,2023,28
+Chile,Male,2023,24.9
+Chile,Female,2023,31
+Chile,Both sexes,2022,27.5
+Chile,Male,2022,24.4
+Chile,Female,2022,30.5
+Chile,Both sexes,2021,27
+Chile,Male,2021,23.8
+Chile,Female,2021,30
+Chile,Both sexes,2020,26.5
+Chile,Male,2020,23.3
+Chile,Female,2020,29.6
+Chile,Both sexes,2019,26.1
+Chile,Male,2019,22.8
+Chile,Female,2019,29.1
+Chile,Both sexes,2018,25.6
+Chile,Male,2018,22.3
+Chile,Female,2018,28.7
+China,Both sexes,2023,6.2
+China,Male,2023,5.9
+China,Female,2023,6.5
+China,Both sexes,2022,5.9
+China,Male,2022,5.5
+China,Female,2022,6.2
+China,Both sexes,2021,5.5
+China,Male,2021,5.1
+China,Female,2021,6
+China,Both sexes,2020,5.2
+China,Male,2020,4.8
+China,Female,2020,5.7
+China,Both sexes,2019,5
+China,Male,2019,4.5
+China,Female,2019,5.5
+China,Both sexes,2018,4.7
+China,Male,2018,4.2
+China,Female,2018,5.2
+Colombia,Both sexes,2023,22.3
+Colombia,Male,2023,17.6
+Colombia,Female,2023,26.6
+Colombia,Both sexes,2022,21.9
+Colombia,Male,2022,17.1
+Colombia,Female,2022,26.1
+Colombia,Both sexes,2021,21.4
+Colombia,Male,2021,16.6
+Colombia,Female,2021,25.7
+Colombia,Both sexes,2020,20.9
+Colombia,Male,2020,16.1
+Colombia,Female,2020,25.2
+Colombia,Both sexes,2019,20.4
+Colombia,Male,2019,15.6
+Colombia,Female,2019,24.7
+Colombia,Both sexes,2018,20
+Colombia,Male,2018,15.2
+Colombia,Female,2018,24.3
+Comoros,Both sexes,2023,7.8
+Comoros,Male,2023,3.3
+Comoros,Female,2023,12.2
+Comoros,Both sexes,2022,7.5
+Comoros,Male,2022,3.1
+Comoros,Female,2022,11.7
+Comoros,Both sexes,2021,7.2
+Comoros,Male,2021,3
+Comoros,Female,2021,11.3
+Comoros,Both sexes,2020,6.9
+Comoros,Male,2020,2.9
+Comoros,Female,2020,10.8
+Comoros,Both sexes,2019,6.7
+Comoros,Male,2019,2.7
+Comoros,Female,2019,10.4
+Comoros,Both sexes,2018,6.4
+Comoros,Male,2018,2.6
+Comoros,Female,2018,10
+Congo,Both sexes,2023,9.6
+Congo,Male,2023,5.5
+Congo,Female,2023,13.5
+Congo,Both sexes,2022,9.2
+Congo,Male,2022,5.2
+Congo,Female,2022,13.1
+Congo,Both sexes,2021,8.9
+Congo,Male,2021,5
+Congo,Female,2021,12.7
+Congo,Both sexes,2020,8.6
+Congo,Male,2020,4.7
+Congo,Female,2020,12.3
+Congo,Both sexes,2019,8.3
+Congo,Male,2019,4.5
+Congo,Female,2019,11.9
+Congo,Both sexes,2018,8
+Congo,Male,2018,4.3
+Congo,Female,2018,11.5
+Cook Islands,Both sexes,2023,55.9
+Cook Islands,Male,2023,52.6
+Cook Islands,Female,2023,59.2
+Cook Islands,Both sexes,2022,55.4
+Cook Islands,Male,2022,52
+Cook Islands,Female,2022,58.8
+Cook Islands,Both sexes,2021,54.9
+Cook Islands,Male,2021,51.3
+Cook Islands,Female,2021,58.4
+Cook Islands,Both sexes,2020,54.3
+Cook Islands,Male,2020,50.7
+Cook Islands,Female,2020,58
+Cook Islands,Both sexes,2019,53.8
+Cook Islands,Male,2019,50
+Cook Islands,Female,2019,57.6
+Cook Islands,Both sexes,2018,53.2
+Cook Islands,Male,2018,49.3
+Cook Islands,Female,2018,57.2
+Costa Rica,Both sexes,2023,25.7
+Costa Rica,Male,2023,21.1
+Costa Rica,Female,2023,30.4
+Costa Rica,Both sexes,2022,25
+Costa Rica,Male,2022,20.3
+Costa Rica,Female,2022,29.7
+Costa Rica,Both sexes,2021,24.3
+Costa Rica,Male,2021,19.6
+Costa Rica,Female,2021,29
+Costa Rica,Both sexes,2020,23.6
+Costa Rica,Male,2020,18.9
+Costa Rica,Female,2020,28.3
+Costa Rica,Both sexes,2019,22.9
+Costa Rica,Male,2019,18.1
+Costa Rica,Female,2019,27.6
+Costa Rica,Both sexes,2018,22.2
+Costa Rica,Male,2018,17.4
+Costa Rica,Female,2018,26.9
+Côte d'Ivoire,Both sexes,2023,10.3
+Côte d'Ivoire,Male,2023,5.8
+Côte d'Ivoire,Female,2023,15.2
+Côte d'Ivoire,Both sexes,2022,9.8
+Côte d'Ivoire,Male,2022,5.5
+Côte d'Ivoire,Female,2022,14.7
+Côte d'Ivoire,Both sexes,2021,9.4
+Côte d'Ivoire,Male,2021,5.2
+Côte d'Ivoire,Female,2021,14.2
+Côte d'Ivoire,Both sexes,2020,9
+Côte d'Ivoire,Male,2020,4.9
+Côte d'Ivoire,Female,2020,13.7
+Côte d'Ivoire,Both sexes,2019,8.7
+Côte d'Ivoire,Male,2019,4.7
+Côte d'Ivoire,Female,2019,13.2
+Côte d'Ivoire,Both sexes,2018,8.3
+Côte d'Ivoire,Male,2018,4.4
+Côte d'Ivoire,Female,2018,12.7
+Croatia,Both sexes,2023,24.4
+Croatia,Male,2023,24.1
+Croatia,Female,2023,24.5
+Croatia,Both sexes,2022,23.9
+Croatia,Male,2022,23.5
+Croatia,Female,2022,24.1
+Croatia,Both sexes,2021,23.4
+Croatia,Male,2021,22.9
+Croatia,Female,2021,23.7
+Croatia,Both sexes,2020,22.9
+Croatia,Male,2020,22.3
+Croatia,Female,2020,23.3
+Croatia,Both sexes,2019,22.5
+Croatia,Male,2019,21.8
+Croatia,Female,2019,22.9
+Croatia,Both sexes,2018,22
+Croatia,Male,2018,21.2
+Croatia,Female,2018,22.6
+Cuba,Both sexes,2023,24.6
+Cuba,Male,2023,18.9
+Cuba,Female,2023,30.3
+Cuba,Both sexes,2022,24.1
+Cuba,Male,2022,18.4
+Cuba,Female,2022,29.9
+Cuba,Both sexes,2021,23.6
+Cuba,Male,2021,17.8
+Cuba,Female,2021,29.4
+Cuba,Both sexes,2020,23.1
+Cuba,Male,2020,17.3
+Cuba,Female,2020,29
+Cuba,Both sexes,2019,22.6
+Cuba,Male,2019,16.7
+Cuba,Female,2019,28.5
+Cuba,Both sexes,2018,22.2
+Cuba,Male,2018,16.2
+Cuba,Female,2018,28.1
+Cyprus,Both sexes,2023,21.8
+Cyprus,Male,2023,21.9
+Cyprus,Female,2023,21.6
+Cyprus,Both sexes,2022,21.4
+Cyprus,Male,2022,21.4
+Cyprus,Female,2022,21.4
+Cyprus,Both sexes,2021,21.1
+Cyprus,Male,2021,20.9
+Cyprus,Female,2021,21.1
+Cyprus,Both sexes,2020,20.7
+Cyprus,Male,2020,20.5
+Cyprus,Female,2020,20.9
+Cyprus,Both sexes,2019,20.4
+Cyprus,Male,2019,20.1
+Cyprus,Female,2019,20.7
+Cyprus,Both sexes,2018,20.1
+Cyprus,Male,2018,19.6
+Cyprus,Female,2018,20.5
+Czechia,Both sexes,2023,26
+Czechia,Male,2023,26.4
+Czechia,Female,2023,25.4
+Czechia,Both sexes,2022,25.6
+Czechia,Male,2022,25.9
+Czechia,Female,2022,25.2
+Czechia,Both sexes,2021,25.2
+Czechia,Male,2021,25.4
+Czechia,Female,2021,25
+Czechia,Both sexes,2020,24.9
+Czechia,Male,2020,24.9
+Czechia,Female,2020,24.7
+Czechia,Both sexes,2019,24.5
+Czechia,Male,2019,24.5
+Czechia,Female,2019,24.5
+Czechia,Both sexes,2018,24.2
+Czechia,Male,2018,24
+Czechia,Female,2018,24.3
+Democratic People's Republic of Korea,Both sexes,2023,6.8
+Democratic People's Republic of Korea,Male,2023,6.1
+Democratic People's Republic of Korea,Female,2023,7.3
+Democratic People's Republic of Korea,Both sexes,2022,6.5
+Democratic People's Republic of Korea,Male,2022,5.8
+Democratic People's Republic of Korea,Female,2022,7.1
+Democratic People's Republic of Korea,Both sexes,2021,6.3
+Democratic People's Republic of Korea,Male,2021,5.6
+Democratic People's Republic of Korea,Female,2021,6.9
+Democratic People's Republic of Korea,Both sexes,2020,6.1
+Democratic People's Republic of Korea,Male,2020,5.3
+Democratic People's Republic of Korea,Female,2020,6.7
+Democratic People's Republic of Korea,Both sexes,2019,5.9
+Democratic People's Republic of Korea,Male,2019,5.1
+Democratic People's Republic of Korea,Female,2019,6.5
+Democratic People's Republic of Korea,Both sexes,2018,5.7
+Democratic People's Republic of Korea,Male,2018,4.9
+Democratic People's Republic of Korea,Female,2018,6.4
+Democratic Republic of the Congo,Both sexes,2023,6.7
+Democratic Republic of the Congo,Male,2023,3.6
+Democratic Republic of the Congo,Female,2023,9.7
+Democratic Republic of the Congo,Both sexes,2022,6.4
+Democratic Republic of the Congo,Male,2022,3.4
+Democratic Republic of the Congo,Female,2022,9.3
+Democratic Republic of the Congo,Both sexes,2021,6.1
+Democratic Republic of the Congo,Male,2021,3.2
+Democratic Republic of the Congo,Female,2021,8.9
+Democratic Republic of the Congo,Both sexes,2020,5.9
+Democratic Republic of the Congo,Male,2020,3
+Democratic Republic of the Congo,Female,2020,8.5
+Democratic Republic of the Congo,Both sexes,2019,5.6
+Democratic Republic of the Congo,Male,2019,2.8
+Democratic Republic of the Congo,Female,2019,8.1
+Democratic Republic of the Congo,Both sexes,2018,5.3
+Democratic Republic of the Congo,Male,2018,2.7
+Democratic Republic of the Congo,Female,2018,7.8
+Denmark,Both sexes,2023,19.7
+Denmark,Male,2023,22.3
+Denmark,Female,2023,17
+Denmark,Both sexes,2022,19.3
+Denmark,Male,2022,21.8
+Denmark,Female,2022,16.7
+Denmark,Both sexes,2021,18.9
+Denmark,Male,2021,21.3
+Denmark,Female,2021,16.5
+Denmark,Both sexes,2020,18.5
+Denmark,Male,2020,20.8
+Denmark,Female,2020,16.2
+Denmark,Both sexes,2019,18.1
+Denmark,Male,2019,20.2
+Denmark,Female,2019,16
+Denmark,Both sexes,2018,17.8
+Denmark,Male,2018,19.8
+Denmark,Female,2018,15.7
+Djibouti,Both sexes,2023,13.5
+Djibouti,Male,2023,8.6
+Djibouti,Female,2023,18.3
+Djibouti,Both sexes,2022,13.2
+Djibouti,Male,2022,8.3
+Djibouti,Female,2022,18
+Djibouti,Both sexes,2021,12.9
+Djibouti,Male,2021,8.1
+Djibouti,Female,2021,17.6
+Djibouti,Both sexes,2020,12.6
+Djibouti,Male,2020,7.8
+Djibouti,Female,2020,17.3
+Djibouti,Both sexes,2019,12.3
+Djibouti,Male,2019,7.6
+Djibouti,Female,2019,16.9
+Djibouti,Both sexes,2018,12
+Djibouti,Male,2018,7.3
+Djibouti,Female,2018,16.6
+Dominica,Both sexes,2023,27.9
+Dominica,Male,2023,19.9
+Dominica,Female,2023,35.6
+Dominica,Both sexes,2022,27.3
+Dominica,Male,2022,19.3
+Dominica,Female,2022,35
+Dominica,Both sexes,2021,26.8
+Dominica,Male,2021,18.7
+Dominica,Female,2021,34.4
+Dominica,Both sexes,2020,26.2
+Dominica,Male,2020,18.1
+Dominica,Female,2020,33.9
+Dominica,Both sexes,2019,25.6
+Dominica,Male,2019,17.5
+Dominica,Female,2019,33.3
+Dominica,Both sexes,2018,25
+Dominica,Male,2018,17
+Dominica,Female,2018,32.7
+Dominican Republic,Both sexes,2023,27.6
+Dominican Republic,Male,2023,21
+Dominican Republic,Female,2023,34.1
+Dominican Republic,Both sexes,2022,26.9
+Dominican Republic,Male,2022,20.2
+Dominican Republic,Female,2022,33.4
+Dominican Republic,Both sexes,2021,26.1
+Dominican Republic,Male,2021,19.4
+Dominican Republic,Female,2021,32.7
+Dominican Republic,Both sexes,2020,25.3
+Dominican Republic,Male,2020,18.6
+Dominican Republic,Female,2020,31.9
+Dominican Republic,Both sexes,2019,24.5
+Dominican Republic,Male,2019,17.8
+Dominican Republic,Female,2019,31.2
+Dominican Republic,Both sexes,2018,23.8
+Dominican Republic,Male,2018,17
+Dominican Republic,Female,2018,30.4
+Ecuador,Both sexes,2023,19.9
+Ecuador,Male,2023,14.9
+Ecuador,Female,2023,24.7
+Ecuador,Both sexes,2022,19.4
+Ecuador,Male,2022,14.4
+Ecuador,Female,2022,24.2
+Ecuador,Both sexes,2021,19
+Ecuador,Male,2021,14
+Ecuador,Female,2021,23.7
+Ecuador,Both sexes,2020,18.5
+Ecuador,Male,2020,13.6
+Ecuador,Female,2020,23.3
+Ecuador,Both sexes,2019,18.1
+Ecuador,Male,2019,13.2
+Ecuador,Female,2019,22.8
+Ecuador,Both sexes,2018,17.6
+Ecuador,Male,2018,12.7
+Ecuador,Female,2018,22.4
+Egypt,Both sexes,2023,32
+Egypt,Male,2023,22.7
+Egypt,Female,2023,41.1
+Egypt,Both sexes,2022,31.3
+Egypt,Male,2022,22
+Egypt,Female,2022,40.4
+Egypt,Both sexes,2021,30.6
+Egypt,Male,2021,21.3
+Egypt,Female,2021,39.7
+Egypt,Both sexes,2020,30
+Egypt,Male,2020,20.6
+Egypt,Female,2020,39
+Egypt,Both sexes,2019,29.3
+Egypt,Male,2019,20
+Egypt,Female,2019,38.3
+Egypt,Both sexes,2018,28.6
+Egypt,Male,2018,19.4
+Egypt,Female,2018,37.6
+El Salvador,Both sexes,2023,24.6
+El Salvador,Male,2023,18.9
+El Salvador,Female,2023,28.9
+El Salvador,Both sexes,2022,24
+El Salvador,Male,2022,18.3
+El Salvador,Female,2022,28.4
+El Salvador,Both sexes,2021,23.4
+El Salvador,Male,2021,17.7
+El Salvador,Female,2021,27.8
+El Salvador,Both sexes,2020,22.8
+El Salvador,Male,2020,17.2
+El Salvador,Female,2020,27.2
+El Salvador,Both sexes,2019,22.2
+El Salvador,Male,2019,16.6
+El Salvador,Female,2019,26.6
+El Salvador,Both sexes,2018,21.7
+El Salvador,Male,2018,16.1
+El Salvador,Female,2018,26.1
+Equatorial Guinea,Both sexes,2023,8
+Equatorial Guinea,Male,2023,3.8
+Equatorial Guinea,Female,2023,12.6
+Equatorial Guinea,Both sexes,2022,7.7
+Equatorial Guinea,Male,2022,3.6
+Equatorial Guinea,Female,2022,12.2
+Equatorial Guinea,Both sexes,2021,7.4
+Equatorial Guinea,Male,2021,3.4
+Equatorial Guinea,Female,2021,11.7
+Equatorial Guinea,Both sexes,2020,7.1
+Equatorial Guinea,Male,2020,3.3
+Equatorial Guinea,Female,2020,11.3
+Equatorial Guinea,Both sexes,2019,6.8
+Equatorial Guinea,Male,2019,3.1
+Equatorial Guinea,Female,2019,10.9
+Equatorial Guinea,Both sexes,2018,6.5
+Equatorial Guinea,Male,2018,3
+Equatorial Guinea,Female,2018,10.5
+Eritrea,Both sexes,2023,5
+Eritrea,Male,2023,2
+Eritrea,Female,2023,7.6
+Eritrea,Both sexes,2022,4.8
+Eritrea,Male,2022,1.9
+Eritrea,Female,2022,7.2
+Eritrea,Both sexes,2021,4.5
+Eritrea,Male,2021,1.8
+Eritrea,Female,2021,6.9
+Eritrea,Both sexes,2020,4.3
+Eritrea,Male,2020,1.7
+Eritrea,Female,2020,6.5
+Eritrea,Both sexes,2019,4.1
+Eritrea,Male,2019,1.6
+Eritrea,Female,2019,6.2
+Eritrea,Both sexes,2018,3.9
+Eritrea,Male,2018,1.5
+Eritrea,Female,2018,5.9
+Estonia,Both sexes,2023,21.2
+Estonia,Male,2023,20.3
+Estonia,Female,2023,21.8
+Estonia,Both sexes,2022,20.9
+Estonia,Male,2022,19.9
+Estonia,Female,2022,21.6
+Estonia,Both sexes,2021,20.7
+Estonia,Male,2021,19.5
+Estonia,Female,2021,21.4
+Estonia,Both sexes,2020,20.4
+Estonia,Male,2020,19.1
+Estonia,Female,2020,21.3
+Estonia,Both sexes,2019,20.1
+Estonia,Male,2019,18.7
+Estonia,Female,2019,21.1
+Estonia,Both sexes,2018,19.9
+Estonia,Male,2018,18.3
+Estonia,Female,2018,21
+Eswatini,Both sexes,2023,16.5
+Eswatini,Male,2023,5.4
+Eswatini,Female,2023,26.2
+Eswatini,Both sexes,2022,16.1
+Eswatini,Male,2022,5.1
+Eswatini,Female,2022,25.6
+Eswatini,Both sexes,2021,15.7
+Eswatini,Male,2021,4.9
+Eswatini,Female,2021,25
+Eswatini,Both sexes,2020,15.3
+Eswatini,Male,2020,4.7
+Eswatini,Female,2020,24.4
+Eswatini,Both sexes,2019,14.9
+Eswatini,Male,2019,4.5
+Eswatini,Female,2019,23.8
+Eswatini,Both sexes,2018,14.5
+Eswatini,Male,2018,4.3
+Eswatini,Female,2018,23.2
+Ethiopia,Both sexes,2023,4.5
+Ethiopia,Male,2023,1.9
+Ethiopia,Female,2023,6.9
+Ethiopia,Both sexes,2022,4.3
+Ethiopia,Male,2022,1.8
+Ethiopia,Female,2022,6.6
+Ethiopia,Both sexes,2021,4
+Ethiopia,Male,2021,1.7
+Ethiopia,Female,2021,6.3
+Ethiopia,Both sexes,2020,3.8
+Ethiopia,Male,2020,1.6
+Ethiopia,Female,2020,5.9
+Ethiopia,Both sexes,2019,3.6
+Ethiopia,Male,2019,1.5
+Ethiopia,Female,2019,5.7
+Ethiopia,Both sexes,2018,3.4
+Ethiopia,Male,2018,1.4
+Ethiopia,Female,2018,5.4
+Fiji,Both sexes,2023,30.2
+Fiji,Male,2023,25.1
+Fiji,Female,2023,35.3
+Fiji,Both sexes,2022,29.5
+Fiji,Male,2022,24.4
+Fiji,Female,2022,34.7
+Fiji,Both sexes,2021,28.9
+Fiji,Male,2021,23.7
+Fiji,Female,2021,34.2
+Fiji,Both sexes,2020,28.3
+Fiji,Male,2020,23
+Fiji,Female,2020,33.6
+Fiji,Both sexes,2019,27.7
+Fiji,Male,2019,22.4
+Fiji,Female,2019,33.1
+Fiji,Both sexes,2018,27.1
+Fiji,Male,2018,21.7
+Fiji,Female,2018,32.6
+Finland,Both sexes,2023,22.2
+Finland,Male,2023,23.7
+Finland,Female,2023,20.6
+Finland,Both sexes,2022,21.8
+Finland,Male,2022,23.2
+Finland,Female,2022,20.3
+Finland,Both sexes,2021,21.4
+Finland,Male,2021,22.7
+Finland,Female,2021,20
+Finland,Both sexes,2020,21.1
+Finland,Male,2020,22.2
+Finland,Female,2020,19.7
+Finland,Both sexes,2019,20.7
+Finland,Male,2019,21.8
+Finland,Female,2019,19.5
+Finland,Both sexes,2018,20.3
+Finland,Male,2018,21.3
+Finland,Female,2018,19.2
+France,Both sexes,2023,21.6
+France,Male,2023,22
+France,Female,2023,21.1
+France,Both sexes,2022,21.2
+France,Male,2022,21.5
+France,Female,2022,20.8
+France,Both sexes,2021,20.8
+France,Male,2021,21
+France,Female,2021,20.5
+France,Both sexes,2020,20.4
+France,Male,2020,20.5
+France,Female,2020,20.3
+France,Both sexes,2019,20.1
+France,Male,2019,20.1
+France,Female,2019,20
+France,Both sexes,2018,19.7
+France,Male,2018,19.6
+France,Female,2018,19.7
+Gabon,Both sexes,2023,15
+Gabon,Male,2023,9.6
+Gabon,Female,2023,20.3
+Gabon,Both sexes,2022,14.6
+Gabon,Male,2022,9.3
+Gabon,Female,2022,19.9
+Gabon,Both sexes,2021,14.3
+Gabon,Male,2021,8.9
+Gabon,Female,2021,19.5
+Gabon,Both sexes,2020,13.9
+Gabon,Male,2020,8.6
+Gabon,Female,2020,19.1
+Gabon,Both sexes,2019,13.5
+Gabon,Male,2019,8.3
+Gabon,Female,2019,18.7
+Gabon,Both sexes,2018,13.2
+Gabon,Male,2018,7.9
+Gabon,Female,2018,18.3
+Gambia,Both sexes,2023,10.3
+Gambia,Male,2023,5.6
+Gambia,Female,2023,14.8
+Gambia,Both sexes,2022,9.9
+Gambia,Male,2022,5.3
+Gambia,Female,2022,14.3
+Gambia,Both sexes,2021,9.5
+Gambia,Male,2021,5.1
+Gambia,Female,2021,13.8
+Gambia,Both sexes,2020,9.1
+Gambia,Male,2020,4.8
+Gambia,Female,2020,13.3
+Gambia,Both sexes,2019,8.7
+Gambia,Male,2019,4.5
+Gambia,Female,2019,12.9
+Gambia,Both sexes,2018,8.4
+Gambia,Male,2018,4.3
+Gambia,Female,2018,12.4
+Georgia,Both sexes,2023,21.7
+Georgia,Male,2023,19.2
+Georgia,Female,2023,23.8
+Georgia,Both sexes,2022,21.1
+Georgia,Male,2022,18.5
+Georgia,Female,2022,23.1
+Georgia,Both sexes,2021,20.5
+Georgia,Male,2021,17.9
+Georgia,Female,2021,22.5
+Georgia,Both sexes,2020,19.9
+Georgia,Male,2020,17.3
+Georgia,Female,2020,22
+Georgia,Both sexes,2019,19.3
+Georgia,Male,2019,16.6
+Georgia,Female,2019,21.4
+Georgia,Both sexes,2018,18.7
+Georgia,Male,2018,16.1
+Georgia,Female,2018,20.8
+Germany,Both sexes,2023,22.3
+Germany,Male,2023,24.2
+Germany,Female,2023,20.4
+Germany,Both sexes,2022,21.9
+Germany,Male,2022,23.6
+Germany,Female,2022,20.1
+Germany,Both sexes,2021,21.5
+Germany,Male,2021,23.1
+Germany,Female,2021,19.8
+Germany,Both sexes,2020,21.1
+Germany,Male,2020,22.6
+Germany,Female,2020,19.5
+Germany,Both sexes,2019,20.7
+Germany,Male,2019,22.1
+Germany,Female,2019,19.2
+Germany,Both sexes,2018,20.3
+Germany,Male,2018,21.6
+Germany,Female,2018,18.9
+Ghana,Both sexes,2023,10.9
+Ghana,Male,2023,4.5
+Ghana,Female,2023,16.6
+Ghana,Both sexes,2022,10.5
+Ghana,Male,2022,4.3
+Ghana,Female,2022,16.1
+Ghana,Both sexes,2021,10.1
+Ghana,Male,2021,4.1
+Ghana,Female,2021,15.6
+Ghana,Both sexes,2020,9.8
+Ghana,Male,2020,3.9
+Ghana,Female,2020,15.1
+Ghana,Both sexes,2019,9.4
+Ghana,Male,2019,3.7
+Ghana,Female,2019,14.6
+Ghana,Both sexes,2018,9.1
+Ghana,Male,2018,3.5
+Ghana,Female,2018,14.1
+Greece,Both sexes,2023,24.9
+Greece,Male,2023,24.2
+Greece,Female,2023,25.4
+Greece,Both sexes,2022,24.4
+Greece,Male,2022,23.6
+Greece,Female,2022,25.1
+Greece,Both sexes,2021,24
+Greece,Male,2021,23
+Greece,Female,2021,24.9
+Greece,Both sexes,2020,23.6
+Greece,Male,2020,22.5
+Greece,Female,2020,24.6
+Greece,Both sexes,2019,23.2
+Greece,Male,2019,22
+Greece,Female,2019,24.3
+Greece,Both sexes,2018,22.8
+Greece,Male,2018,21.4
+Greece,Female,2018,24
+Grenada,Both sexes,2023,21.3
+Grenada,Male,2023,13.3
+Grenada,Female,2023,29
+Grenada,Both sexes,2022,20.7
+Grenada,Male,2022,12.9
+Grenada,Female,2022,28.4
+Grenada,Both sexes,2021,20.2
+Grenada,Male,2021,12.4
+Grenada,Female,2021,27.7
+Grenada,Both sexes,2020,19.6
+Grenada,Male,2020,11.9
+Grenada,Female,2020,27.1
+Grenada,Both sexes,2019,19.1
+Grenada,Male,2019,11.5
+Grenada,Female,2019,26.5
+Grenada,Both sexes,2018,18.6
+Grenada,Male,2018,11.1
+Grenada,Female,2018,25.8
+Guatemala,Both sexes,2023,21.2
+Guatemala,Male,2023,15.1
+Guatemala,Female,2023,26.4
+Guatemala,Both sexes,2022,20.6
+Guatemala,Male,2022,14.5
+Guatemala,Female,2022,25.8
+Guatemala,Both sexes,2021,20
+Guatemala,Male,2021,14
+Guatemala,Female,2021,25.2
+Guatemala,Both sexes,2020,19.5
+Guatemala,Male,2020,13.5
+Guatemala,Female,2020,24.6
+Guatemala,Both sexes,2019,18.9
+Guatemala,Male,2019,13.1
+Guatemala,Female,2019,24
+Guatemala,Both sexes,2018,18.4
+Guatemala,Male,2018,12.6
+Guatemala,Female,2018,23.4
+Guinea,Both sexes,2023,7.7
+Guinea,Male,2023,3.7
+Guinea,Female,2023,11.5
+Guinea,Both sexes,2022,7.4
+Guinea,Male,2022,3.5
+Guinea,Female,2022,11
+Guinea,Both sexes,2021,7
+Guinea,Male,2021,3.3
+Guinea,Female,2021,10.6
+Guinea,Both sexes,2020,6.7
+Guinea,Male,2020,3.1
+Guinea,Female,2020,10.2
+Guinea,Both sexes,2019,6.4
+Guinea,Male,2019,3
+Guinea,Female,2019,9.8
+Guinea,Both sexes,2018,6.2
+Guinea,Male,2018,2.8
+Guinea,Female,2018,9.4
+Guinea-Bissau,Both sexes,2023,9.5
+Guinea-Bissau,Male,2023,5
+Guinea-Bissau,Female,2023,13.7
+Guinea-Bissau,Both sexes,2022,9.1
+Guinea-Bissau,Male,2022,4.7
+Guinea-Bissau,Female,2022,13.1
+Guinea-Bissau,Both sexes,2021,8.7
+Guinea-Bissau,Male,2021,4.5
+Guinea-Bissau,Female,2021,12.6
+Guinea-Bissau,Both sexes,2020,8.3
+Guinea-Bissau,Male,2020,4.2
+Guinea-Bissau,Female,2020,12.1
+Guinea-Bissau,Both sexes,2019,7.9
+Guinea-Bissau,Male,2019,4
+Guinea-Bissau,Female,2019,11.7
+Guinea-Bissau,Both sexes,2018,7.6
+Guinea-Bissau,Male,2018,3.7
+Guinea-Bissau,Female,2018,11.2
+Guyana,Both sexes,2023,20.2
+Guyana,Male,2023,12.7
+Guyana,Female,2023,27.1
+Guyana,Both sexes,2022,19.6
+Guyana,Male,2022,12.1
+Guyana,Female,2022,26.4
+Guyana,Both sexes,2021,19
+Guyana,Male,2021,11.6
+Guyana,Female,2021,25.7
+Guyana,Both sexes,2020,18.4
+Guyana,Male,2020,11.1
+Guyana,Female,2020,25.1
+Guyana,Both sexes,2019,17.9
+Guyana,Male,2019,10.6
+Guyana,Female,2019,24.4
+Guyana,Both sexes,2018,17.4
+Guyana,Male,2018,10.2
+Guyana,Female,2018,23.8
+Haiti,Both sexes,2023,22.7
+Haiti,Male,2023,17.9
+Haiti,Female,2023,26.9
+Haiti,Both sexes,2022,21.8
+Haiti,Male,2022,17.1
+Haiti,Female,2022,26.1
+Haiti,Both sexes,2021,21
+Haiti,Male,2021,16.2
+Haiti,Female,2021,25.3
+Haiti,Both sexes,2020,20.2
+Haiti,Male,2020,15.4
+Haiti,Female,2020,24.5
+Haiti,Both sexes,2019,19.4
+Haiti,Male,2019,14.5
+Haiti,Female,2019,23.7
+Haiti,Both sexes,2018,18.6
+Haiti,Male,2018,13.7
+Haiti,Female,2018,22.9
+Honduras,Both sexes,2023,21.4
+Honduras,Male,2023,15.6
+Honduras,Female,2023,26.9
+Honduras,Both sexes,2022,20.8
+Honduras,Male,2022,15.1
+Honduras,Female,2022,26.2
+Honduras,Both sexes,2021,20.1
+Honduras,Male,2021,14.5
+Honduras,Female,2021,25.5
+Honduras,Both sexes,2020,19.5
+Honduras,Male,2020,14
+Honduras,Female,2020,24.9
+Honduras,Both sexes,2019,19
+Honduras,Male,2019,13.4
+Honduras,Female,2019,24.2
+Honduras,Both sexes,2018,18.4
+Honduras,Male,2018,12.9
+Honduras,Female,2018,23.6
+Hungary,Both sexes,2023,26.4
+Hungary,Male,2023,28.2
+Hungary,Female,2023,24.6
+Hungary,Both sexes,2022,25.9
+Hungary,Male,2022,27.5
+Hungary,Female,2022,24.3
+Hungary,Both sexes,2021,25.4
+Hungary,Male,2021,26.9
+Hungary,Female,2021,23.9
+Hungary,Both sexes,2020,25
+Hungary,Male,2020,26.3
+Hungary,Female,2020,23.6
+Hungary,Both sexes,2019,24.5
+Hungary,Male,2019,25.6
+Hungary,Female,2019,23.2
+Hungary,Both sexes,2018,24
+Hungary,Male,2018,25
+Hungary,Female,2018,22.9
+Iceland,Both sexes,2023,21.9
+Iceland,Male,2023,24.2
+Iceland,Female,2023,19.4
+Iceland,Both sexes,2022,21.5
+Iceland,Male,2022,23.7
+Iceland,Female,2022,19.2
+Iceland,Both sexes,2021,21.1
+Iceland,Male,2021,23.1
+Iceland,Female,2021,18.9
+Iceland,Both sexes,2020,20.7
+Iceland,Male,2020,22.6
+Iceland,Female,2020,18.7
+Iceland,Both sexes,2019,20.3
+Iceland,Male,2019,22.1
+Iceland,Female,2019,18.5
+Iceland,Both sexes,2018,20
+Iceland,Male,2018,21.6
+Iceland,Female,2018,18.3
+India,Both sexes,2023,3.9
+India,Male,2023,2.7
+India,Female,2023,5.1
+India,Both sexes,2022,3.7
+India,Male,2022,2.6
+India,Female,2022,4.8
+India,Both sexes,2021,3.5
+India,Male,2021,2.4
+India,Female,2021,4.6
+India,Both sexes,2020,3.3
+India,Male,2020,2.3
+India,Female,2020,4.4
+India,Both sexes,2019,3.1
+India,Male,2019,2.1
+India,Female,2019,4.2
+India,Both sexes,2018,3
+India,Male,2018,2
+India,Female,2018,4
+Indonesia,Both sexes,2023,6.9
+Indonesia,Male,2023,4.8
+Indonesia,Female,2023,8.9
+Indonesia,Both sexes,2022,6.5
+Indonesia,Male,2022,4.5
+Indonesia,Female,2022,8.5
+Indonesia,Both sexes,2021,6.1
+Indonesia,Male,2021,4.1
+Indonesia,Female,2021,8.1
+Indonesia,Both sexes,2020,5.8
+Indonesia,Male,2020,3.8
+Indonesia,Female,2020,7.7
+Indonesia,Both sexes,2019,5.5
+Indonesia,Male,2019,3.6
+Indonesia,Female,2019,7.3
+Indonesia,Both sexes,2018,5.2
+Indonesia,Male,2018,3.3
+Indonesia,Female,2018,7
+Iran (Islamic Republic of),Both sexes,2023,25.8
+Iran (Islamic Republic of),Male,2023,19.3
+Iran (Islamic Republic of),Female,2023,32.2
+Iran (Islamic Republic of),Both sexes,2022,25.2
+Iran (Islamic Republic of),Male,2022,18.6
+Iran (Islamic Republic of),Female,2022,31.7
+Iran (Islamic Republic of),Both sexes,2021,24.6
+Iran (Islamic Republic of),Male,2021,18
+Iran (Islamic Republic of),Female,2021,31.1
+Iran (Islamic Republic of),Both sexes,2020,24
+Iran (Islamic Republic of),Male,2020,17.3
+Iran (Islamic Republic of),Female,2020,30.5
+Iran (Islamic Republic of),Both sexes,2019,23.3
+Iran (Islamic Republic of),Male,2019,16.7
+Iran (Islamic Republic of),Female,2019,29.9
+Iran (Islamic Republic of),Both sexes,2018,22.7
+Iran (Islamic Republic of),Male,2018,16.1
+Iran (Islamic Republic of),Female,2018,29.3
+Iraq,Both sexes,2023,30.4
+Iraq,Male,2023,23.4
+Iraq,Female,2023,37
+Iraq,Both sexes,2022,29.8
+Iraq,Male,2022,22.8
+Iraq,Female,2022,36.4
+Iraq,Both sexes,2021,29.2
+Iraq,Male,2021,22.1
+Iraq,Female,2021,35.9
+Iraq,Both sexes,2020,28.6
+Iraq,Male,2020,21.5
+Iraq,Female,2020,35.3
+Iraq,Both sexes,2019,28
+Iraq,Male,2019,20.9
+Iraq,Female,2019,34.8
+Iraq,Both sexes,2018,27.5
+Iraq,Male,2018,20.3
+Iraq,Female,2018,34.3
+Ireland,Both sexes,2023,25.3
+Ireland,Male,2023,25.1
+Ireland,Female,2023,25.5
+Ireland,Both sexes,2022,24.7
+Ireland,Male,2022,24.4
+Ireland,Female,2022,24.9
+Ireland,Both sexes,2021,24
+Ireland,Male,2021,23.7
+Ireland,Female,2021,24.3
+Ireland,Both sexes,2020,23.4
+Ireland,Male,2020,23.1
+Ireland,Female,2020,23.7
+Ireland,Both sexes,2019,22.8
+Ireland,Male,2019,22.4
+Ireland,Female,2019,23.1
+Ireland,Both sexes,2018,22.2
+Ireland,Male,2018,21.8
+Ireland,Female,2018,22.5
+Israel,Both sexes,2023,26.1
+Israel,Male,2023,25.9
+Israel,Female,2023,26.2
+Israel,Both sexes,2022,25.8
+Israel,Male,2022,25.4
+Israel,Female,2022,26.1
+Israel,Both sexes,2021,25.5
+Israel,Male,2021,24.9
+Israel,Female,2021,25.9
+Israel,Both sexes,2020,25.1
+Israel,Male,2020,24.5
+Israel,Female,2020,25.7
+Israel,Both sexes,2019,24.8
+Israel,Male,2019,24
+Israel,Female,2019,25.5
+Israel,Both sexes,2018,24.5
+Israel,Male,2018,23.6
+Israel,Female,2018,25.3
+Italy,Both sexes,2023,19.9
+Italy,Male,2023,20.1
+Italy,Female,2023,19.5
+Italy,Both sexes,2022,19.6
+Italy,Male,2022,19.7
+Italy,Female,2022,19.3
+Italy,Both sexes,2021,19.3
+Italy,Male,2021,19.3
+Italy,Female,2021,19.1
+Italy,Both sexes,2020,19
+Italy,Male,2020,18.9
+Italy,Female,2020,18.9
+Italy,Both sexes,2019,18.7
+Italy,Male,2019,18.5
+Italy,Female,2019,18.6
+Italy,Both sexes,2018,18.3
+Italy,Male,2018,18.2
+Italy,Female,2018,18.4
+Jamaica,Both sexes,2023,24.7
+Jamaica,Male,2023,15.3
+Jamaica,Female,2023,33.4
+Jamaica,Both sexes,2022,24.1
+Jamaica,Male,2022,14.7
+Jamaica,Female,2022,32.8
+Jamaica,Both sexes,2021,23.5
+Jamaica,Male,2021,14.1
+Jamaica,Female,2021,32.2
+Jamaica,Both sexes,2020,22.9
+Jamaica,Male,2020,13.6
+Jamaica,Female,2020,31.6
+Jamaica,Both sexes,2019,22.3
+Jamaica,Male,2019,13
+Jamaica,Female,2019,30.9
+Jamaica,Both sexes,2018,21.7
+Jamaica,Male,2018,12.5
+Jamaica,Female,2018,30.3
+Japan,Both sexes,2023,4.3
+Japan,Male,2023,4.8
+Japan,Female,2023,3.7
+Japan,Both sexes,2022,4.1
+Japan,Male,2022,4.6
+Japan,Female,2022,3.6
+Japan,Both sexes,2021,3.9
+Japan,Male,2021,4.3
+Japan,Female,2021,3.5
+Japan,Both sexes,2020,3.8
+Japan,Male,2020,4.1
+Japan,Female,2020,3.4
+Japan,Both sexes,2019,3.6
+Japan,Male,2019,3.9
+Japan,Female,2019,3.3
+Japan,Both sexes,2018,3.5
+Japan,Male,2018,3.7
+Japan,Female,2018,3.2
+Jordan,Both sexes,2023,35.5
+Jordan,Male,2023,28.2
+Jordan,Female,2023,43.1
+Jordan,Both sexes,2022,34.9
+Jordan,Male,2022,27.5
+Jordan,Female,2022,42.5
+Jordan,Both sexes,2021,34.3
+Jordan,Male,2021,26.8
+Jordan,Female,2021,42
+Jordan,Both sexes,2020,33.7
+Jordan,Male,2020,26.1
+Jordan,Female,2020,41.5
+Jordan,Both sexes,2019,33.1
+Jordan,Male,2019,25.5
+Jordan,Female,2019,41
+Jordan,Both sexes,2018,32.5
+Jordan,Male,2018,24.8
+Jordan,Female,2018,40.5
+Kazakhstan,Both sexes,2023,21
+Kazakhstan,Male,2023,18.9
+Kazakhstan,Female,2023,22.7
+Kazakhstan,Both sexes,2022,20.5
+Kazakhstan,Male,2022,18.3
+Kazakhstan,Female,2022,22.1
+Kazakhstan,Both sexes,2021,20
+Kazakhstan,Male,2021,17.8
+Kazakhstan,Female,2021,21.6
+Kazakhstan,Both sexes,2020,19.5
+Kazakhstan,Male,2020,17.2
+Kazakhstan,Female,2020,21.1
+Kazakhstan,Both sexes,2019,19
+Kazakhstan,Male,2019,16.7
+Kazakhstan,Female,2019,20.7
+Kazakhstan,Both sexes,2018,18.5
+Kazakhstan,Male,2018,16.2
+Kazakhstan,Female,2018,20.2
+Kenya,Both sexes,2023,7.1
+Kenya,Male,2023,2.8
+Kenya,Female,2023,11.1
+Kenya,Both sexes,2022,6.8
+Kenya,Male,2022,2.7
+Kenya,Female,2022,10.6
+Kenya,Both sexes,2021,6.5
+Kenya,Male,2021,2.5
+Kenya,Female,2021,10.2
+Kenya,Both sexes,2020,6.2
+Kenya,Male,2020,2.4
+Kenya,Female,2020,9.7
+Kenya,Both sexes,2019,5.9
+Kenya,Male,2019,2.3
+Kenya,Female,2019,9.3
+Kenya,Both sexes,2018,5.6
+Kenya,Male,2018,2.1
+Kenya,Female,2018,8.9
+Kiribati,Both sexes,2023,46
+Kiribati,Male,2023,41.6
+Kiribati,Female,2023,50.4
+Kiribati,Both sexes,2022,45.3
+Kiribati,Male,2022,40.8
+Kiribati,Female,2022,49.8
+Kiribati,Both sexes,2021,44.7
+Kiribati,Male,2021,40.1
+Kiribati,Female,2021,49.3
+Kiribati,Both sexes,2020,44.1
+Kiribati,Male,2020,39.4
+Kiribati,Female,2020,48.8
+Kiribati,Both sexes,2019,43.5
+Kiribati,Male,2019,38.7
+Kiribati,Female,2019,48.2
+Kiribati,Both sexes,2018,42.8
+Kiribati,Male,2018,37.9
+Kiribati,Female,2018,47.7
+Kuwait,Both sexes,2023,37.9
+Kuwait,Male,2023,33.3
+Kuwait,Female,2023,45.6
+Kuwait,Both sexes,2022,37.4
+Kuwait,Male,2022,32.6
+Kuwait,Female,2022,45.2
+Kuwait,Both sexes,2021,36.8
+Kuwait,Male,2021,32
+Kuwait,Female,2021,44.8
+Kuwait,Both sexes,2020,36.2
+Kuwait,Male,2020,31.3
+Kuwait,Female,2020,44.4
+Kuwait,Both sexes,2019,35.6
+Kuwait,Male,2019,30.7
+Kuwait,Female,2019,44
+Kuwait,Both sexes,2018,35.1
+Kuwait,Male,2018,30.1
+Kuwait,Female,2018,43.6
+Kyrgyzstan,Both sexes,2023,16.6
+Kyrgyzstan,Male,2023,14
+Kyrgyzstan,Female,2023,18.6
+Kyrgyzstan,Both sexes,2022,16
+Kyrgyzstan,Male,2022,13.5
+Kyrgyzstan,Female,2022,18.1
+Kyrgyzstan,Both sexes,2021,15.5
+Kyrgyzstan,Male,2021,13
+Kyrgyzstan,Female,2021,17.5
+Kyrgyzstan,Both sexes,2020,14.9
+Kyrgyzstan,Male,2020,12.5
+Kyrgyzstan,Female,2020,17
+Kyrgyzstan,Both sexes,2019,14.4
+Kyrgyzstan,Male,2019,12
+Kyrgyzstan,Female,2019,16.4
+Kyrgyzstan,Both sexes,2018,13.9
+Kyrgyzstan,Male,2018,11.6
+Kyrgyzstan,Female,2018,15.9
+Lao People's Democratic Republic,Both sexes,2023,5.3
+Lao People's Democratic Republic,Male,2023,3.7
+Lao People's Democratic Republic,Female,2023,6.7
+Lao People's Democratic Republic,Both sexes,2022,5
+Lao People's Democratic Republic,Male,2022,3.4
+Lao People's Democratic Republic,Female,2022,6.3
+Lao People's Democratic Republic,Both sexes,2021,4.7
+Lao People's Democratic Republic,Male,2021,3.2
+Lao People's Democratic Republic,Female,2021,6
+Lao People's Democratic Republic,Both sexes,2020,4.4
+Lao People's Democratic Republic,Male,2020,2.9
+Lao People's Democratic Republic,Female,2020,5.7
+Lao People's Democratic Republic,Both sexes,2019,4.1
+Lao People's Democratic Republic,Male,2019,2.7
+Lao People's Democratic Republic,Female,2019,5.3
+Lao People's Democratic Republic,Both sexes,2018,3.8
+Lao People's Democratic Republic,Male,2018,2.4
+Lao People's Democratic Republic,Female,2018,5
+Latvia,Both sexes,2023,23.6
+Latvia,Male,2023,21.6
+Latvia,Female,2023,25.1
+Latvia,Both sexes,2022,23.3
+Latvia,Male,2022,21.1
+Latvia,Female,2022,24.9
+Latvia,Both sexes,2021,23
+Latvia,Male,2021,20.7
+Latvia,Female,2021,24.8
+Latvia,Both sexes,2020,22.7
+Latvia,Male,2020,20.2
+Latvia,Female,2020,24.6
+Latvia,Both sexes,2019,22.4
+Latvia,Male,2019,19.8
+Latvia,Female,2019,24.4
+Latvia,Both sexes,2018,22.1
+Latvia,Male,2018,19.4
+Latvia,Female,2018,24.2
+Lebanon,Both sexes,2023,32
+Lebanon,Male,2023,27.4
+Lebanon,Female,2023,37
+Lebanon,Both sexes,2022,31.4
+Lebanon,Male,2022,26.8
+Lebanon,Female,2022,36.5
+Lebanon,Both sexes,2021,30.8
+Lebanon,Male,2021,26.2
+Lebanon,Female,2021,36.1
+Lebanon,Both sexes,2020,30.3
+Lebanon,Male,2020,25.5
+Lebanon,Female,2020,35.6
+Lebanon,Both sexes,2019,29.7
+Lebanon,Male,2019,24.9
+Lebanon,Female,2019,35.2
+Lebanon,Both sexes,2018,29.2
+Lebanon,Male,2018,24.4
+Lebanon,Female,2018,34.7
+Lesotho,Both sexes,2023,16.6
+Lesotho,Male,2023,4.6
+Lesotho,Female,2023,26.7
+Lesotho,Both sexes,2022,16.2
+Lesotho,Male,2022,4.4
+Lesotho,Female,2022,26
+Lesotho,Both sexes,2021,15.7
+Lesotho,Male,2021,4.1
+Lesotho,Female,2021,25.3
+Lesotho,Both sexes,2020,15.3
+Lesotho,Male,2020,3.9
+Lesotho,Female,2020,24.7
+Lesotho,Both sexes,2019,14.9
+Lesotho,Male,2019,3.7
+Lesotho,Female,2019,24
+Lesotho,Both sexes,2018,14.5
+Lesotho,Male,2018,3.5
+Lesotho,Female,2018,23.3
+Liberia,Both sexes,2023,9.9
+Liberia,Male,2023,5.5
+Liberia,Female,2023,14.2
+Liberia,Both sexes,2022,9.6
+Liberia,Male,2022,5.2
+Liberia,Female,2022,13.7
+Liberia,Both sexes,2021,9.2
+Liberia,Male,2021,5
+Liberia,Female,2021,13.3
+Liberia,Both sexes,2020,8.9
+Liberia,Male,2020,4.8
+Liberia,Female,2020,12.8
+Liberia,Both sexes,2019,8.6
+Liberia,Male,2019,4.5
+Liberia,Female,2019,12.4
+Liberia,Both sexes,2018,8.3
+Liberia,Male,2018,4.3
+Liberia,Female,2018,12
+Libya,Both sexes,2023,32.5
+Libya,Male,2023,25
+Libya,Female,2023,39.6
+Libya,Both sexes,2022,31.9
+Libya,Male,2022,24.3
+Libya,Female,2022,39.1
+Libya,Both sexes,2021,31.3
+Libya,Male,2021,23.6
+Libya,Female,2021,38.6
+Libya,Both sexes,2020,30.6
+Libya,Male,2020,23
+Libya,Female,2020,38
+Libya,Both sexes,2019,30
+Libya,Male,2019,22.4
+Libya,Female,2019,37.5
+Libya,Both sexes,2018,29.4
+Libya,Male,2018,21.8
+Libya,Female,2018,37
+Lithuania,Both sexes,2023,26.3
+Lithuania,Male,2023,24.2
+Lithuania,Female,2023,27.8
+Lithuania,Both sexes,2022,26
+Lithuania,Male,2022,23.7
+Lithuania,Female,2022,27.6
+Lithuania,Both sexes,2021,25.6
+Lithuania,Male,2021,23.2
+Lithuania,Female,2021,27.4
+Lithuania,Both sexes,2020,25.3
+Lithuania,Male,2020,22.7
+Lithuania,Female,2020,27.2
+Lithuania,Both sexes,2019,25
+Lithuania,Male,2019,22.3
+Lithuania,Female,2019,27
+Lithuania,Both sexes,2018,24.7
+Lithuania,Male,2018,21.8
+Lithuania,Female,2018,26.8
+Luxembourg,Both sexes,2023,22.6
+Luxembourg,Male,2023,24.5
+Luxembourg,Female,2023,20.7
+Luxembourg,Both sexes,2022,22.2
+Luxembourg,Male,2022,23.9
+Luxembourg,Female,2022,20.4
+Luxembourg,Both sexes,2021,21.7
+Luxembourg,Male,2021,23.3
+Luxembourg,Female,2021,20.1
+Luxembourg,Both sexes,2020,21.3
+Luxembourg,Male,2020,22.8
+Luxembourg,Female,2020,19.8
+Luxembourg,Both sexes,2019,20.9
+Luxembourg,Male,2019,22.2
+Luxembourg,Female,2019,19.5
+Luxembourg,Both sexes,2018,20.4
+Luxembourg,Male,2018,21.7
+Luxembourg,Female,2018,19.2
+Madagascar,Both sexes,2023,5.3
+Madagascar,Male,2023,3
+Madagascar,Female,2023,7.5
+Madagascar,Both sexes,2022,5.1
+Madagascar,Male,2022,2.8
+Madagascar,Female,2022,7.2
+Madagascar,Both sexes,2021,4.8
+Madagascar,Male,2021,2.6
+Madagascar,Female,2021,6.8
+Madagascar,Both sexes,2020,4.5
+Madagascar,Male,2020,2.5
+Madagascar,Female,2020,6.5
+Madagascar,Both sexes,2019,4.3
+Madagascar,Male,2019,2.3
+Madagascar,Female,2019,6.2
+Madagascar,Both sexes,2018,4.1
+Madagascar,Male,2018,2.2
+Madagascar,Female,2018,5.9
+Malawi,Both sexes,2023,5.8
+Malawi,Male,2023,2.2
+Malawi,Female,2023,9.1
+Malawi,Both sexes,2022,5.5
+Malawi,Male,2022,2.1
+Malawi,Female,2022,8.7
+Malawi,Both sexes,2021,5.3
+Malawi,Male,2021,2
+Malawi,Female,2021,8.3
+Malawi,Both sexes,2020,5
+Malawi,Male,2020,1.9
+Malawi,Female,2020,8
+Malawi,Both sexes,2019,4.8
+Malawi,Male,2019,1.8
+Malawi,Female,2019,7.6
+Malawi,Both sexes,2018,4.6
+Malawi,Male,2018,1.7
+Malawi,Female,2018,7.3
+Malaysia,Both sexes,2023,15.6
+Malaysia,Male,2023,13
+Malaysia,Female,2023,17.9
+Malaysia,Both sexes,2022,14.9
+Malaysia,Male,2022,12.3
+Malaysia,Female,2022,17.4
+Malaysia,Both sexes,2021,14.3
+Malaysia,Male,2021,11.7
+Malaysia,Female,2021,16.8
+Malaysia,Both sexes,2020,13.7
+Malaysia,Male,2020,11.1
+Malaysia,Female,2020,16.2
+Malaysia,Both sexes,2019,13.1
+Malaysia,Male,2019,10.5
+Malaysia,Female,2019,15.6
+Malaysia,Both sexes,2018,12.6
+Malaysia,Male,2018,9.9
+Malaysia,Female,2018,15.1
+Maldives,Both sexes,2023,8.6
+Maldives,Male,2023,5.8
+Maldives,Female,2023,11.4
+Maldives,Both sexes,2022,8.1
+Maldives,Male,2022,5.4
+Maldives,Female,2022,10.8
+Maldives,Both sexes,2021,7.6
+Maldives,Male,2021,5
+Maldives,Female,2021,10.3
+Maldives,Both sexes,2020,7.2
+Maldives,Male,2020,4.6
+Maldives,Female,2020,9.8
+Maldives,Both sexes,2019,6.7
+Maldives,Male,2019,4.3
+Maldives,Female,2019,9.3
+Maldives,Both sexes,2018,6.3
+Maldives,Male,2018,3.9
+Maldives,Female,2018,8.8
+Mali,Both sexes,2023,8.6
+Mali,Male,2023,4.6
+Mali,Female,2023,12.4
+Mali,Both sexes,2022,8.2
+Mali,Male,2022,4.3
+Mali,Female,2022,11.9
+Mali,Both sexes,2021,7.9
+Mali,Male,2021,4
+Mali,Female,2021,11.4
+Mali,Both sexes,2020,7.5
+Mali,Male,2020,3.8
+Mali,Female,2020,10.9
+Mali,Both sexes,2019,7.2
+Mali,Male,2019,3.6
+Mali,Female,2019,10.4
+Mali,Both sexes,2018,6.8
+Mali,Male,2018,3.3
+Mali,Female,2018,9.9
+Malta,Both sexes,2023,28.9
+Malta,Male,2023,29.2
+Malta,Female,2023,28.5
+Malta,Both sexes,2022,28.5
+Malta,Male,2022,28.6
+Malta,Female,2022,28.3
+Malta,Both sexes,2021,28.2
+Malta,Male,2021,28.1
+Malta,Female,2021,28.1
+Malta,Both sexes,2020,27.8
+Malta,Male,2020,27.6
+Malta,Female,2020,27.9
+Malta,Both sexes,2019,27.5
+Malta,Male,2019,27.1
+Malta,Female,2019,27.7
+Malta,Both sexes,2018,27.1
+Malta,Male,2018,26.7
+Malta,Female,2018,27.5
+Marshall Islands,Both sexes,2023,52.9
+Marshall Islands,Male,2023,48.4
+Marshall Islands,Female,2023,57.3
+Marshall Islands,Both sexes,2022,52.4
+Marshall Islands,Male,2022,47.7
+Marshall Islands,Female,2022,56.9
+Marshall Islands,Both sexes,2021,51.8
+Marshall Islands,Male,2021,47.1
+Marshall Islands,Female,2021,56.5
+Marshall Islands,Both sexes,2020,51.3
+Marshall Islands,Male,2020,46.4
+Marshall Islands,Female,2020,56.1
+Marshall Islands,Both sexes,2019,50.7
+Marshall Islands,Male,2019,45.7
+Marshall Islands,Female,2019,55.7
+Marshall Islands,Both sexes,2018,50.1
+Marshall Islands,Male,2018,45
+Marshall Islands,Female,2018,55.2
+Mauritania,Both sexes,2023,12.7
+Mauritania,Male,2023,6.6
+Mauritania,Female,2023,18.5
+Mauritania,Both sexes,2022,12.3
+Mauritania,Male,2022,6.3
+Mauritania,Female,2022,17.9
+Mauritania,Both sexes,2021,11.8
+Mauritania,Male,2021,6
+Mauritania,Female,2021,17.4
+Mauritania,Both sexes,2020,11.4
+Mauritania,Male,2020,5.7
+Mauritania,Female,2020,16.9
+Mauritania,Both sexes,2019,11
+Mauritania,Male,2019,5.4
+Mauritania,Female,2019,16.3
+Mauritania,Both sexes,2018,10.6
+Mauritania,Male,2018,5.2
+Mauritania,Female,2018,15.8
+Mauritius,Both sexes,2023,10.8
+Mauritius,Male,2023,5.6
+Mauritius,Female,2023,15.7
+Mauritius,Both sexes,2022,10.5
+Mauritius,Male,2022,5.4
+Mauritius,Female,2022,15.2
+Mauritius,Both sexes,2021,10.2
+Mauritius,Male,2021,5.2
+Mauritius,Female,2021,14.8
+Mauritius,Both sexes,2020,9.9
+Mauritius,Male,2020,5
+Mauritius,Female,2020,14.4
+Mauritius,Both sexes,2019,9.6
+Mauritius,Male,2019,4.9
+Mauritius,Female,2019,14
+Mauritius,Both sexes,2018,9.3
+Mauritius,Male,2018,4.7
+Mauritius,Female,2018,13.7
+Mexico,Both sexes,2023,28.9
+Mexico,Male,2023,24.3
+Mexico,Female,2023,32.8
+Mexico,Both sexes,2022,28.3
+Mexico,Male,2022,23.8
+Mexico,Female,2022,32.3
+Mexico,Both sexes,2021,27.8
+Mexico,Male,2021,23.2
+Mexico,Female,2021,31.8
+Mexico,Both sexes,2020,27.3
+Mexico,Male,2020,22.7
+Mexico,Female,2020,31.3
+Mexico,Both sexes,2019,26.8
+Mexico,Male,2019,22.2
+Mexico,Female,2019,30.8
+Mexico,Both sexes,2018,26.3
+Mexico,Male,2018,21.6
+Mexico,Female,2018,30.3
+Micronesia (Federated States of),Both sexes,2023,45.8
+Micronesia (Federated States of),Male,2023,40.1
+Micronesia (Federated States of),Female,2023,51.5
+Micronesia (Federated States of),Both sexes,2022,45.1
+Micronesia (Federated States of),Male,2022,39.3
+Micronesia (Federated States of),Female,2022,50.9
+Micronesia (Federated States of),Both sexes,2021,44.4
+Micronesia (Federated States of),Male,2021,38.4
+Micronesia (Federated States of),Female,2021,50.2
+Micronesia (Federated States of),Both sexes,2020,43.7
+Micronesia (Federated States of),Male,2020,37.6
+Micronesia (Federated States of),Female,2020,49.6
+Micronesia (Federated States of),Both sexes,2019,42.9
+Micronesia (Federated States of),Male,2019,36.8
+Micronesia (Federated States of),Female,2019,49
+Micronesia (Federated States of),Both sexes,2018,42.2
+Micronesia (Federated States of),Male,2018,35.9
+Micronesia (Federated States of),Female,2018,48.3
+Monaco,Both sexes,2023,NA
+Monaco,Male,2023,NA
+Monaco,Female,2023,NA
+Monaco,Both sexes,2022,NA
+Monaco,Male,2022,NA
+Monaco,Female,2022,NA
+Monaco,Both sexes,2021,NA
+Monaco,Male,2021,NA
+Monaco,Female,2021,NA
+Monaco,Both sexes,2020,NA
+Monaco,Male,2020,NA
+Monaco,Female,2020,NA
+Monaco,Both sexes,2019,NA
+Monaco,Male,2019,NA
+Monaco,Female,2019,NA
+Monaco,Both sexes,2018,NA
+Monaco,Male,2018,NA
+Monaco,Female,2018,NA
+Mongolia,Both sexes,2023,20.6
+Mongolia,Male,2023,17.5
+Mongolia,Female,2023,23.2
+Mongolia,Both sexes,2022,19.9
+Mongolia,Male,2022,16.8
+Mongolia,Female,2022,22.6
+Mongolia,Both sexes,2021,19.2
+Mongolia,Male,2021,16.1
+Mongolia,Female,2021,22
+Mongolia,Both sexes,2020,18.6
+Mongolia,Male,2020,15.4
+Mongolia,Female,2020,21.4
+Mongolia,Both sexes,2019,17.9
+Mongolia,Male,2019,14.8
+Mongolia,Female,2019,20.8
+Mongolia,Both sexes,2018,17.3
+Mongolia,Male,2018,14.1
+Mongolia,Female,2018,20.1
+Montenegro,Both sexes,2023,23.3
+Montenegro,Male,2023,23.3
+Montenegro,Female,2023,23.1
+Montenegro,Both sexes,2022,22.8
+Montenegro,Male,2022,22.7
+Montenegro,Female,2022,22.8
+Montenegro,Both sexes,2021,22.4
+Montenegro,Male,2021,22.2
+Montenegro,Female,2021,22.5
+Montenegro,Both sexes,2020,22
+Montenegro,Male,2020,21.7
+Montenegro,Female,2020,22.2
+Montenegro,Both sexes,2019,21.6
+Montenegro,Male,2019,21.2
+Montenegro,Female,2019,21.9
+Montenegro,Both sexes,2018,21.2
+Montenegro,Male,2018,20.7
+Montenegro,Female,2018,21.6
+Morocco,Both sexes,2023,26.1
+Morocco,Male,2023,19.4
+Morocco,Female,2023,32.2
+Morocco,Both sexes,2022,25.4
+Morocco,Male,2022,18.7
+Morocco,Female,2022,31.5
+Morocco,Both sexes,2021,24.7
+Morocco,Male,2021,18
+Morocco,Female,2021,30.8
+Morocco,Both sexes,2020,24.1
+Morocco,Male,2020,17.4
+Morocco,Female,2020,30.1
+Morocco,Both sexes,2019,23.4
+Morocco,Male,2019,16.7
+Morocco,Female,2019,29.5
+Morocco,Both sexes,2018,22.8
+Morocco,Male,2018,16.1
+Morocco,Female,2018,28.8
+Mozambique,Both sexes,2023,7.2
+Mozambique,Male,2023,3.3
+Mozambique,Female,2023,10.5
+Mozambique,Both sexes,2022,6.9
+Mozambique,Male,2022,3.1
+Mozambique,Female,2022,10.1
+Mozambique,Both sexes,2021,6.7
+Mozambique,Male,2021,3
+Mozambique,Female,2021,9.7
+Mozambique,Both sexes,2020,6.4
+Mozambique,Male,2020,2.8
+Mozambique,Female,2020,9.4
+Mozambique,Both sexes,2019,6.1
+Mozambique,Male,2019,2.7
+Mozambique,Female,2019,9
+Mozambique,Both sexes,2018,5.9
+Mozambique,Male,2018,2.6
+Mozambique,Female,2018,8.7
+Myanmar,Both sexes,2023,5.8
+Myanmar,Male,2023,4
+Myanmar,Female,2023,7.3
+Myanmar,Both sexes,2022,5.4
+Myanmar,Male,2022,3.8
+Myanmar,Female,2022,6.9
+Myanmar,Both sexes,2021,5.1
+Myanmar,Male,2021,3.5
+Myanmar,Female,2021,6.5
+Myanmar,Both sexes,2020,4.8
+Myanmar,Male,2020,3.2
+Myanmar,Female,2020,6.2
+Myanmar,Both sexes,2019,4.6
+Myanmar,Male,2019,3
+Myanmar,Female,2019,5.9
+Myanmar,Both sexes,2018,4.3
+Myanmar,Male,2018,2.8
+Myanmar,Female,2018,5.6
+Namibia,Both sexes,2023,17.2
+Namibia,Male,2023,7.5
+Namibia,Female,2023,25.4
+Namibia,Both sexes,2022,16.7
+Namibia,Male,2022,7.1
+Namibia,Female,2022,24.7
+Namibia,Both sexes,2021,16.1
+Namibia,Male,2021,6.7
+Namibia,Female,2021,24.1
+Namibia,Both sexes,2020,15.6
+Namibia,Male,2020,6.3
+Namibia,Female,2020,23.4
+Namibia,Both sexes,2019,15.1
+Namibia,Male,2019,5.9
+Namibia,Female,2019,22.7
+Namibia,Both sexes,2018,14.6
+Namibia,Male,2018,5.5
+Namibia,Female,2018,22
+Nauru,Both sexes,2023,61
+Nauru,Male,2023,58.7
+Nauru,Female,2023,63.3
+Nauru,Both sexes,2022,60.7
+Nauru,Male,2022,58.2
+Nauru,Female,2022,63.1
+Nauru,Both sexes,2021,60.3
+Nauru,Male,2021,57.8
+Nauru,Female,2021,62.9
+Nauru,Both sexes,2020,60
+Nauru,Male,2020,57.3
+Nauru,Female,2020,62.6
+Nauru,Both sexes,2019,59.6
+Nauru,Male,2019,56.8
+Nauru,Female,2019,62.4
+Nauru,Both sexes,2018,59.3
+Nauru,Male,2018,56.4
+Nauru,Female,2018,62.1
+Nepal,Both sexes,2023,4.1
+Nepal,Male,2023,2.7
+Nepal,Female,2023,5.4
+Nepal,Both sexes,2022,3.9
+Nepal,Male,2022,2.5
+Nepal,Female,2022,5.1
+Nepal,Both sexes,2021,3.7
+Nepal,Male,2021,2.4
+Nepal,Female,2021,4.9
+Nepal,Both sexes,2020,3.5
+Nepal,Male,2020,2.2
+Nepal,Female,2020,4.6
+Nepal,Both sexes,2019,3.3
+Nepal,Male,2019,2.1
+Nepal,Female,2019,4.4
+Nepal,Both sexes,2018,3.1
+Nepal,Male,2018,2
+Nepal,Female,2018,4.1
+Netherlands,Both sexes,2023,20.4
+Netherlands,Male,2023,20.8
+Netherlands,Female,2023,20
+Netherlands,Both sexes,2022,20
+Netherlands,Male,2022,20.2
+Netherlands,Female,2022,19.7
+Netherlands,Both sexes,2021,19.5
+Netherlands,Male,2021,19.7
+Netherlands,Female,2021,19.3
+Netherlands,Both sexes,2020,19.1
+Netherlands,Male,2020,19.1
+Netherlands,Female,2020,19
+Netherlands,Both sexes,2019,18.6
+Netherlands,Male,2019,18.5
+Netherlands,Female,2019,18.7
+Netherlands,Both sexes,2018,18.2
+Netherlands,Male,2018,18
+Netherlands,Female,2018,18.3
+New Zealand,Both sexes,2023,30.8
+New Zealand,Male,2023,30.1
+New Zealand,Female,2023,31.4
+New Zealand,Both sexes,2022,30.2
+New Zealand,Male,2022,29.4
+New Zealand,Female,2022,30.9
+New Zealand,Both sexes,2021,29.6
+New Zealand,Male,2021,28.8
+New Zealand,Female,2021,30.3
+New Zealand,Both sexes,2020,29
+New Zealand,Male,2020,28.1
+New Zealand,Female,2020,29.8
+New Zealand,Both sexes,2019,28.4
+New Zealand,Male,2019,27.5
+New Zealand,Female,2019,29.2
+New Zealand,Both sexes,2018,27.8
+New Zealand,Male,2018,26.9
+New Zealand,Female,2018,28.7
+Nicaragua,Both sexes,2023,23.7
+Nicaragua,Male,2023,17.9
+Nicaragua,Female,2023,29
+Nicaragua,Both sexes,2022,23.1
+Nicaragua,Male,2022,17.4
+Nicaragua,Female,2022,28.4
+Nicaragua,Both sexes,2021,22.5
+Nicaragua,Male,2021,16.8
+Nicaragua,Female,2021,27.8
+Nicaragua,Both sexes,2020,22
+Nicaragua,Male,2020,16.3
+Nicaragua,Female,2020,27.2
+Nicaragua,Both sexes,2019,21.5
+Nicaragua,Male,2019,15.8
+Nicaragua,Female,2019,26.7
+Nicaragua,Both sexes,2018,20.9
+Nicaragua,Male,2018,15.3
+Nicaragua,Female,2018,26.1
+Niger,Both sexes,2023,5.5
+Niger,Male,2023,2.5
+Niger,Female,2023,8.7
+Niger,Both sexes,2022,5.2
+Niger,Male,2022,2.3
+Niger,Female,2022,8.3
+Niger,Both sexes,2021,5
+Niger,Male,2021,2.2
+Niger,Female,2021,7.9
+Niger,Both sexes,2020,4.8
+Niger,Male,2020,2.1
+Niger,Female,2020,7.6
+Niger,Both sexes,2019,4.5
+Niger,Male,2019,2
+Niger,Female,2019,7.2
+Niger,Both sexes,2018,4.3
+Niger,Male,2018,1.8
+Niger,Female,2018,6.9
+Nigeria,Both sexes,2023,8.9
+Nigeria,Male,2023,4.6
+Nigeria,Female,2023,13.1
+Nigeria,Both sexes,2022,8.5
+Nigeria,Male,2022,4.3
+Nigeria,Female,2022,12.5
+Nigeria,Both sexes,2021,8.1
+Nigeria,Male,2021,4.1
+Nigeria,Female,2021,12
+Nigeria,Both sexes,2020,7.7
+Nigeria,Male,2020,3.9
+Nigeria,Female,2020,11.5
+Nigeria,Both sexes,2019,7.4
+Nigeria,Male,2019,3.6
+Nigeria,Female,2019,11
+Nigeria,Both sexes,2018,7
+Nigeria,Male,2018,3.4
+Nigeria,Female,2018,10.6
+Niue,Both sexes,2023,50
+Niue,Male,2023,44.8
+Niue,Female,2023,55.1
+Niue,Both sexes,2022,49.2
+Niue,Male,2022,43.9
+Niue,Female,2022,54.5
+Niue,Both sexes,2021,48.4
+Niue,Male,2021,43
+Niue,Female,2021,53.8
+Niue,Both sexes,2020,47.6
+Niue,Male,2020,42.1
+Niue,Female,2020,53.2
+Niue,Both sexes,2019,46.8
+Niue,Male,2019,41.2
+Niue,Female,2019,52.5
+Niue,Both sexes,2018,46
+Niue,Male,2018,40.3
+Niue,Female,2018,51.8
+Norway,Both sexes,2023,23.1
+Norway,Male,2023,23.6
+Norway,Female,2023,22.5
+Norway,Both sexes,2022,22.6
+Norway,Male,2022,23
+Norway,Female,2022,22.2
+Norway,Both sexes,2021,22.2
+Norway,Male,2021,22.4
+Norway,Female,2021,21.8
+Norway,Both sexes,2020,21.7
+Norway,Male,2020,21.9
+Norway,Female,2020,21.5
+Norway,Both sexes,2019,21.3
+Norway,Male,2019,21.3
+Norway,Female,2019,21.1
+Norway,Both sexes,2018,20.8
+Norway,Male,2018,20.8
+Norway,Female,2018,20.8
+Oman,Both sexes,2023,27
+Oman,Male,2023,22.9
+Oman,Female,2023,33.7
+Oman,Both sexes,2022,26.3
+Oman,Male,2022,22.2
+Oman,Female,2022,33.1
+Oman,Both sexes,2021,25.6
+Oman,Male,2021,21.4
+Oman,Female,2021,32.4
+Oman,Both sexes,2020,24.9
+Oman,Male,2020,20.7
+Oman,Female,2020,31.8
+Oman,Both sexes,2019,24.3
+Oman,Male,2019,20
+Oman,Female,2019,31.1
+Oman,Both sexes,2018,23.7
+Oman,Male,2018,19.3
+Oman,Female,2018,30.5
+Pakistan,Both sexes,2023,8.6
+Pakistan,Male,2023,6
+Pakistan,Female,2023,11.3
+Pakistan,Both sexes,2022,8.2
+Pakistan,Male,2022,5.7
+Pakistan,Female,2022,10.8
+Pakistan,Both sexes,2021,7.8
+Pakistan,Male,2021,5.4
+Pakistan,Female,2021,10.4
+Pakistan,Both sexes,2020,7.5
+Pakistan,Male,2020,5.1
+Pakistan,Female,2020,9.9
+Pakistan,Both sexes,2019,7.1
+Pakistan,Male,2019,4.8
+Pakistan,Female,2019,9.5
+Pakistan,Both sexes,2018,6.8
+Pakistan,Male,2018,4.5
+Pakistan,Female,2018,9.1
+Palau,Both sexes,2023,55.3
+Palau,Male,2023,51.8
+Palau,Female,2023,58.8
+Palau,Both sexes,2022,54.8
+Palau,Male,2022,51.1
+Palau,Female,2022,58.4
+Palau,Both sexes,2021,54.2
+Palau,Male,2021,50.4
+Palau,Female,2021,58
+Palau,Both sexes,2020,53.7
+Palau,Male,2020,49.7
+Palau,Female,2020,57.6
+Palau,Both sexes,2019,53.1
+Palau,Male,2019,49
+Palau,Female,2019,57.1
+Palau,Both sexes,2018,52.4
+Palau,Male,2018,48.2
+Palau,Female,2018,56.6
+Panama,Both sexes,2023,22.7
+Panama,Male,2023,17.8
+Panama,Female,2023,27.6
+Panama,Both sexes,2022,22.2
+Panama,Male,2022,17.3
+Panama,Female,2022,27.1
+Panama,Both sexes,2021,21.6
+Panama,Male,2021,16.7
+Panama,Female,2021,26.5
+Panama,Both sexes,2020,21.1
+Panama,Male,2020,16.2
+Panama,Female,2020,26
+Panama,Both sexes,2019,20.6
+Panama,Male,2019,15.7
+Panama,Female,2019,25.4
+Panama,Both sexes,2018,20.1
+Panama,Male,2018,15.3
+Panama,Female,2018,24.9
+Papua New Guinea,Both sexes,2023,21.3
+Papua New Guinea,Male,2023,16.6
+Papua New Guinea,Female,2023,25.8
+Papua New Guinea,Both sexes,2022,20.7
+Papua New Guinea,Male,2022,16
+Papua New Guinea,Female,2022,25.1
+Papua New Guinea,Both sexes,2021,20.1
+Papua New Guinea,Male,2021,15.5
+Papua New Guinea,Female,2021,24.5
+Papua New Guinea,Both sexes,2020,19.6
+Papua New Guinea,Male,2020,15
+Papua New Guinea,Female,2020,23.9
+Papua New Guinea,Both sexes,2019,19
+Papua New Guinea,Male,2019,14.4
+Papua New Guinea,Female,2019,23.4
+Papua New Guinea,Both sexes,2018,18.5
+Papua New Guinea,Male,2018,13.9
+Papua New Guinea,Female,2018,22.8
+Paraguay,Both sexes,2023,20.3
+Paraguay,Male,2023,17.1
+Paraguay,Female,2023,23.4
+Paraguay,Both sexes,2022,19.8
+Paraguay,Male,2022,16.6
+Paraguay,Female,2022,22.9
+Paraguay,Both sexes,2021,19.2
+Paraguay,Male,2021,16.1
+Paraguay,Female,2021,22.3
+Paraguay,Both sexes,2020,18.7
+Paraguay,Male,2020,15.6
+Paraguay,Female,2020,21.8
+Paraguay,Both sexes,2019,18.2
+Paraguay,Male,2019,15.1
+Paraguay,Female,2019,21.3
+Paraguay,Both sexes,2018,17.7
+Paraguay,Male,2018,14.6
+Paraguay,Female,2018,20.7
+Peru,Both sexes,2023,19.7
+Peru,Male,2023,15.2
+Peru,Female,2023,24.2
+Peru,Both sexes,2022,19.3
+Peru,Male,2022,14.8
+Peru,Female,2022,23.7
+Peru,Both sexes,2021,18.9
+Peru,Male,2021,14.3
+Peru,Female,2021,23.3
+Peru,Both sexes,2020,18.5
+Peru,Male,2020,13.9
+Peru,Female,2020,22.9
+Peru,Both sexes,2019,18.1
+Peru,Male,2019,13.5
+Peru,Female,2019,22.4
+Peru,Both sexes,2018,17.7
+Peru,Male,2018,13.1
+Peru,Female,2018,22
+Philippines,Both sexes,2023,6.4
+Philippines,Male,2023,5.2
+Philippines,Female,2023,7.5
+Philippines,Both sexes,2022,6.2
+Philippines,Male,2022,5
+Philippines,Female,2022,7.2
+Philippines,Both sexes,2021,5.9
+Philippines,Male,2021,4.7
+Philippines,Female,2021,7
+Philippines,Both sexes,2020,5.7
+Philippines,Male,2020,4.5
+Philippines,Female,2020,6.7
+Philippines,Both sexes,2019,5.4
+Philippines,Male,2019,4.3
+Philippines,Female,2019,6.5
+Philippines,Both sexes,2018,5.2
+Philippines,Male,2018,4
+Philippines,Female,2018,6.2
+Poland,Both sexes,2023,23.1
+Poland,Male,2023,23.7
+Poland,Female,2023,22.2
+Poland,Both sexes,2022,22.7
+Poland,Male,2022,23.2
+Poland,Female,2022,21.9
+Poland,Both sexes,2021,22.3
+Poland,Male,2021,22.6
+Poland,Female,2021,21.7
+Poland,Both sexes,2020,21.9
+Poland,Male,2020,22.1
+Poland,Female,2020,21.4
+Poland,Both sexes,2019,21.5
+Poland,Male,2019,21.6
+Poland,Female,2019,21.2
+Poland,Both sexes,2018,21.2
+Poland,Male,2018,21.1
+Poland,Female,2018,20.9
+Portugal,Both sexes,2023,20.8
+Portugal,Male,2023,20.3
+Portugal,Female,2023,21.2
+Portugal,Both sexes,2022,20.4
+Portugal,Male,2022,19.8
+Portugal,Female,2022,20.9
+Portugal,Both sexes,2021,19.9
+Portugal,Male,2021,19.2
+Portugal,Female,2021,20.5
+Portugal,Both sexes,2020,19.5
+Portugal,Male,2020,18.6
+Portugal,Female,2020,20.1
+Portugal,Both sexes,2019,19
+Portugal,Male,2019,18.1
+Portugal,Female,2019,19.8
+Portugal,Both sexes,2018,18.6
+Portugal,Male,2018,17.5
+Portugal,Female,2018,19.4
+Qatar,Both sexes,2023,35.1
+Qatar,Male,2023,32.5
+Qatar,Female,2023,43.1
+Qatar,Both sexes,2022,34.5
+Qatar,Male,2022,31.8
+Qatar,Female,2022,42.6
+Qatar,Both sexes,2021,33.8
+Qatar,Male,2021,31.1
+Qatar,Female,2021,42.2
+Qatar,Both sexes,2020,33.1
+Qatar,Male,2020,30.4
+Qatar,Female,2020,41.7
+Qatar,Both sexes,2019,32.4
+Qatar,Male,2019,29.7
+Qatar,Female,2019,41.3
+Qatar,Both sexes,2018,31.8
+Qatar,Male,2018,29
+Qatar,Female,2018,40.8
+Republic of Korea,Both sexes,2023,4.7
+Republic of Korea,Male,2023,4.4
+Republic of Korea,Female,2023,4.8
+Republic of Korea,Both sexes,2022,4.5
+Republic of Korea,Male,2022,4.3
+Republic of Korea,Female,2022,4.7
+Republic of Korea,Both sexes,2021,4.4
+Republic of Korea,Male,2021,4.1
+Republic of Korea,Female,2021,4.6
+Republic of Korea,Both sexes,2020,4.3
+Republic of Korea,Male,2020,3.9
+Republic of Korea,Female,2020,4.5
+Republic of Korea,Both sexes,2019,4.1
+Republic of Korea,Male,2019,3.8
+Republic of Korea,Female,2019,4.4
+Republic of Korea,Both sexes,2018,4
+Republic of Korea,Male,2018,3.6
+Republic of Korea,Female,2018,4.3
+Republic of Moldova,Both sexes,2023,18.9
+Republic of Moldova,Male,2023,16.2
+Republic of Moldova,Female,2023,21.1
+Republic of Moldova,Both sexes,2022,18.5
+Republic of Moldova,Male,2022,15.7
+Republic of Moldova,Female,2022,20.8
+Republic of Moldova,Both sexes,2021,18.2
+Republic of Moldova,Male,2021,15.3
+Republic of Moldova,Female,2021,20.6
+Republic of Moldova,Both sexes,2020,17.8
+Republic of Moldova,Male,2020,14.9
+Republic of Moldova,Female,2020,20.3
+Republic of Moldova,Both sexes,2019,17.5
+Republic of Moldova,Male,2019,14.5
+Republic of Moldova,Female,2019,20
+Republic of Moldova,Both sexes,2018,17.2
+Republic of Moldova,Male,2018,14.1
+Republic of Moldova,Female,2018,19.8
+Republic of North Macedonia,Both sexes,2023,22.4
+Republic of North Macedonia,Male,2023,22.6
+Republic of North Macedonia,Female,2023,22.1
+Republic of North Macedonia,Both sexes,2022,22
+Republic of North Macedonia,Male,2022,22.1
+Republic of North Macedonia,Female,2022,21.8
+Republic of North Macedonia,Both sexes,2021,21.6
+Republic of North Macedonia,Male,2021,21.6
+Republic of North Macedonia,Female,2021,21.5
+Republic of North Macedonia,Both sexes,2020,21.2
+Republic of North Macedonia,Male,2020,21.1
+Republic of North Macedonia,Female,2020,21.2
+Republic of North Macedonia,Both sexes,2019,20.8
+Republic of North Macedonia,Male,2019,20.6
+Republic of North Macedonia,Female,2019,20.9
+Republic of North Macedonia,Both sexes,2018,20.5
+Republic of North Macedonia,Male,2018,20.2
+Republic of North Macedonia,Female,2018,20.7
+Romania,Both sexes,2023,22.5
+Romania,Male,2023,23.4
+Romania,Female,2023,21.6
+Romania,Both sexes,2022,22.1
+Romania,Male,2022,22.7
+Romania,Female,2022,21.3
+Romania,Both sexes,2021,21.6
+Romania,Male,2021,22.1
+Romania,Female,2021,20.9
+Romania,Both sexes,2020,21.1
+Romania,Male,2020,21.5
+Romania,Female,2020,20.6
+Romania,Both sexes,2019,20.7
+Romania,Male,2019,20.9
+Romania,Female,2019,20.3
+Romania,Both sexes,2018,20.2
+Romania,Male,2018,20.3
+Romania,Female,2018,20
+Russian Federation,Both sexes,2023,23.1
+Russian Federation,Male,2023,18.1
+Russian Federation,Female,2023,26.9
+Russian Federation,Both sexes,2022,22.8
+Russian Federation,Male,2022,17.6
+Russian Federation,Female,2022,26.7
+Russian Federation,Both sexes,2021,22.5
+Russian Federation,Male,2021,17.2
+Russian Federation,Female,2021,26.6
+Russian Federation,Both sexes,2020,22.2
+Russian Federation,Male,2020,16.8
+Russian Federation,Female,2020,26.4
+Russian Federation,Both sexes,2019,21.9
+Russian Federation,Male,2019,16.4
+Russian Federation,Female,2019,26.3
+Russian Federation,Both sexes,2018,21.7
+Russian Federation,Male,2018,16
+Russian Federation,Female,2018,26.1
+Rwanda,Both sexes,2023,5.8
+Rwanda,Male,2023,1.9
+Rwanda,Female,2023,9.3
+Rwanda,Both sexes,2022,5.6
+Rwanda,Male,2022,1.8
+Rwanda,Female,2022,8.9
+Rwanda,Both sexes,2021,5.3
+Rwanda,Male,2021,1.7
+Rwanda,Female,2021,8.4
+Rwanda,Both sexes,2020,5
+Rwanda,Male,2020,1.6
+Rwanda,Female,2020,8
+Rwanda,Both sexes,2019,4.7
+Rwanda,Male,2019,1.5
+Rwanda,Female,2019,7.6
+Rwanda,Both sexes,2018,4.5
+Rwanda,Male,2018,1.4
+Rwanda,Female,2018,7.2
+Saint Kitts and Nevis,Both sexes,2023,22.9
+Saint Kitts and Nevis,Male,2023,15.3
+Saint Kitts and Nevis,Female,2023,30.1
+Saint Kitts and Nevis,Both sexes,2022,22.3
+Saint Kitts and Nevis,Male,2022,14.7
+Saint Kitts and Nevis,Female,2022,29.4
+Saint Kitts and Nevis,Both sexes,2021,21.6
+Saint Kitts and Nevis,Male,2021,14.1
+Saint Kitts and Nevis,Female,2021,28.7
+Saint Kitts and Nevis,Both sexes,2020,21
+Saint Kitts and Nevis,Male,2020,13.6
+Saint Kitts and Nevis,Female,2020,28.1
+Saint Kitts and Nevis,Both sexes,2019,20.4
+Saint Kitts and Nevis,Male,2019,13.1
+Saint Kitts and Nevis,Female,2019,27.4
+Saint Kitts and Nevis,Both sexes,2018,19.8
+Saint Kitts and Nevis,Male,2018,12.6
+Saint Kitts and Nevis,Female,2018,26.8
+Saint Lucia,Both sexes,2023,19.7
+Saint Lucia,Male,2023,12
+Saint Lucia,Female,2023,27
+Saint Lucia,Both sexes,2022,19.1
+Saint Lucia,Male,2022,11.5
+Saint Lucia,Female,2022,26.3
+Saint Lucia,Both sexes,2021,18.5
+Saint Lucia,Male,2021,11
+Saint Lucia,Female,2021,25.6
+Saint Lucia,Both sexes,2020,18
+Saint Lucia,Male,2020,10.6
+Saint Lucia,Female,2020,24.9
+Saint Lucia,Both sexes,2019,17.4
+Saint Lucia,Male,2019,10.2
+Saint Lucia,Female,2019,24.3
+Saint Lucia,Both sexes,2018,17
+Saint Lucia,Male,2018,9.8
+Saint Lucia,Female,2018,23.7
+Saint Vincent and the Grenadines,Both sexes,2023,23.7
+Saint Vincent and the Grenadines,Male,2023,16.6
+Saint Vincent and the Grenadines,Female,2023,31
+Saint Vincent and the Grenadines,Both sexes,2022,23.1
+Saint Vincent and the Grenadines,Male,2022,15.9
+Saint Vincent and the Grenadines,Female,2022,30.4
+Saint Vincent and the Grenadines,Both sexes,2021,22.4
+Saint Vincent and the Grenadines,Male,2021,15.3
+Saint Vincent and the Grenadines,Female,2021,29.7
+Saint Vincent and the Grenadines,Both sexes,2020,21.8
+Saint Vincent and the Grenadines,Male,2020,14.7
+Saint Vincent and the Grenadines,Female,2020,29
+Saint Vincent and the Grenadines,Both sexes,2019,21.2
+Saint Vincent and the Grenadines,Male,2019,14.1
+Saint Vincent and the Grenadines,Female,2019,28.4
+Saint Vincent and the Grenadines,Both sexes,2018,20.6
+Saint Vincent and the Grenadines,Male,2018,13.6
+Saint Vincent and the Grenadines,Female,2018,27.7
+Samoa,Both sexes,2023,47.3
+Samoa,Male,2023,39.9
+Samoa,Female,2023,55
+Samoa,Both sexes,2022,46.7
+Samoa,Male,2022,39.2
+Samoa,Female,2022,54.5
+Samoa,Both sexes,2021,46
+Samoa,Male,2021,38.5
+Samoa,Female,2021,53.9
+Samoa,Both sexes,2020,45.4
+Samoa,Male,2020,37.7
+Samoa,Female,2020,53.4
+Samoa,Both sexes,2019,44.7
+Samoa,Male,2019,37
+Samoa,Female,2019,52.8
+Samoa,Both sexes,2018,44.1
+Samoa,Male,2018,36.3
+Samoa,Female,2018,52.2
+San Marino,Both sexes,2023,NA
+San Marino,Male,2023,NA
+San Marino,Female,2023,NA
+San Marino,Both sexes,2022,NA
+San Marino,Male,2022,NA
+San Marino,Female,2022,NA
+San Marino,Both sexes,2021,NA
+San Marino,Male,2021,NA
+San Marino,Female,2021,NA
+San Marino,Both sexes,2020,NA
+San Marino,Male,2020,NA
+San Marino,Female,2020,NA
+San Marino,Both sexes,2019,NA
+San Marino,Male,2019,NA
+San Marino,Female,2019,NA
+San Marino,Both sexes,2018,NA
+San Marino,Male,2018,NA
+San Marino,Female,2018,NA
+Sao Tome and Principe,Both sexes,2023,12.4
+Sao Tome and Principe,Male,2023,7.2
+Sao Tome and Principe,Female,2023,16.9
+Sao Tome and Principe,Both sexes,2022,12
+Sao Tome and Principe,Male,2022,6.9
+Sao Tome and Principe,Female,2022,16.4
+Sao Tome and Principe,Both sexes,2021,11.6
+Sao Tome and Principe,Male,2021,6.5
+Sao Tome and Principe,Female,2021,15.9
+Sao Tome and Principe,Both sexes,2020,11.2
+Sao Tome and Principe,Male,2020,6.2
+Sao Tome and Principe,Female,2020,15.4
+Sao Tome and Principe,Both sexes,2019,10.7
+Sao Tome and Principe,Male,2019,5.9
+Sao Tome and Principe,Female,2019,14.9
+Sao Tome and Principe,Both sexes,2018,10.3
+Sao Tome and Principe,Male,2018,5.6
+Sao Tome and Principe,Female,2018,14.4
+Saudi Arabia,Both sexes,2023,35.4
+Saudi Arabia,Male,2023,30.8
+Saudi Arabia,Female,2023,42.3
+Saudi Arabia,Both sexes,2022,34.7
+Saudi Arabia,Male,2022,30
+Saudi Arabia,Female,2022,41.7
+Saudi Arabia,Both sexes,2021,34.1
+Saudi Arabia,Male,2021,29.3
+Saudi Arabia,Female,2021,41.2
+Saudi Arabia,Both sexes,2020,33.4
+Saudi Arabia,Male,2020,28.5
+Saudi Arabia,Female,2020,40.7
+Saudi Arabia,Both sexes,2019,32.8
+Saudi Arabia,Male,2019,27.8
+Saudi Arabia,Female,2019,40.1
+Saudi Arabia,Both sexes,2018,32.1
+Saudi Arabia,Male,2018,27.1
+Saudi Arabia,Female,2018,39.6
+Senegal,Both sexes,2023,8.8
+Senegal,Male,2023,4
+Senegal,Female,2023,12.9
+Senegal,Both sexes,2022,8.5
+Senegal,Male,2022,3.8
+Senegal,Female,2022,12.5
+Senegal,Both sexes,2021,8.2
+Senegal,Male,2021,3.6
+Senegal,Female,2021,12
+Senegal,Both sexes,2020,7.9
+Senegal,Male,2020,3.4
+Senegal,Female,2020,11.6
+Senegal,Both sexes,2019,7.6
+Senegal,Male,2019,3.3
+Senegal,Female,2019,11.2
+Senegal,Both sexes,2018,7.3
+Senegal,Male,2018,3.1
+Senegal,Female,2018,10.8
+Serbia,Both sexes,2023,21.5
+Serbia,Male,2023,21.1
+Serbia,Female,2023,21.8
+Serbia,Both sexes,2022,21.1
+Serbia,Male,2022,20.6
+Serbia,Female,2022,21.5
+Serbia,Both sexes,2021,20.7
+Serbia,Male,2021,20.1
+Serbia,Female,2021,21.2
+Serbia,Both sexes,2020,20.3
+Serbia,Male,2020,19.6
+Serbia,Female,2020,20.9
+Serbia,Both sexes,2019,20
+Serbia,Male,2019,19.1
+Serbia,Female,2019,20.6
+Serbia,Both sexes,2018,19.6
+Serbia,Male,2018,18.6
+Serbia,Female,2018,20.3
+Seychelles,Both sexes,2023,14
+Seychelles,Male,2023,7.6
+Seychelles,Female,2023,20.5
+Seychelles,Both sexes,2022,13.5
+Seychelles,Male,2022,7.3
+Seychelles,Female,2022,20
+Seychelles,Both sexes,2021,13.2
+Seychelles,Male,2021,7
+Seychelles,Female,2021,19.4
+Seychelles,Both sexes,2020,12.8
+Seychelles,Male,2020,6.7
+Seychelles,Female,2020,18.9
+Seychelles,Both sexes,2019,12.4
+Seychelles,Male,2019,6.4
+Seychelles,Female,2019,18.4
+Seychelles,Both sexes,2018,12
+Seychelles,Male,2018,6.2
+Seychelles,Female,2018,17.9
+Sierra Leone,Both sexes,2023,8.7
+Sierra Leone,Male,2023,3.8
+Sierra Leone,Female,2023,13.3
+Sierra Leone,Both sexes,2022,8.3
+Sierra Leone,Male,2022,3.6
+Sierra Leone,Female,2022,12.8
+Sierra Leone,Both sexes,2021,8
+Sierra Leone,Male,2021,3.4
+Sierra Leone,Female,2021,12.3
+Sierra Leone,Both sexes,2020,7.7
+Sierra Leone,Male,2020,3.2
+Sierra Leone,Female,2020,11.9
+Sierra Leone,Both sexes,2019,7.4
+Sierra Leone,Male,2019,3.1
+Sierra Leone,Female,2019,11.5
+Sierra Leone,Both sexes,2018,7.1
+Sierra Leone,Male,2018,2.9
+Sierra Leone,Female,2018,11
+Singapore,Both sexes,2023,6.1
+Singapore,Male,2023,5.8
+Singapore,Female,2023,6.3
+Singapore,Both sexes,2022,6
+Singapore,Male,2022,5.6
+Singapore,Female,2022,6.3
+Singapore,Both sexes,2021,5.8
+Singapore,Male,2021,5.5
+Singapore,Female,2021,6.2
+Singapore,Both sexes,2020,5.7
+Singapore,Male,2020,5.3
+Singapore,Female,2020,6.1
+Singapore,Both sexes,2019,5.6
+Singapore,Male,2019,5.1
+Singapore,Female,2019,6
+Singapore,Both sexes,2018,5.5
+Singapore,Male,2018,4.9
+Singapore,Female,2018,6
+Slovakia,Both sexes,2023,20.5
+Slovakia,Male,2023,21
+Slovakia,Female,2023,19.9
+Slovakia,Both sexes,2022,20.1
+Slovakia,Male,2022,20.5
+Slovakia,Female,2022,19.7
+Slovakia,Both sexes,2021,19.8
+Slovakia,Male,2021,20
+Slovakia,Female,2021,19.4
+Slovakia,Both sexes,2020,19.4
+Slovakia,Male,2020,19.6
+Slovakia,Female,2020,19.1
+Slovakia,Both sexes,2019,19.1
+Slovakia,Male,2019,19.2
+Slovakia,Female,2019,18.9
+Slovakia,Both sexes,2018,18.8
+Slovakia,Male,2018,18.7
+Slovakia,Female,2018,18.7
+Slovenia,Both sexes,2023,20.2
+Slovenia,Male,2023,19.4
+Slovenia,Female,2023,21
+Slovenia,Both sexes,2022,19.8
+Slovenia,Male,2022,18.9
+Slovenia,Female,2022,20.7
+Slovenia,Both sexes,2021,19.5
+Slovenia,Male,2021,18.5
+Slovenia,Female,2021,20.4
+Slovenia,Both sexes,2020,19.1
+Slovenia,Male,2020,18.1
+Slovenia,Female,2020,20.1
+Slovenia,Both sexes,2019,18.8
+Slovenia,Male,2019,17.6
+Slovenia,Female,2019,19.9
+Slovenia,Both sexes,2018,18.4
+Slovenia,Male,2018,17.2
+Slovenia,Female,2018,19.6
+Solomon Islands,Both sexes,2023,22.5
+Solomon Islands,Male,2023,17.9
+Solomon Islands,Female,2023,27.1
+Solomon Islands,Both sexes,2022,21.9
+Solomon Islands,Male,2022,17.3
+Solomon Islands,Female,2022,26.5
+Solomon Islands,Both sexes,2021,21.2
+Solomon Islands,Male,2021,16.6
+Solomon Islands,Female,2021,25.8
+Solomon Islands,Both sexes,2020,20.6
+Solomon Islands,Male,2020,16
+Solomon Islands,Female,2020,25.2
+Solomon Islands,Both sexes,2019,19.9
+Solomon Islands,Male,2019,15.4
+Solomon Islands,Female,2019,24.6
+Solomon Islands,Both sexes,2018,19.3
+Solomon Islands,Male,2018,14.8
+Solomon Islands,Female,2018,24
+Somalia,Both sexes,2023,8.3
+Somalia,Male,2023,3.9
+Somalia,Female,2023,12.3
+Somalia,Both sexes,2022,7.9
+Somalia,Male,2022,3.7
+Somalia,Female,2022,11.8
+Somalia,Both sexes,2021,7.6
+Somalia,Male,2021,3.5
+Somalia,Female,2021,11.4
+Somalia,Both sexes,2020,7.3
+Somalia,Male,2020,3.4
+Somalia,Female,2020,10.9
+Somalia,Both sexes,2019,7
+Somalia,Male,2019,3.2
+Somalia,Female,2019,10.5
+Somalia,Both sexes,2018,6.7
+Somalia,Male,2018,3
+Somalia,Female,2018,10.1
+South Africa,Both sexes,2023,28.3
+South Africa,Male,2023,15.4
+South Africa,Female,2023,39.6
+South Africa,Both sexes,2022,27.8
+South Africa,Male,2022,14.8
+South Africa,Female,2022,39
+South Africa,Both sexes,2021,27.2
+South Africa,Male,2021,14.2
+South Africa,Female,2021,38.5
+South Africa,Both sexes,2020,26.7
+South Africa,Male,2020,13.6
+South Africa,Female,2020,37.9
+South Africa,Both sexes,2019,26.1
+South Africa,Male,2019,13
+South Africa,Female,2019,37.3
+South Africa,Both sexes,2018,25.6
+South Africa,Male,2018,12.5
+South Africa,Female,2018,36.8
+South Sudan,Both sexes,2023,NA
+South Sudan,Male,2023,NA
+South Sudan,Female,2023,NA
+South Sudan,Both sexes,2022,NA
+South Sudan,Male,2022,NA
+South Sudan,Female,2022,NA
+South Sudan,Both sexes,2021,NA
+South Sudan,Male,2021,NA
+South Sudan,Female,2021,NA
+South Sudan,Both sexes,2020,NA
+South Sudan,Male,2020,NA
+South Sudan,Female,2020,NA
+South Sudan,Both sexes,2019,NA
+South Sudan,Male,2019,NA
+South Sudan,Female,2019,NA
+South Sudan,Both sexes,2018,NA
+South Sudan,Male,2018,NA
+South Sudan,Female,2018,NA
+Spain,Both sexes,2023,23.8
+Spain,Male,2023,24.6
+Spain,Female,2023,22.8
+Spain,Both sexes,2022,23.4
+Spain,Male,2022,24.1
+Spain,Female,2022,22.5
+Spain,Both sexes,2021,23.1
+Spain,Male,2021,23.6
+Spain,Female,2021,22.3
+Spain,Both sexes,2020,22.7
+Spain,Male,2020,23.1
+Spain,Female,2020,22.1
+Spain,Both sexes,2019,22.4
+Spain,Male,2019,22.7
+Spain,Female,2019,21.9
+Spain,Both sexes,2018,22
+Spain,Male,2018,22.2
+Spain,Female,2018,21.7
+Sri Lanka,Both sexes,2023,5.2
+Sri Lanka,Male,2023,2.9
+Sri Lanka,Female,2023,7.3
+Sri Lanka,Both sexes,2022,4.9
+Sri Lanka,Male,2022,2.7
+Sri Lanka,Female,2022,6.9
+Sri Lanka,Both sexes,2021,4.6
+Sri Lanka,Male,2021,2.5
+Sri Lanka,Female,2021,6.6
+Sri Lanka,Both sexes,2020,4.4
+Sri Lanka,Male,2020,2.3
+Sri Lanka,Female,2020,6.3
+Sri Lanka,Both sexes,2019,4.1
+Sri Lanka,Male,2019,2.2
+Sri Lanka,Female,2019,5.9
+Sri Lanka,Both sexes,2018,3.9
+Sri Lanka,Male,2018,2
+Sri Lanka,Female,2018,5.7
+Sudan,Both sexes,2023,NA
+Sudan,Male,2023,NA
+Sudan,Female,2023,NA
+Sudan,Both sexes,2022,NA
+Sudan,Male,2022,NA
+Sudan,Female,2022,NA
+Sudan,Both sexes,2021,NA
+Sudan,Male,2021,NA
+Sudan,Female,2021,NA
+Sudan,Both sexes,2020,NA
+Sudan,Male,2020,NA
+Sudan,Female,2020,NA
+Sudan,Both sexes,2019,NA
+Sudan,Male,2019,NA
+Sudan,Female,2019,NA
+Sudan,Both sexes,2018,NA
+Sudan,Male,2018,NA
+Sudan,Female,2018,NA
+Sudan (former),Both sexes,2023,8.6
+Sudan (former),Male,2023,3.8
+Sudan (former),Female,2023,12.4
+Sudan (former),Both sexes,2022,8.6
+Sudan (former),Male,2022,3.6
+Sudan (former),Female,2022,12
+Sudan (former),Both sexes,2021,5.8
+Sudan (former),Male,2021,4.2
+Sudan (former),Female,2021,11.7
+Sudan (former),Both sexes,2020,5.7
+Sudan (former),Male,2020,4
+Sudan (former),Female,2020,11.3
+Sudan (former),Both sexes,2019,6.4
+Sudan (former),Male,2019,3.8
+Sudan (former),Female,2019,10.8
+Sudan (former),Both sexes,2018,6.1
+Sudan (former),Male,2018,3.6
+Sudan (former),Female,2018,10.4
+Suriname,Both sexes,2023,26.4
+Suriname,Male,2023,18.9
+Suriname,Female,2023,33.7
+Suriname,Both sexes,2022,25.9
+Suriname,Male,2022,18.4
+Suriname,Female,2022,33.2
+Suriname,Both sexes,2021,25.4
+Suriname,Male,2021,17.9
+Suriname,Female,2021,32.7
+Suriname,Both sexes,2020,24.9
+Suriname,Male,2020,17.4
+Suriname,Female,2020,32.2
+Suriname,Both sexes,2019,24.4
+Suriname,Male,2019,16.9
+Suriname,Female,2019,31.7
+Suriname,Both sexes,2018,24
+Suriname,Male,2018,16.4
+Suriname,Female,2018,31.2
+Sweden,Both sexes,2023,20.6
+Sweden,Male,2023,23.1
+Sweden,Female,2023,18.1
+Sweden,Both sexes,2022,20.2
+Sweden,Male,2022,22.5
+Sweden,Female,2022,17.8
+Sweden,Both sexes,2021,19.8
+Sweden,Male,2021,22
+Sweden,Female,2021,17.5
+Sweden,Both sexes,2020,19.4
+Sweden,Male,2020,21.4
+Sweden,Female,2020,17.2
+Sweden,Both sexes,2019,19
+Sweden,Male,2019,20.9
+Sweden,Female,2019,16.9
+Sweden,Both sexes,2018,18.6
+Sweden,Male,2018,20.4
+Sweden,Female,2018,16.7
+Switzerland,Both sexes,2023,19.5
+Switzerland,Male,2023,22.2
+Switzerland,Female,2023,16.9
+Switzerland,Both sexes,2022,19.1
+Switzerland,Male,2022,21.7
+Switzerland,Female,2022,16.6
+Switzerland,Both sexes,2021,18.7
+Switzerland,Male,2021,21.2
+Switzerland,Female,2021,16.3
+Switzerland,Both sexes,2020,18.4
+Switzerland,Male,2020,20.6
+Switzerland,Female,2020,16.1
+Switzerland,Both sexes,2019,18
+Switzerland,Male,2019,20.2
+Switzerland,Female,2019,15.8
+Switzerland,Both sexes,2018,17.6
+Switzerland,Male,2018,19.7
+Switzerland,Female,2018,15.5
+Syrian Arab Republic,Both sexes,2023,27.8
+Syrian Arab Republic,Male,2023,20.9
+Syrian Arab Republic,Female,2023,34.8
+Syrian Arab Republic,Both sexes,2022,27.1
+Syrian Arab Republic,Male,2022,20.2
+Syrian Arab Republic,Female,2022,34.1
+Syrian Arab Republic,Both sexes,2021,26.4
+Syrian Arab Republic,Male,2021,19.5
+Syrian Arab Republic,Female,2021,33.4
+Syrian Arab Republic,Both sexes,2020,25.8
+Syrian Arab Republic,Male,2020,18.8
+Syrian Arab Republic,Female,2020,32.8
+Syrian Arab Republic,Both sexes,2019,25.1
+Syrian Arab Republic,Male,2019,18.1
+Syrian Arab Republic,Female,2019,32.1
+Syrian Arab Republic,Both sexes,2018,24.4
+Syrian Arab Republic,Male,2018,17.5
+Syrian Arab Republic,Female,2018,31.5
+Tajikistan,Both sexes,2023,14.2
+Tajikistan,Male,2023,11.6
+Tajikistan,Female,2023,16.7
+Tajikistan,Both sexes,2022,13.7
+Tajikistan,Male,2022,11.1
+Tajikistan,Female,2022,16.1
+Tajikistan,Both sexes,2021,13.2
+Tajikistan,Male,2021,10.6
+Tajikistan,Female,2021,15.5
+Tajikistan,Both sexes,2020,12.7
+Tajikistan,Male,2020,10.2
+Tajikistan,Female,2020,15
+Tajikistan,Both sexes,2019,12.2
+Tajikistan,Male,2019,9.8
+Tajikistan,Female,2019,14.5
+Tajikistan,Both sexes,2018,11.8
+Tajikistan,Male,2018,9.4
+Tajikistan,Female,2018,14
+Thailand,Both sexes,2023,10
+Thailand,Male,2023,7
+Thailand,Female,2023,12.7
+Thailand,Both sexes,2022,9.4
+Thailand,Male,2022,6.5
+Thailand,Female,2022,12.1
+Thailand,Both sexes,2021,8.9
+Thailand,Male,2021,6
+Thailand,Female,2021,11.5
+Thailand,Both sexes,2020,8.4
+Thailand,Male,2020,5.6
+Thailand,Female,2020,11
+Thailand,Both sexes,2019,7.9
+Thailand,Male,2019,5.2
+Thailand,Female,2019,10.4
+Thailand,Both sexes,2018,7.4
+Thailand,Male,2018,4.8
+Thailand,Female,2018,9.9
+Timor-Leste,Both sexes,2023,3.8
+Timor-Leste,Male,2023,2.6
+Timor-Leste,Female,2023,4.9
+Timor-Leste,Both sexes,2022,3.6
+Timor-Leste,Male,2022,2.4
+Timor-Leste,Female,2022,4.6
+Timor-Leste,Both sexes,2021,3.3
+Timor-Leste,Male,2021,2.3
+Timor-Leste,Female,2021,4.4
+Timor-Leste,Both sexes,2020,3.1
+Timor-Leste,Male,2020,2.1
+Timor-Leste,Female,2020,4.1
+Timor-Leste,Both sexes,2019,2.9
+Timor-Leste,Male,2019,1.9
+Timor-Leste,Female,2019,3.9
+Timor-Leste,Both sexes,2018,2.8
+Timor-Leste,Male,2018,1.8
+Timor-Leste,Female,2018,3.7
+Togo,Both sexes,2023,8.4
+Togo,Male,2023,3.9
+Togo,Female,2023,12.5
+Togo,Both sexes,2022,8.1
+Togo,Male,2022,3.7
+Togo,Female,2022,12
+Togo,Both sexes,2021,7.8
+Togo,Male,2021,3.5
+Togo,Female,2021,11.6
+Togo,Both sexes,2020,7.4
+Togo,Male,2020,3.3
+Togo,Female,2020,11.1
+Togo,Both sexes,2019,7.1
+Togo,Male,2019,3.1
+Togo,Female,2019,10.7
+Togo,Both sexes,2018,6.8
+Togo,Male,2018,2.9
+Togo,Female,2018,10.3
+Tonga,Both sexes,2023,48.2
+Tonga,Male,2023,41.4
+Tonga,Female,2023,54.5
+Tonga,Both sexes,2022,47.5
+Tonga,Male,2022,40.6
+Tonga,Female,2022,53.9
+Tonga,Both sexes,2021,46.8
+Tonga,Male,2021,39.8
+Tonga,Female,2021,53.4
+Tonga,Both sexes,2020,46.1
+Tonga,Male,2020,39
+Tonga,Female,2020,52.8
+Tonga,Both sexes,2019,45.4
+Tonga,Male,2019,38.2
+Tonga,Female,2019,52.2
+Tonga,Both sexes,2018,44.7
+Tonga,Male,2018,37.4
+Tonga,Female,2018,51.6
+Trinidad and Tobago,Both sexes,2023,18.6
+Trinidad and Tobago,Male,2023,10.8
+Trinidad and Tobago,Female,2023,26
+Trinidad and Tobago,Both sexes,2022,18
+Trinidad and Tobago,Male,2022,10.4
+Trinidad and Tobago,Female,2022,25.3
+Trinidad and Tobago,Both sexes,2021,17.4
+Trinidad and Tobago,Male,2021,9.9
+Trinidad and Tobago,Female,2021,24.5
+Trinidad and Tobago,Both sexes,2020,16.9
+Trinidad and Tobago,Male,2020,9.5
+Trinidad and Tobago,Female,2020,23.8
+Trinidad and Tobago,Both sexes,2019,16.3
+Trinidad and Tobago,Male,2019,9.2
+Trinidad and Tobago,Female,2019,23.1
+Trinidad and Tobago,Both sexes,2018,15.8
+Trinidad and Tobago,Male,2018,8.8
+Trinidad and Tobago,Female,2018,22.4
+Tunisia,Both sexes,2023,26.9
+Tunisia,Male,2023,19.1
+Tunisia,Female,2023,34.3
+Tunisia,Both sexes,2022,26.3
+Tunisia,Male,2022,18.5
+Tunisia,Female,2022,33.7
+Tunisia,Both sexes,2021,25.7
+Tunisia,Male,2021,17.9
+Tunisia,Female,2021,33.1
+Tunisia,Both sexes,2020,25.1
+Tunisia,Male,2020,17.3
+Tunisia,Female,2020,32.6
+Tunisia,Both sexes,2019,24.6
+Tunisia,Male,2019,16.7
+Tunisia,Female,2019,32
+Tunisia,Both sexes,2018,24
+Tunisia,Male,2018,16.1
+Tunisia,Female,2018,31.4
+Turkey,Both sexes,2023,32.1
+Turkey,Male,2023,24.4
+Turkey,Female,2023,39.2
+Turkey,Both sexes,2022,31.5
+Turkey,Male,2022,23.6
+Turkey,Female,2022,38.6
+Turkey,Both sexes,2021,30.8
+Turkey,Male,2021,22.9
+Turkey,Female,2021,37.9
+Turkey,Both sexes,2020,30.2
+Turkey,Male,2020,22.2
+Turkey,Female,2020,37.3
+Turkey,Both sexes,2019,29.5
+Turkey,Male,2019,21.5
+Turkey,Female,2019,36.7
+Turkey,Both sexes,2018,28.9
+Turkey,Male,2018,20.9
+Turkey,Female,2018,36
+Turkmenistan,Both sexes,2023,18.6
+Turkmenistan,Male,2023,15.9
+Turkmenistan,Female,2023,20.9
+Turkmenistan,Both sexes,2022,18
+Turkmenistan,Male,2022,15.3
+Turkmenistan,Female,2022,20.3
+Turkmenistan,Both sexes,2021,17.4
+Turkmenistan,Male,2021,14.7
+Turkmenistan,Female,2021,19.8
+Turkmenistan,Both sexes,2020,16.9
+Turkmenistan,Male,2020,14.2
+Turkmenistan,Female,2020,19.2
+Turkmenistan,Both sexes,2019,16.3
+Turkmenistan,Male,2019,13.7
+Turkmenistan,Female,2019,18.6
+Turkmenistan,Both sexes,2018,15.8
+Turkmenistan,Male,2018,13.2
+Turkmenistan,Female,2018,18.1
+Tuvalu,Both sexes,2023,51.6
+Tuvalu,Male,2023,47
+Tuvalu,Female,2023,56.2
+Tuvalu,Both sexes,2022,50.9
+Tuvalu,Male,2022,46.2
+Tuvalu,Female,2022,55.6
+Tuvalu,Both sexes,2021,50.1
+Tuvalu,Male,2021,45.3
+Tuvalu,Female,2021,55
+Tuvalu,Both sexes,2020,49.4
+Tuvalu,Male,2020,44.4
+Tuvalu,Female,2020,54.4
+Tuvalu,Both sexes,2019,48.6
+Tuvalu,Male,2019,43.5
+Tuvalu,Female,2019,53.8
+Tuvalu,Both sexes,2018,47.8
+Tuvalu,Male,2018,42.6
+Tuvalu,Female,2018,53.2
+Uganda,Both sexes,2023,5.3
+Uganda,Male,2023,1.8
+Uganda,Female,2023,8.6
+Uganda,Both sexes,2022,5
+Uganda,Male,2022,1.7
+Uganda,Female,2022,8.2
+Uganda,Both sexes,2021,4.8
+Uganda,Male,2021,1.6
+Uganda,Female,2021,7.8
+Uganda,Both sexes,2020,4.5
+Uganda,Male,2020,1.5
+Uganda,Female,2020,7.5
+Uganda,Both sexes,2019,4.3
+Uganda,Male,2019,1.5
+Uganda,Female,2019,7.1
+Uganda,Both sexes,2018,4.1
+Uganda,Male,2018,1.4
+Uganda,Female,2018,6.8
+Ukraine,Both sexes,2023,24.1
+Ukraine,Male,2023,22
+Ukraine,Female,2023,25.7
+Ukraine,Both sexes,2022,23.7
+Ukraine,Male,2022,21.5
+Ukraine,Female,2022,25.5
+Ukraine,Both sexes,2021,23.4
+Ukraine,Male,2021,21
+Ukraine,Female,2021,25.2
+Ukraine,Both sexes,2020,23
+Ukraine,Male,2020,20.5
+Ukraine,Female,2020,25
+Ukraine,Both sexes,2019,22.7
+Ukraine,Male,2019,20
+Ukraine,Female,2019,24.8
+Ukraine,Both sexes,2018,22.4
+Ukraine,Male,2018,19.5
+Ukraine,Female,2018,24.6
+United Arab Emirates,Both sexes,2023,31.7
+United Arab Emirates,Male,2023,27.5
+United Arab Emirates,Female,2023,41
+United Arab Emirates,Both sexes,2022,31
+United Arab Emirates,Male,2022,26.8
+United Arab Emirates,Female,2022,40.5
+United Arab Emirates,Both sexes,2021,30.3
+United Arab Emirates,Male,2021,26.1
+United Arab Emirates,Female,2021,40
+United Arab Emirates,Both sexes,2020,29.7
+United Arab Emirates,Male,2020,25.4
+United Arab Emirates,Female,2020,39.5
+United Arab Emirates,Both sexes,2019,29
+United Arab Emirates,Male,2019,24.8
+United Arab Emirates,Female,2019,38.9
+United Arab Emirates,Both sexes,2018,28.3
+United Arab Emirates,Male,2018,24.1
+United Arab Emirates,Female,2018,38.4
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2023,27.8
+United Kingdom of Great Britain and Northern Ireland,Male,2023,26.9
+United Kingdom of Great Britain and Northern Ireland,Female,2023,28.6
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2022,27.2
+United Kingdom of Great Britain and Northern Ireland,Male,2022,26.2
+United Kingdom of Great Britain and Northern Ireland,Female,2022,28.1
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2021,26.6
+United Kingdom of Great Britain and Northern Ireland,Male,2021,25.5
+United Kingdom of Great Britain and Northern Ireland,Female,2021,27.6
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2020,26
+United Kingdom of Great Britain and Northern Ireland,Male,2020,24.9
+United Kingdom of Great Britain and Northern Ireland,Female,2020,27
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2019,25.4
+United Kingdom of Great Britain and Northern Ireland,Male,2019,24.3
+United Kingdom of Great Britain and Northern Ireland,Female,2019,26.5
+United Kingdom of Great Britain and Northern Ireland,Both sexes,2018,24.8
+United Kingdom of Great Britain and Northern Ireland,Male,2018,23.6
+United Kingdom of Great Britain and Northern Ireland,Female,2018,26
+United Republic of Tanzania,Both sexes,2023,8.4
+United Republic of Tanzania,Male,2023,4
+United Republic of Tanzania,Female,2023,12.7
+United Republic of Tanzania,Both sexes,2022,8
+United Republic of Tanzania,Male,2022,3.7
+United Republic of Tanzania,Female,2022,12.1
+United Republic of Tanzania,Both sexes,2021,7.6
+United Republic of Tanzania,Male,2021,3.5
+United Republic of Tanzania,Female,2021,11.6
+United Republic of Tanzania,Both sexes,2020,7.3
+United Republic of Tanzania,Male,2020,3.3
+United Republic of Tanzania,Female,2020,11.1
+United Republic of Tanzania,Both sexes,2019,6.9
+United Republic of Tanzania,Male,2019,3.1
+United Republic of Tanzania,Female,2019,10.6
+United Republic of Tanzania,Both sexes,2018,6.6
+United Republic of Tanzania,Male,2018,3
+United Republic of Tanzania,Female,2018,10.1
+United States of America,Both sexes,2023,36.2
+United States of America,Male,2023,35.5
+United States of America,Female,2023,37
+United States of America,Both sexes,2022,35.6
+United States of America,Male,2022,34.7
+United States of America,Female,2022,36.4
+United States of America,Both sexes,2021,34.9
+United States of America,Male,2021,34
+United States of America,Female,2021,35.7
+United States of America,Both sexes,2020,34.3
+United States of America,Male,2020,33.3
+United States of America,Female,2020,35.1
+United States of America,Both sexes,2019,33.6
+United States of America,Male,2019,32.6
+United States of America,Female,2019,34.5
+United States of America,Both sexes,2018,33
+United States of America,Male,2018,31.9
+United States of America,Female,2018,33.9
+Uruguay,Both sexes,2023,27.9
+Uruguay,Male,2023,24.9
+Uruguay,Female,2023,30.6
+Uruguay,Both sexes,2022,27.5
+Uruguay,Male,2022,24.4
+Uruguay,Female,2022,30.1
+Uruguay,Both sexes,2021,27
+Uruguay,Male,2021,23.8
+Uruguay,Female,2021,29.7
+Uruguay,Both sexes,2020,26.5
+Uruguay,Male,2020,23.3
+Uruguay,Female,2020,29.3
+Uruguay,Both sexes,2019,26
+Uruguay,Male,2019,22.8
+Uruguay,Female,2019,28.8
+Uruguay,Both sexes,2018,25.5
+Uruguay,Male,2018,22.3
+Uruguay,Female,2018,28.4
+Uzbekistan,Both sexes,2023,16.6
+Uzbekistan,Male,2023,13.8
+Uzbekistan,Female,2023,19
+Uzbekistan,Both sexes,2022,16
+Uzbekistan,Male,2022,13.3
+Uzbekistan,Female,2022,18.4
+Uzbekistan,Both sexes,2021,15.4
+Uzbekistan,Male,2021,12.8
+Uzbekistan,Female,2021,17.8
+Uzbekistan,Both sexes,2020,14.9
+Uzbekistan,Male,2020,12.3
+Uzbekistan,Female,2020,17.3
+Uzbekistan,Both sexes,2019,14.4
+Uzbekistan,Male,2019,11.8
+Uzbekistan,Female,2019,16.7
+Uzbekistan,Both sexes,2018,13.9
+Uzbekistan,Male,2018,11.4
+Uzbekistan,Female,2018,16.2
+Vanuatu,Both sexes,2023,25.2
+Vanuatu,Male,2023,20.2
+Vanuatu,Female,2023,30.1
+Vanuatu,Both sexes,2022,24.5
+Vanuatu,Male,2022,19.5
+Vanuatu,Female,2022,29.4
+Vanuatu,Both sexes,2021,23.9
+Vanuatu,Male,2021,18.9
+Vanuatu,Female,2021,28.8
+Vanuatu,Both sexes,2020,23.2
+Vanuatu,Male,2020,18.2
+Vanuatu,Female,2020,28.2
+Vanuatu,Both sexes,2019,22.6
+Vanuatu,Male,2019,17.6
+Vanuatu,Female,2019,27.5
+Vanuatu,Both sexes,2018,22
+Vanuatu,Male,2018,17
+Vanuatu,Female,2018,26.9
+Venezuela (Bolivarian Republic of),Both sexes,2023,25.6
+Venezuela (Bolivarian Republic of),Male,2023,22.4
+Venezuela (Bolivarian Republic of),Female,2023,28.6
+Venezuela (Bolivarian Republic of),Both sexes,2022,25.2
+Venezuela (Bolivarian Republic of),Male,2022,22
+Venezuela (Bolivarian Republic of),Female,2022,28.3
+Venezuela (Bolivarian Republic of),Both sexes,2021,24.8
+Venezuela (Bolivarian Republic of),Male,2021,21.5
+Venezuela (Bolivarian Republic of),Female,2021,27.9
+Venezuela (Bolivarian Republic of),Both sexes,2020,24.4
+Venezuela (Bolivarian Republic of),Male,2020,21.1
+Venezuela (Bolivarian Republic of),Female,2020,27.6
+Venezuela (Bolivarian Republic of),Both sexes,2019,24
+Venezuela (Bolivarian Republic of),Male,2019,20.7
+Venezuela (Bolivarian Republic of),Female,2019,27.2
+Venezuela (Bolivarian Republic of),Both sexes,2018,23.7
+Venezuela (Bolivarian Republic of),Male,2018,20.3
+Venezuela (Bolivarian Republic of),Female,2018,26.9
+Viet Nam,Both sexes,2023,2.1
+Viet Nam,Male,2023,1.6
+Viet Nam,Female,2023,2.6
+Viet Nam,Both sexes,2022,2
+Viet Nam,Male,2022,1.5
+Viet Nam,Female,2022,2.4
+Viet Nam,Both sexes,2021,1.8
+Viet Nam,Male,2021,1.3
+Viet Nam,Female,2021,2.3
+Viet Nam,Both sexes,2020,1.7
+Viet Nam,Male,2020,1.2
+Viet Nam,Female,2020,2.1
+Viet Nam,Both sexes,2019,1.6
+Viet Nam,Male,2019,1.1
+Viet Nam,Female,2019,2
+Viet Nam,Both sexes,2018,1.5
+Viet Nam,Male,2018,1
+Viet Nam,Female,2018,1.9
+Yemen,Both sexes,2023,17.1
+Yemen,Male,2023,12
+Yemen,Female,2023,22
+Yemen,Both sexes,2022,16.5
+Yemen,Male,2022,11.4
+Yemen,Female,2022,21.3
+Yemen,Both sexes,2021,15.9
+Yemen,Male,2021,10.8
+Yemen,Female,2021,20.6
+Yemen,Both sexes,2020,15.2
+Yemen,Male,2020,10.3
+Yemen,Female,2020,19.9
+Yemen,Both sexes,2019,14.6
+Yemen,Male,2019,9.7
+Yemen,Female,2019,19.3
+Yemen,Both sexes,2018,14.1
+Yemen,Male,2018,9.2
+Yemen,Female,2018,18.6
+Zambia,Both sexes,2023,8.1
+Zambia,Male,2023,3.6
+Zambia,Female,2023,12.4
+Zambia,Both sexes,2022,7.7
+Zambia,Male,2022,3.4
+Zambia,Female,2022,12
+Zambia,Both sexes,2021,7.4
+Zambia,Male,2021,3.2
+Zambia,Female,2021,11.5
+Zambia,Both sexes,2020,7.1
+Zambia,Male,2020,3
+Zambia,Female,2020,11.1
+Zambia,Both sexes,2019,6.8
+Zambia,Male,2019,2.9
+Zambia,Female,2019,10.6
+Zambia,Both sexes,2018,6.5
+Zambia,Male,2018,2.7
+Zambia,Female,2018,10.2
+Zimbabwe,Both sexes,2023,15.5
+Zimbabwe,Male,2023,4.7
+Zimbabwe,Female,2023,25.3
+Zimbabwe,Both sexes,2022,15.2
+Zimbabwe,Male,2022,4.5
+Zimbabwe,Female,2022,24.8
+Zimbabwe,Both sexes,2021,14.9
+Zimbabwe,Male,2021,4.4
+Zimbabwe,Female,2021,24.4
+Zimbabwe,Both sexes,2020,14.6
+Zimbabwe,Male,2020,4.2
+Zimbabwe,Female,2020,23.9
+Zimbabwe,Both sexes,2019,14.3
+Zimbabwe,Male,2019,4
+Zimbabwe,Female,2019,23.5
+Zimbabwe,Both sexes,2018,14.1
+Zimbabwe,Male,2018,3.9
+Zimbabwe,Female,2018,23
