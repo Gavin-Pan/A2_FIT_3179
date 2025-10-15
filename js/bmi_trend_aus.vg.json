@@ -9,12 +9,25 @@
     "x": {
       "field": "Year",
       "type": "temporal",
-      "title": "Year"
+      "title": "Year",
+      "timeUnit": "year",
+      "axis": {
+        "format": "%Y",
+        "labelAngle": 0,
+        "labelFontSize": 12,
+        "grid": false
+      }
     },
     "y": {
       "field": "BMI",
       "type": "quantitative",
-      "title": "Average BMI"
+      "title": "Average BMI",
+      "scale": {
+        "zero": false
+      },
+      "axis": {
+        "grid": false
+      }
     },
     "color": {
       "field": "Sex",

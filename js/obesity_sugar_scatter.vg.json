@@ -138,6 +138,6 @@
   "config": {
     "background": "white",
     "view": { "stroke": "transparent" },
-    "axis": { "labelFontSize": 12, "titleFontSize": 12, "grid": true }
+    "axis": { "labelFontSize": 12, "titleFontSize": 12, "grid": false }
   }
 }

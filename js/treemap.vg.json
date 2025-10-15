@@ -1,0 +1,149 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Treemap of Top 10 items by % of Calories from Sugar.",
+  "width": 700,
+  "height": 450,
+  "padding": 5,
+
+  "data": [
+    {
+      "name": "raw",
+      "url": "data/NutritionalFacts_Fruit_Vegetables_Seafood.csv",
+      "format": { "type": "csv" }
+    },
+
+    {
+      "name": "top10",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "FoodName",
+          "expr": "datum['Food and Serving']"
+        },
+        {
+          "type": "formula",
+          "as": "CaloriesNum",
+          "expr": "toNumber(datum.Calories)"
+        },
+        {
+          "type": "formula",
+          "as": "SugarsNum",
+          "expr": "toNumber(datum.Sugars_g)"
+        },
+
+        {
+          "type": "filter",
+          "expr": "isValid(datum.FoodName) && isFinite(datum.CaloriesNum) && datum.CaloriesNum > 0 && isFinite(datum.SugarsNum) && datum.SugarsNum >= 0"
+        },
+
+        { "type": "formula", "as": "SugarCals", "expr": "datum.SugarsNum * 4" },
+        {
+          "type": "formula",
+          "as": "PctSugarCals",
+          "expr": "(datum.SugarCals / datum.CaloriesNum) * 100"
+        },
+
+        { "type": "filter", "expr": "isFinite(datum.PctSugarCals)" },
+
+        {
+          "type": "window",
+          "ops": ["rank"],
+          "as": ["rnk"],
+          "sort": [{ "field": "PctSugarCals", "order": "descending" }]
+        },
+
+        { "type": "filter", "expr": "datum.rnk <= 10" }
+      ]
+    },
+
+    {
+      "name": "treed",
+      "source": "top10",
+      "transform": [
+        {
+          "type": "formula",
+          "as": "Root",
+          "expr": "'Top 10 by % Sugar Calories'"
+        },
+        { "type": "nest", "keys": ["Root"] },
+        {
+          "type": "treemap",
+          "field": "PctSugarCals",
+          "children": "values",
+          "method": "squarify",
+          "size": [{ "signal": "width" }, { "signal": "height" }],
+          "padding": 2,
+          "round": true
+        },
+        { "type": "filter", "expr": "!datum.children" }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "color",
+      "type": "linear",
+      "domain": { "data": "treed", "field": "PctSugarCals" },
+      "range": ["#fde0dd", "#fa9fb5", "#c51b8a"],
+      "nice": true
+    }
+  ],
+  "legends": [
+    {
+      "fill": "color",
+      "title": "% Calories from Sugar",
+      "orient": "right",
+      "gradientLength": 200,
+      "titleFontSize": 14,
+      "labelFontSize": 12
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": { "data": "treed" },
+      "encode": {
+        "enter": {
+          "x": { "field": "x0" },
+          "y": { "field": "y0" },
+          "x2": { "field": "x1" },
+          "y2": { "field": "y1" },
+          "fill": { "scale": "color", "field": "PctSugarCals" },
+          "stroke": { "value": "#fff" },
+          "strokeWidth": { "value": 1 }
+        },
+        "update": {
+          "tooltip": {
+            "signal": "{'Food': datum.FoodName, '% Calories from Sugar': format(datum.PctSugarCals, '.1f') + '%', 'Calories': datum.CaloriesNum, 'Sugars (g)': datum.SugarsNum}"
+          }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": { "data": "treed" },
+      "encode": {
+        "enter": {
+          "x": { "field": "x0", "offset": 6 },
+          "y": { "field": "y0", "offset": 14 },
+          "fontSize": { "value": 12 },
+          "fill": { "value": "#111" },
+          "baseline": { "value": "top" }
+        },
+        "update": {
+          "text": {
+            "signal": "datum.FoodName + ' (' + format(datum.PctSugarCals, '.1f') + '%)'"
+          },
+          "opacity": {
+            "signal": "(datum.x1 - datum.x0) > 120 && (datum.y1 - datum.y0) > 28 ? 1 : 0"
+          }
+        }
+      }
+    }
+  ],
+
+  "title": "Top 10: % of Calories from Sugar (Treemap)"
+}
