@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
-  "description": "Treemap of Top 10 items by % of Calories from Sugar.",
+  "description": "Treemap of Top 10 foods by share of total sugar calories; color = % of calories from sugar.",
   "width": 700,
   "height": 450,
   "padding": 5,
@@ -13,7 +13,7 @@
     },
 
     {
-      "name": "top10",
+      "name": "prepared",
       "source": "raw",
       "transform": [
         {
@@ -42,17 +42,38 @@
           "type": "formula",
           "as": "PctSugarCals",
           "expr": "(datum.SugarCals / datum.CaloriesNum) * 100"
+        }
+      ]
+    },
+
+    {
+      "name": "withTotal",
+      "source": "prepared",
+      "transform": [
+        {
+          "type": "joinaggregate",
+          "as": ["TotalSugarCals"],
+          "ops": ["sum"],
+          "fields": ["SugarCals"]
         },
+        {
+          "type": "formula",
+          "as": "ShareSugarCals",
+          "expr": "(datum.SugarCals / datum.TotalSugarCals) * 100"
+        }
+      ]
+    },
 
-        { "type": "filter", "expr": "isFinite(datum.PctSugarCals)" },
-
+    {
+      "name": "top10",
+      "source": "withTotal",
+      "transform": [
         {
           "type": "window",
           "ops": ["rank"],
           "as": ["rnk"],
-          "sort": [{ "field": "PctSugarCals", "order": "descending" }]
+          "sort": [{ "field": "SugarCals", "order": "descending" }]
         },
-
         { "type": "filter", "expr": "datum.rnk <= 10" }
       ]
     },
@@ -64,12 +85,12 @@
         {
           "type": "formula",
           "as": "Root",
-          "expr": "'Top 10 by % Sugar Calories'"
+          "expr": "'Top 10 by Share of Sugar Calories'"
         },
         { "type": "nest", "keys": ["Root"] },
         {
           "type": "treemap",
-          "field": "PctSugarCals",
+          "field": "SugarCals",
           "children": "values",
           "method": "squarify",
           "size": [{ "signal": "width" }, { "signal": "height" }],
@@ -90,6 +111,7 @@
       "nice": true
     }
   ],
+
   "legends": [
     {
       "fill": "color",
@@ -112,12 +134,12 @@
           "x2": { "field": "x1" },
           "y2": { "field": "y1" },
           "fill": { "scale": "color", "field": "PctSugarCals" },
-          "stroke": { "value": "#fff" },
+          "stroke": { "value": "#ffffff" },
           "strokeWidth": { "value": 1 }
         },
         "update": {
           "tooltip": {
-            "signal": "{'Food': datum.FoodName, '% Calories from Sugar': format(datum.PctSugarCals, '.1f') + '%', 'Calories': datum.CaloriesNum, 'Sugars (g)': datum.SugarsNum}"
+            "signal": "{'Food': datum.FoodName, 'Share of Total Sugar Calories': format(datum.ShareSugarCals, '.1f') + '%', '% Calories from Sugar': format(datum.PctSugarCals, '.1f') + '%', 'Calories': datum.CaloriesNum, 'Sugars (g)': datum.SugarsNum}"
           }
         }
       }
@@ -135,15 +157,15 @@
         },
         "update": {
           "text": {
-            "signal": "datum.FoodName + ' (' + format(datum.PctSugarCals, '.1f') + '%)'"
+            "signal": "datum.FoodName + ' — ' + format(datum.ShareSugarCals, '.1f') + '%'"
           },
           "opacity": {
-            "signal": "(datum.x1 - datum.x0) > 120 && (datum.y1 - datum.y0) > 28 ? 1 : 0"
+            "signal": "(datum.x1 - datum.x0) > 140 && (datum.y1 - datum.y0) > 30 ? 1 : 0"
           }
         }
       }
     }
   ],
 
-  "title": "Top 10: % of Calories from Sugar (Treemap)"
+  "title": "Top 10 by Share of Total Sugar Calories (Color = % Calories from Sugar)"
 }

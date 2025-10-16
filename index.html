@@ -71,6 +71,26 @@
           10 lowest-sugar vegetables.
         </p>
       </section>
+
+      <section class="card mt-24">
+        <h2 class="center">
+          Top 10 Fruits, Vegetables, Seafood by % Calories from Sugar
+        </h2>
+        <div
+          id="treemap"
+          aria-label="Line chart: BMI trend by sex in Australia"
+        ></div>
+        <p class="eda"></p>
+      </section>
+
+      <section class="card mt-24">
+        <h2 class="center">Physical activity vs. Obesity Rates</h2>
+        <div
+          id="physical"
+          aria-label="Line chart: BMI trend by sex in Australia"
+        ></div>
+        <p class="eda"></p>
+      </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
@@ -88,6 +108,22 @@
       }).catch(console.error);
 
       vegaEmbed("#veg-grouped", "js/veg_grouped_bar.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#treemap", "js/treemap.vg.json", {
+        actions: {
+          export: true,
+          source: false,
+          editor: true,
+        },
+      })
+        .then((result) => {
+          console.log("Treemap loaded successfully");
+        })
+        .catch(console.error);
+
+      vegaEmbed("#physical", "js/physical_activity_quadrants.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
     </script>

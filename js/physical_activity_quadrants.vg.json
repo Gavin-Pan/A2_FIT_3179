@@ -1,0 +1,137 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "4-quadrant scatterplot: Physical Activity (FactValueNumeric) vs Obesity_Rate with median lines.",
+  "width": 800,
+  "height": 520,
+  "data": { "url": "data/physical_activity_with_obesity.csv" },
+  "transform": [
+    {
+      "filter": "isValid(datum.FactValueNumeric) && isValid(datum.Obesity_Rate)"
+    },
+    {
+      "joinaggregate": [
+        { "op": "median", "field": "FactValueNumeric", "as": "medianPA" },
+        { "op": "median", "field": "Obesity_Rate", "as": "medianOb" }
+      ]
+    },
+    {
+      "calculate": "datum.FactValueNumeric >= datum.medianPA ? (datum.Obesity_Rate >= datum.medianOb ? 'Q1: High PA • High Obesity' : 'Q4: High PA • Low Obesity') : (datum.Obesity_Rate >= datum.medianOb ? 'Q2: Low PA • High Obesity' : 'Q3: Low PA • Low Obesity')",
+      "as": "Quadrant"
+    }
+  ],
+  "layer": [
+    {
+      "mark": { "type": "point", "filled": true, "size": 60, "opacity": 0.85 },
+      "encoding": {
+        "x": {
+          "field": "FactValueNumeric",
+          "type": "quantitative",
+          "title": "Prevalence of sufficient physical activity (%)",
+          "axis": { "grid": true },
+          "format": ".1f"
+        },
+        "y": {
+          "field": "Obesity_Rate",
+          "type": "quantitative",
+          "title": "Obesity Rate (%)",
+          "axis": { "grid": true }
+        },
+        "color": {
+          "field": "Quadrant",
+          "type": "nominal",
+          "legend": { "title": "Quadrant", "orient": "bottom" },
+          "scale": {
+            "domain": [
+              "Q1: High PA • High Obesity",
+              "Q2: Low PA • High Obesity",
+              "Q3: Low PA • Low Obesity",
+              "Q4: High PA • Low Obesity"
+            ],
+            "range": ["#2f80ed", "#f2994a", "#27ae60", "#9b51e0"]
+          }
+        },
+        "tooltip": [
+          { "field": "Location", "type": "nominal" },
+          { "field": "country", "type": "nominal" },
+          {
+            "field": "FactValueNumeric",
+            "type": "quantitative",
+            "format": ".1f",
+            "title": "Prevalence of sufficient physical activity (%)"
+          },
+
+          {
+            "field": "Obesity_Rate",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Obesity Rate (%)"
+          },
+          { "field": "Quadrant", "type": "nominal" },
+          {
+            "field": "medianPA",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Median PA"
+          },
+          {
+            "field": "medianOb",
+            "type": "quantitative",
+            "format": ".2f",
+            "title": "Median Obesity"
+          }
+        ]
+      }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "median", "field": "FactValueNumeric", "as": "medianPA" }
+          ]
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 4],
+        "strokeWidth": 2,
+        "color": "#666"
+      },
+      "encoding": { "x": { "field": "medianPA", "type": "quantitative" } }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "median", "field": "Obesity_Rate", "as": "medianOb" }
+          ]
+        }
+      ],
+      "mark": {
+        "type": "rule",
+        "strokeDash": [4, 4],
+        "strokeWidth": 2,
+        "color": "#666"
+      },
+      "encoding": { "y": { "field": "medianOb", "type": "quantitative" } }
+    },
+    {
+      "transform": [
+        {
+          "aggregate": [
+            { "op": "median", "field": "FactValueNumeric", "as": "medianPA" },
+            { "op": "median", "field": "Obesity_Rate", "as": "medianOb" }
+          ]
+        }
+      ],
+      "mark": { "type": "text", "fontWeight": "bold", "dx": 6, "dy": -6 },
+      "encoding": {
+        "x": { "field": "medianPA", "type": "quantitative" },
+        "y": { "field": "medianOb", "type": "quantitative" }
+      }
+    }
+  ],
+  "config": {
+    "legend": { "labelLimit": 400 },
+    "view": { "stroke": null }
+  }
+}

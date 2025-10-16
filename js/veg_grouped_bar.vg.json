@@ -14,7 +14,7 @@
       "as": "Food"
     },
     {
-      "calculate": "toNumber(datum.Sugars)",
+      "calculate": "toNumber(datum.Sugars_g)",
       "as": "Sugar"
     },
     {
