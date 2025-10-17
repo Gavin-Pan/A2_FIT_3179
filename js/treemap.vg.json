@@ -115,7 +115,7 @@
   "legends": [
     {
       "fill": "color",
-      "title": "% of Top 10 Total",
+      "title": null,
       "orient": "right",
       "gradientLength": 200,
       "titleFontSize": 14,
@@ -168,5 +168,5 @@
     }
   ],
 
-  "title": "Top 10 Foods by Sugar Calories (% of Top 10 Total)"
+  "title": "Fruits, Vegetables, Seafood to consume for less Sugar Calories"
 }

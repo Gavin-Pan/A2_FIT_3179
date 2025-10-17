@@ -90,7 +90,7 @@
         "color": {
           "field": "Category",
           "type": "nominal",
-          "title": "Countries",
+          "title": null,
           "scale": {
             "domain": ["Top 4 obesity countries", "Other countries"],
             "range": ["#8b5cf6", "#92400e"]

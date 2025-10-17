@@ -75,23 +75,30 @@
       </section>
 
       <section class="card mt-24">
-        <h2 class="center">
-          Top 10 Fruits, Vegetables, Seafood by % Calories from Sugar
-        </h2>
-        <div
-          id="treemap"
-          aria-label="Line chart: BMI trend by sex in Australia"
-        ></div>
-        <p class="eda"></p>
+        <h2 class="center"></h2>
+        <div id="treemap" aria-label=""></div>
+        <p class="eda">
+          To curb against obesity, it can be suggested that choosing certain
+          foods that contain sugar can be beneficial. Sure, sugar may be an
+          awesome thing for many today, and certainly doesn't need to be
+          replaced, and rather managed. Curated above, are the top 10 share of
+          the top 10 fruits, vegetable and seafood for sugar calories. A wide
+          range of options are avaliable and can be taken now and each and
+          everyday from now on.
+        </p>
       </section>
 
       <section class="card mt-24">
         <h2 class="center">Obesity Rates vs. Physical activity</h2>
-        <div
-          id="physical"
-          aria-label="Line chart: BMI trend by sex in Australia"
-        ></div>
-        <p class="eda"></p>
+        <div id="physical" aria-label=""></div>
+        <p class="eda">
+          Taking care of your body is crucial through physical actions! Similar
+          to sugar consumption (kg per capita), physical activity has palyed as
+          the dominate force, as suggested by the scatter plot, to lower obesity
+          rates. This was alluded by the contrast itself, where the top worst
+          obese countries are seen to have a higher prevalence of suggicient
+          physical activity.
+        </p>
       </section>
 
       <section class="card mt-24">
@@ -117,10 +124,6 @@
       vegaEmbed("#bmi-line", "js/bmi_trend_aus.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
-
-      // vegaEmbed("#veg-grouped", "js/veg_grouped_bar.vg.json", {
-      //   actions: { export: true, source: true, compiled: false, editor: true },
-      // }).catch(console.error);
 
       vegaEmbed("#treemap", "js/treemap.vg.json", {
         actions: {
