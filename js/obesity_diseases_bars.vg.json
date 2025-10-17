@@ -1,0 +1,177 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "description": "Ranked bars of diseases linked to Overweight (including obesity), sized by Attributable deaths.",
+  "width": 900,
+  "height": { "signal": "chartH" },
+  "padding": { "top": 10, "left": 10, "right": 10, "bottom": 50 },
+
+  "signals": [
+    { "name": "riskFilter", "value": "Overweight (including obesity)" },
+    { "name": "topN", "value": 8 },
+    { "name": "chartH", "value": 400 },
+
+    {
+      "name": "sexSel",
+      "value": "All",
+      "bind": {
+        "element": "#controls",
+        "input": "select",
+        "options": ["All", "Persons", "Males", "Females"],
+        "name": "Sex: "
+      }
+    },
+    {
+      "name": "yearSel",
+      "value": "All",
+      "bind": {
+        "element": "#controls",
+        "input": "select",
+        "options": ["All", "2003", "2011", "2015", "2018"],
+        "name": "  Year: "
+      }
+    }
+  ],
+
+  "data": [
+    {
+      "name": "raw",
+      "url": "data/2018-Risk-Factors.csv",
+      "format": { "type": "csv" }
+    },
+    {
+      "name": "filtered",
+      "source": "raw",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "lower(trim(datum['Risk factor'])) === lower(trim(riskFilter))"
+        },
+        {
+          "type": "formula",
+          "as": "DeathsNum",
+          "expr": "toNumber(replace(datum['Attributable deaths'] + '', ',', ''))"
+        },
+        {
+          "type": "filter",
+          "expr": "isFinite(datum.DeathsNum) && datum.DeathsNum > 0"
+        },
+        {
+          "type": "filter",
+          "expr": "sexSel === 'All' ? true : datum.Sex === sexSel"
+        },
+        {
+          "type": "filter",
+          "expr": "yearSel === 'All' ? true : toString(datum.Year) === yearSel"
+        }
+      ]
+    },
+    {
+      "name": "byDisease",
+      "source": "filtered",
+      "transform": [
+        {
+          "type": "aggregate",
+          "groupby": ["Linked disease"],
+          "ops": ["sum"],
+          "fields": ["DeathsNum"],
+          "as": ["DeathsNum"]
+        },
+        {
+          "type": "formula",
+          "as": "DeathsNum",
+          "expr": "round(datum.DeathsNum)"
+        },
+        {
+          "type": "window",
+          "sort": { "field": "DeathsNum", "order": "descending" },
+          "ops": ["rank"],
+          "as": ["rank"]
+        },
+        { "type": "filter", "expr": "datum.rank <= topN" },
+        {
+          "type": "collect",
+          "sort": { "field": "DeathsNum", "order": "ascending" }
+        }
+      ]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "x",
+      "type": "linear",
+      "domain": { "data": "byDisease", "field": "DeathsNum" },
+      "range": "width",
+      "nice": true,
+      "zero": true
+    },
+    {
+      "name": "y",
+      "type": "band",
+      "domain": { "data": "byDisease", "field": "Linked disease" },
+      "range": "height",
+      "padding": 0.2
+    }
+  ],
+
+  "axes": [
+    {
+      "orient": "bottom",
+      "scale": "x",
+      "title": "Attributable deaths",
+      "format": ",.0f",
+      "grid": true,
+      "tickCount": 8,
+      "labelOverlap": true,
+      "titlePadding": 10
+    },
+    { "orient": "left", "scale": "y", "title": null, "labelLimit": 300 }
+  ],
+
+  "marks": [
+    {
+      "type": "rect",
+      "from": { "data": "byDisease" },
+      "encode": {
+        "enter": {
+          "y": { "scale": "y", "field": "Linked disease" },
+          "height": { "scale": "y", "band": 1 },
+          "x": { "scale": "x", "value": 0 },
+          "x2": { "scale": "x", "field": "DeathsNum" },
+          "fill": { "value": "steelblue" }
+        },
+        "update": {
+          "fillOpacity": { "value": 0.85 },
+          "tooltip": {
+            "signal": "{'Disease': datum['Linked disease'], 'Attributable deaths': format(datum.DeathsNum, ',')}"
+          }
+        },
+        "hover": {
+          "fillOpacity": { "value": 1 }
+        }
+      }
+    },
+    {
+      "type": "text",
+      "from": { "data": "byDisease" },
+      "encode": {
+        "update": {
+          "y": { "scale": "y", "field": "Linked disease", "band": 0.5 },
+          "baseline": { "value": "middle" },
+          "text": { "signal": "format(datum.DeathsNum, ',')" },
+          "fontSize": { "value": 11 },
+          "fontWeight": { "value": "bold" },
+          "fill": { "value": "#333" },
+          "x": { "scale": "x", "field": "DeathsNum", "offset": 6 },
+          "align": { "value": "left" }
+        }
+      }
+    }
+  ],
+
+  "title": {
+    "text": "Diseases linked to Overweight (including obesity) — Attributable deaths",
+    "anchor": "start",
+    "fontSize": 16
+  }
+}

@@ -63,7 +63,7 @@
       <section class="card mt-24">
         <h2 class="center">Top 10 Vegetables — Lowest in Sugar and Calories</h2>
         <div
-          id="veg-grouped"
+          id="stacked"
           aria-label="Grouped bar chart showing top 10 lowest-sugar and calorie vegetables"
         ></div>
         <p class="eda">
@@ -91,6 +91,15 @@
         ></div>
         <p class="eda"></p>
       </section>
+
+      <section class="card mt-24">
+        <h2 class="center">Physical activity vs. Obesity Rates</h2>
+        <div
+          id="diseases"
+          aria-label="Line chart: BMI trend by sex in Australia"
+        ></div>
+        <p class="eda"></p>
+      </section>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
@@ -107,9 +116,9 @@
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
 
-      vegaEmbed("#veg-grouped", "js/veg_grouped_bar.vg.json", {
-        actions: { export: true, source: true, compiled: false, editor: true },
-      }).catch(console.error);
+      // vegaEmbed("#veg-grouped", "js/veg_grouped_bar.vg.json", {
+      //   actions: { export: true, source: true, compiled: false, editor: true },
+      // }).catch(console.error);
 
       vegaEmbed("#treemap", "js/treemap.vg.json", {
         actions: {
@@ -123,7 +132,15 @@
         })
         .catch(console.error);
 
+      vegaEmbed("#stacked", "js/stacked_bar.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
       vegaEmbed("#physical", "js/physical_activity_quadrants.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#diseases", "js/obesity_diseases_bars.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
     </script>

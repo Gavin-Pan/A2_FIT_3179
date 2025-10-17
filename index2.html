@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
 
     <style>
       body {
@@ -36,20 +37,16 @@
   </head>
   <body>
     <h1>Top 10 Foods by % of Calories from Sugar</h1>
+    <div
+      id="controls"
+      style="width: 90%; max-width: 900px; margin: 0 auto 8px"
+    ></div>
     <div id="vis"></div>
 
     <script>
-      vegaEmbed("#vis", "js/physical_activity_quadrants.vg.json", {
-        actions: {
-          export: true,
-          source: false,
-          editor: true,
-        },
-      })
-        .then((result) => {
-          console.log("Treemap loaded successfully");
-        })
-        .catch(console.error);
+      vegaEmbed("#vis", "js/obesity_diseases_bars.vg.json", {
+        actions: { export: true, source: false, editor: true },
+      });
     </script>
   </body>
 </html>

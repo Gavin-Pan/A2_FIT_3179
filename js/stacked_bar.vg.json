@@ -1,0 +1,87 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "100% stacked bar: behaviours vs obesity level",
+  "data": { "url": "data/ObesityDataSet_raw_and_data_sinthetic.csv" },
+
+  "transform": [
+    {
+      "calculate": "replace(datum.NObeyesdad, '_', ' ')",
+      "as": "Obesity Level"
+    },
+
+    { "calculate": "datum.FAVC === 'yes' ? 1 : 0", "as": "FAVC_yes" },
+    { "calculate": "datum.SMOKE === 'yes' ? 1 : 0", "as": "SMOKE_yes" },
+
+    { "calculate": "toNumber(datum.TUE) >= 2 ? 1 : 0", "as": "TUE_high" },
+
+    {
+      "fold": ["FAVC_yes", "SMOKE_yes", "TUE_high"],
+      "as": ["_behaviour_key", "value"]
+    },
+    {
+      "calculate": "datum._behaviour_key === 'FAVC_yes' ? 'Do you eat high caloric food frequently?' : datum._behaviour_key === 'SMOKE_yes' ? 'Do you smoke?' : 'How much time do you use technological devices (high screen time)?'",
+      "as": "Behaviour"
+    }
+  ],
+
+  "mark": { "type": "bar" },
+
+  "encoding": {
+    "x": {
+      "field": "Obesity Level",
+      "type": "ordinal",
+      "sort": [
+        "Insufficient Weight",
+        "Normal Weight",
+        "Overweight Level I",
+        "Overweight Level II",
+        "Obesity Type I",
+        "Obesity Type II",
+        "Obesity Type III"
+      ],
+      "title": "Obesity level",
+      "axis": {
+        "labelAngle": -40,
+        "labelAlign": "right",
+        "labelOverlap": false
+      }
+    },
+
+    "y": {
+      "aggregate": "mean",
+      "field": "value",
+      "type": "quantitative",
+      "stack": "normalize",
+      "axis": { "title": "Share of people", "format": ".0%" }
+    },
+
+    "color": {
+      "field": "Behaviour",
+      "type": "nominal",
+      "title": "Behaviour",
+      "sort": [
+        "Do you eat high caloric food frequently?",
+        "Do you smoke?",
+        "How much time do you use technological devices (high screen time)?"
+      ],
+      "legend": { "orient": "right" }
+    },
+
+    "tooltip": [
+      { "field": "Obesity Level", "type": "nominal", "title": "Obesity level" },
+      { "field": "Behaviour", "type": "nominal" },
+      {
+        "aggregate": "mean",
+        "field": "value",
+        "type": "quantitative",
+        "title": "Percentage",
+        "format": ".1%"
+      }
+    ]
+  },
+
+  "config": {
+    "view": { "stroke": null },
+    "axis": { "labelAngle": 0 }
+  }
+}
