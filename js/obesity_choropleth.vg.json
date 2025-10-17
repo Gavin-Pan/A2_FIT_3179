@@ -1,19 +1,17 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-
   "width": 960,
   "height": 520,
   "projection": { "type": "equalEarth" },
   "layer": [
     {
       "data": { "sphere": true },
-      "mark": { "type": "geoshape", "fill": "#f3f7fb" }
+      "mark": { "type": "geoshape", "fill": "#dcebfa" }
     },
     {
       "data": { "graticule": { "step": [30, 30] } },
-      "mark": { "type": "geoshape", "stroke": "#d1d5dd", "strokeWidth": 0.5 }
+      "mark": { "type": "geoshape", "stroke": "#d1d5dd", "strokeWidth": 1 }
     },
-
     {
       "data": {
         "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
@@ -38,20 +36,81 @@
           "scale": {
             "type": "threshold",
             "domain": [15, 30, 45, 60],
-            "range": ["#f7e6d7", "#d9b38c", "#b07d57", "#8c510a", "#5a2e0c"],
+            "range": ["#f3e5f5", "#ce93d8", "#ba68c8", "#8e24aa", "#4a148c"],
             "unknown": "#EEEEEE"
           },
-          "legend": { "orient": "right", "title": "Obesity rate (%)" }
+          "legend": { "orient": "right", "title": "Obesity rate %" }
         },
         "tooltip": [
           { "field": "properties.NAME", "type": "nominal", "title": "Country" },
           {
             "field": "obesityRatesByCountry_obesityRate",
             "type": "quantitative",
-            "title": "Obesity rate (%)",
-            "format": ".1f"
+            "title": "Obesity rate",
+            "format": ".2f"
           }
         ]
+      }
+    },
+
+    {
+      "data": {
+        "values": [{ "x1": 100.7751, "y1": -50.2744, "x2": 160, "y2": -30 }]
+      },
+      "mark": {
+        "type": "rule",
+        "color": "#4a4a4a",
+        "strokeWidth": 2
+      },
+      "encoding": {
+        "longitude": { "field": "x1", "type": "quantitative" },
+        "latitude": { "field": "y1", "type": "quantitative" },
+        "longitude2": { "field": "x2", "type": "quantitative" },
+        "latitude2": { "field": "y2", "type": "quantitative" }
+      }
+    },
+
+    {
+      "data": {
+        "values": [{ "longitude": 80, "latitude": -50 }]
+      },
+      "mark": {
+        "type": "rect",
+        "width": 180,
+        "height": 60,
+        "color": "#e0e0e0",
+        "opacity": 0.85,
+        "cornerRadius": 8
+      },
+      "encoding": {
+        "longitude": { "field": "longitude", "type": "quantitative" },
+        "latitude": { "field": "latitude", "type": "quantitative" }
+      }
+    },
+
+    {
+      "data": {
+        "values": [
+          {
+            "longitude": 10,
+            "latitude": -50,
+            "label": "Australia:\nOne of the highest obesity rates in the OECD.\nPublic health campaigns are ongoing."
+          }
+        ]
+      },
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "dx": 10,
+        "dy": 10,
+        "fontSize": 13,
+        "fontWeight": "bold",
+        "color": "#333"
+      },
+      "encoding": {
+        "longitude": { "field": "longitude", "type": "quantitative" },
+        "latitude": { "field": "latitude", "type": "quantitative" },
+        "text": { "field": "label" }
       }
     }
   ],

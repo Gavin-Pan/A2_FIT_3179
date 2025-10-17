@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "width": 960,
   "height": 520,
-  "data": { "url": "data/sugar_consumption_dataset.csv" },
+  "data": { "url": "data/sugar_consumption_dataset_.csv" },
 
   "transform": [
     {
@@ -27,7 +27,7 @@
       "sort": [{ "field": "avg_obesity", "order": "descending" }]
     },
     {
-      "calculate": "datum.obesity_rank <= 1 ? 'Worst obesity country' : 'Other countries'",
+      "calculate": "datum.obesity_rank <= 4 ? 'Top 4 obesity countries' : 'Other countries'",
       "as": "Category"
     }
   ],
@@ -49,7 +49,12 @@
 
   "layer": [
     {
-      "mark": { "type": "rule", "clip": true },
+      "mark": {
+        "type": "rule",
+        "clip": true,
+        "strokeDash": [4, 4],
+        "strokeWidth": 2
+      },
       "encoding": {
         "x": { "field": "mean_sugar" },
         "y": { "aggregate": "min", "field": "avg_obesity" },
@@ -58,7 +63,12 @@
       }
     },
     {
-      "mark": { "type": "rule", "clip": true },
+      "mark": {
+        "type": "rule",
+        "clip": true,
+        "strokeDash": [4, 4],
+        "strokeWidth": 2
+      },
       "encoding": {
         "y": { "field": "mean_obesity" },
         "x": { "aggregate": "min", "field": "avg_sugar" },
@@ -66,7 +76,6 @@
         "color": { "value": "#94a3b8" }
       }
     },
-
     {
       "params": [
         {
@@ -76,15 +85,15 @@
         }
       ],
       "transform": [{ "filter": { "param": "cat_select" } }],
-      "mark": { "type": "point", "filled": true, "size": 80 },
+      "mark": { "type": "point", "filled": true, "size": 250 },
       "encoding": {
         "color": {
           "field": "Category",
           "type": "nominal",
           "title": "Countries",
           "scale": {
-            "domain": ["Worst obesity country", "Other countries"],
-            "range": ["#e11d48", "#60a5fa"]
+            "domain": ["Top 4 obesity countries", "Other countries"],
+            "range": ["#8b5cf6", "#92400e"]
           }
         },
         "tooltip": [
@@ -104,7 +113,6 @@
         ]
       }
     },
-
     {
       "transform": [{ "filter": "datum.Country == 'China'" }],
       "mark": {
@@ -122,13 +130,13 @@
         "y": { "field": "avg_obesity" },
         "text": {
           "value": [
-            "China, alongside many other countries,",
-            "serves to have lower obesity rates",
-            "compared with the rest of",
-            "the data within the limited number",
-            "of countries available — suggesting a",
-            "tendency toward lower obesity rates",
-            "when consuming less average sugar."
+            "China, together with several other countries,",
+            "exhibits comparatively lower obesity rates",
+            "than the rest of the limited dataset.",
+            "This trend indicates a potential  ",
+            "association between reduced average sugar ",
+            "link between lower average sugar ",
+            "consumption and lower obesity prevalence."
           ]
         }
       }
