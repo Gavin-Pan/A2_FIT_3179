@@ -1,9 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "Top/Bottom 30 countries by obesity rate (aggregated per country) with legend filtering.",
-  "width": 800,
-  "height": 520,
+  "width": 500,
+  "height": 400,
   "data": { "url": "data/physical_activity_with_obesity.csv" },
+  "background": "transparent",
+  "config": { "view": { "stroke": null } },
 
   "transform": [
     {
@@ -30,7 +32,7 @@
     { "filter": "datum.rank_desc <= 10 || datum.rank_asc <= 10" },
 
     {
-      "calculate": "datum.rank_desc <= 10 ? 'Top 10 obesity rates by country' : 'Bottom 10 obesity rates by country'",
+      "calculate": "datum.rank_desc <= 10 ? 'Worst 10 obese countries' : 'Best 10 obese countries'",
       "as": "Group"
     }
   ],
@@ -72,12 +74,12 @@
           "field": "Group",
           "type": "nominal",
           "title": null,
-          "legend": { "orient": "bottom" },
+          "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 12
+          },
           "scale": {
-            "domain": [
-              "Top 10 obesity rates by country",
-              "Bottom 10 obesity rates by country"
-            ],
+            "domain": ["Worst 10 obese countries", "Best 10 obese countries"],
             "range": ["#d8b4fe", "#f2994a"]
           }
         },
@@ -131,5 +133,10 @@
     }
   ],
 
-  "config": { "legend": { "labelLimit": 400 }, "view": { "stroke": null } }
+  "config": {
+    "background": "transparent",
+    "view": { "stroke": "transparent" },
+    "axis": { "labelFontSize": 12, "titleFontSize": 12, "grid": false },
+    "legend": { "labelLimit": 400 }
+  }
 }

@@ -3,159 +3,263 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>FIT3179 — Multiple Views (Wk9 + Wk10)</title>
+    <title>Scarcity of Obesity — Visual Story</title>
 
+    <!-- Vega stack -->
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
 
     <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="container">
-      <h1 class="site-title">The Scarcity of Obesity</h1>
+    <main class="container">
+      <!-- HERO -->
+      <header class="hero wrap">
+        <h1 class="site-title">The Scarcity of Obesity</h1>
 
-      <section class="page-intro">
-        <p class="intro-text">
-          Have you ever been unhappy about yourself when you looked in the
-          mirror? Obesity could be one of the reasons why you think this way.
-          Obesity is a growing global health challenge that affects millions of
-          people and poses serious risks to long-term well-being. Defined by
-          excessive body fat accumulation, it is often measured using the Body
-          Mass Index (BMI), a simple calculation based on weight and height that
-          helps categorize individuals into healthy, overweight, or obese
-          ranges. However, obesity is more than just a number — it is shaped by
-          a complex mix of lifestyle choices, dietary habits, physical activity
-          levels, and more. This page explores these influences , offering a
-          comprehensive look at how such a scarce issue has developed in
-          Australia and worldwide, its health impacts and correlations, and the
-          steps individuals and societies can take to prevent and manage it as a
-          way forward.
-        </p>
+        <div class="split wrap">
+          <p>
+            Have you ever been unhappy about yourself when you looked in the
+            mirror? <strong>Obesity</strong> could be one of the reasons why you
+            think this way. Obesity is a
+            <strong>growing global health challenge</strong> that affects
+            millions of people and poses serious risks to long-term well-being.
+            Defined by excessive body fat accumulation, it is often measured
+            using the <strong>Body Mass Index (BMI)</strong>, a simple
+            calculation based on weight and height that helps categorize
+            individuals into healthy, overweight, or obese ranges.
+          </p>
+          <p>
+            However, obesity is more than just a number — it is shaped by a
+            complex mix of
+            <strong
+              >lifestyle choices, dietary habits, physical activity levels, and
+              more</strong
+            >. This page explores these influences, offering a comprehensive
+            look at how such a scarce issue has developed in Australia and
+            worldwide, its health impacts and correlations, and the steps
+            individuals and societies can take to prevent and manage it as a way
+            forward.
+          </p>
+        </div>
+      </header>
+
+      <!-- SECTION 1 -->
+      <section class="section">
+        <div class="section-band wrap">
+          <h2 class="section-title">Whats happening around us?</h2>
+        </div>
+
+        <h3 class="subhead wrap">Global Adult Obesity</h3>
+        <div class="vis-section wrap">
+          <div
+            id="map"
+            aria-label="Choropleth: global adult obesity rate"
+          ></div>
+        </div>
+
+        <div class="split wrap">
+          <p class="muted">
+            <strong>Obesity</strong> is a problem in the world including for
+            Australians. This map shows the obesity rates —
+            population-normalised — for adults with a BMI of 30 or higher in
+            2023. Unfortunately, not all countries are included in this analysis
+            due to missing data.
+          </p>
+          <p class="muted">
+            <strong>High obesity rates </strong>
+            stand out clearly in North America (the United States and Mexico)
+            and parts of the Middle East and North Africa (like Saudi Arabia and
+            Egypt). Despite how Australia is not the worse, it suggestive that
+            Australia should remain cautious to not over step itself.
+          </p>
+        </div>
+
+        <h3 class="subhead wrap">Rising Average BMI in Australia</h3>
+        <div class="vis-section wrap">
+          <div
+            id="bmi-line"
+            aria-label="Line chart: BMI trend by sex in Australia"
+          ></div>
+        </div>
+
+        <div class="split wrap">
+          <p class="muted">
+            This really begs the question should Australia actually be scared of
+            the issue of obesity? Despite Australia not being amongst the top
+            worst countries for obesity,
+          </p>
+          <p class="muted">
+            it's clear that that there is a steady upward trend across all
+            groups highlighting the gradual increase in average BMI (Body Mass
+            Index).
+            <span style="color: #ef553b; font-weight: bold">Males</span> seem to
+            be the most influenced by this pattern compared to compared to
+            <span style="color: #00cc96; font-weight: bold">females</span> .
+          </p>
+        </div>
       </section>
 
-      <section class="card">
-        <h2 class="center">Global Adult Obesity</h2>
-        <div id="map" aria-label="Choropleth: global adult obesity rate"></div>
-        <p class="eda">
-          <strong>Obesity</strong> is a problem in the world including for
-          Australians. This map shows the obesity rates -which has been
-          population normalised - for adults with a BMI of 30 or higher in 2023.
-          Unfortunately, not all countries are included in this analysis due to
-          missing data, such as Antarctica.
-          <strong>High obesity rates </strong>
-          stand out clearly in North America (the United States and Mexico) and
-          parts of the Middle East and North Africa (like Saudi Arabia and
-          Egypt). Despite how Australia is not the worse, it suggestive that
-          Australia should remain cautious to not over step itself.
-        </p>
+      <!-- SECTION 2 -->
+      <section class="section">
+        <div class="section-band wrap">
+          <h2 class="section-title">Why is obesity happening?</h2>
+        </div>
+
+        <div class="viz-row wrap">
+          <div class="vis-section">
+            <h3 class="subhead subhead--tight">
+              Obesity Rate vs Sugar Consumption
+            </h3>
+            <div
+              id="scatter"
+              aria-label="Scatter: obesity vs sugar consumption"
+            ></div>
+          </div>
+
+          <div class="vis-section">
+            <h3 class="subhead subhead--tight">
+              Obesity Rate vs Physical Activity
+            </h3>
+            <div
+              id="physical"
+              aria-label="Scatter: obesity vs physical activity"
+            ></div>
+          </div>
+        </div>
+
+        <div class="split wrap">
+          <p class="muted">
+            <strong>Multiple factors</strong> affect obesity in differing ways.
+            <strong> Sugar</strong> is suggested to be one of them. Although
+            data across countries is limited, the trend is clear with nations
+            having lower average sugar consumption (kg per capita) may tend to
+            have lower obesity rates.
+            <span style="color: #8b5cf6; font-weight: bold"
+              >The top 4 worst obese countries</span
+            >
+            avaliable sit in a quadrant that has high sugar consumtion and
+            majority of
+            <span style="color: #92400e; font-weight: bold"
+              >other countries</span
+            >
+            have lower obesity rates and sit within the quadrant with low sugar
+            consumption.
+          </p>
+          <p class="muted">
+            Also, taking care of your body through regular
+            <strong>physical activity</strong> is essential. Just as reducing
+            sugar consumption (measured in kilograms per capita) plays a key
+            role, physical activity has emerged as one of the most influential
+            factors in lowering obesity rates, as shown in the scatter plot.
+            This relationship is highlighted by the contrast in the data:
+            <span style="color: #d8b4fe; font-weight: bold"
+              >countries with the highest obesity rates</span
+            >
+            may tend to have a lower prevalence of sufficient physical activity,
+            underscoring the importance of staying active.
+          </p>
+        </div>
       </section>
 
-      <section class="card mt-24">
-        <h2 class="center">Rising Average BMI in Australia</h2>
-        <div
-          id="bmi-line"
-          aria-label="Line chart: BMI trend by sex in Australia"
-        ></div>
-        <p class="eda">
-          This really begs the question should Australia actually be scared of
-          the issue of obesity? Despite Australia not being amongst the top
-          worst countries for obesity, it's clear that that there is a steady
-          upward trend across all groups highlighting the gradual increase in
-          average BMI (Body Mass Index).
-        </p>
-      </section>
+      <!-- SECTION 3 -->
+      <section class="section">
+        <div class="section-band wrap">
+          <h2 class="section-title">How to avoid obesity</h2>
+        </div>
 
-      <section class="card mt-24">
-        <h2 class="center">Obesity Rate vs Sugar Consumption</h2>
-        <div
-          id="scatter"
-          aria-label="Scatter: obesity vs sugar consumption"
-        ></div>
-        <p class="eda">
-          Multiple factors affect obesity in differing ways. Cutting back on
-          sugar can be a powerful way to tackle obesity! Although data across
-          countries is limited, the trend is clear with nations having lower
-          average sugar consumption (kg per capita) tend to have lower obesity
-          rates.
-        </p>
-      </section>
+        <h3 class="subhead wrap">Changing Lifestyle Habits</h3>
+        <div class="vis-section wrap">
+          <div
+            id="stacked"
+            aria-label="100% stacked bar: behaviours vs obesity level"
+          ></div>
+        </div>
+        <div class="split wrap">
+          <p class="muted">
+            Even the <strong>micro-habits</strong> practiced each day need to be
+            addressed if there is a desire to avoid obesity. The implication is
+            that individuals with <strong>Obesity Type I</strong> and
+            <strong>Obesity Type III</strong> tend to
+            <span style="color: #cc5500; font-weight: bold"
+              >spend two or more hours using technology</span
+            >. This has a similar effect on <strong>Obesity Type II</strong>,
+            where the data show that the highest number of respondents were
+            <span style="color: #006400; font-weight: bold">smokers</span>.
+          </p>
+          <p class="muted">
+            Despite
+            <span style="color: #4b0082; font-weight: bold"
+              >high-calorie diets</span
+            >
+            appearing to be the main micro-habit driving the majority of obesity
+            cases, it can still be assumed that, in order to mitigate obesity,
+            the other two habits could also be reduced at the individual level.
+          </p>
+        </div>
 
-      <section class="card mt-24">
-        <h2 class="center">Changing Lifestyle habits</h2>
-        <div
-          id="stacked"
-          aria-label="Grouped bar chart showing top 10 lowest-sugar and calorie vegetables"
-        ></div>
-        <p class="eda">
-          Even the micro-habits practiced each day need to be addressed if there
-          is a desire to avoid obesity. The implication is that individuals with
-          Obesity Type I and Obesity Type III tend to spend two or more hours
-          using technology. This has a similar effect on Obesity Type II, where
-          the data show that the highest number of respondents were smokers.
-          Despite high-calorie diets appearing to be the main micro-habit
-          driving the majority of obesity cases, it can still be assumed that,
-          in order to mitigate obesity, the other two habits could also be
-          reduced at the individual level.
-        </p>
-      </section>
+        <h3 class="subhead wrap">Fruits, Vegetables &amp; Seafood to Limit</h3>
+        <div class="vis-section wrap">
+          <div
+            id="treemap"
+            aria-label="Treemap: top 10 foods by sugar calories"
+          ></div>
+        </div>
+        <div class="split wrap">
+          <p class="muted">
+            To help reduce the risk of obesity, making
+            <strong
+              >mindful choices about sugar intake can be highly
+              effective</strong
+            >. Sugar itself doesn't need to be completely eliminated — instead,
+            it should be managed wisely. In hindsight, fruits, vegetables and
+            seafood may all seem 'healthy', but some are worst than others when
+            combatting obesity.
+          </p>
+          <p class="muted">
+            The visualisation shows the
+            <strong> 10 worst fruits, vegetables, and seafood options</strong>
+            (from the avaliable data) ranked by their share of sugar calories.
+            There are certianly many others that provide a wide range of
+            healthier choices that can easily be incorporated into your diet
+            every day.
+          </p>
+        </div>
 
-      <section class="card mt-24">
-        <h2 class="center"></h2>
-        <div id="treemap" aria-label=""></div>
-        <p class="eda">
-          To help reduce the risk of obesity, making mindful choices about sugar
-          intake can be highly effective. Sugar itself doesn't need to be
-          completely eliminated — instead, it should be managed wisely. In
-          hindsight, fruits, vegetables and seafood may all seem 'healthy', but
-          some are worst than others when combatting obesity. The visualisation
-          shows the top 10 worst fruits, vegetables, and seafood options (from
-          the avaliable data) ranked by their share of sugar calories. There are
-          certianly many others that provide a wide range of healthier choices
-          that can easily be incorporated into your diet every day.
-        </p>
+        <h3 class="subhead wrap">Diseases Linked to Obesity</h3>
+        <div class="vis-section wrap">
+          <div
+            id="diseases"
+            aria-label="Bar chart: diseases linked to obesity"
+          ></div>
+        </div>
+        <div class="split wrap">
+          <p class="muted">
+            Be warned! Even if you are not concerned about obesity, there are
+            <strong>many diseases that should make you think twice</strong>. The
+            chart shows the top eight diseases linked to obesity across2003,
+            2011, 2015, and 2018.
+          </p>
+          <p class="muted">
+            The most significant among them accounts for an average of
+            <strong>3,105</strong>
+            attributable deaths in Australia, highlighting the serious health
+            risks associated with obesity and why it is crucial to take action
+            to prevent such outcomes.
+          </p>
+        </div>
       </section>
-
-      <section class="card mt-24">
-        <h2 class="center">Obesity Rates vs. Physical activity</h2>
-        <div id="physical" aria-label=""></div>
-        <p class="eda">
-          Taking care of your body through regular physical activity is
-          essential. Just as reducing sugar consumption (measured in kilograms
-          per capita) plays a key role, physical activity has emerged as one of
-          the most influential factors in lowering obesity rates, as shown in
-          the scatter plot. This relationship is highlighted by the contrast in
-          the data: countries with the highest obesity rates tend to have a
-          lower prevalence of sufficient physical activity, underscoring the
-          importance of staying active.
-        </p>
-      </section>
-
-      <section class="card mt-24">
-        <h2 class="center">Diseases linked to Obesity and deaths</h2>
-        <div
-          id="diseases"
-          aria-label="Line chart: BMI trend by sex in Australia"
-        ></div>
-        <p class="eda">
-          Be warned! Even if you are not concerned about obesity, there are many
-          diseases that should make you think twice. The chart shows the top
-          eight diseases linked to obesity across 2003, 2011, 2015, and 2018.
-          The most significant among them accounts for an average of 3,105
-          attributable deaths in Australia, highlighting the serious health
-          risks associated with obesity and why it is crucial to take action to
-          prevent such outcomes.
-        </p>
-      </section>
-    </div>
+    </main>
 
     <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
     <script>
+      // Keep your existing spec paths/IDs
       vegaEmbed("#map", "js/obesity_choropleth.vg.json", {
-        actions: { export: true, source: true, compiled: false, editor: true },
-      }).catch(console.error);
-
-      vegaEmbed("#scatter", "js/obesity_sugar_scatter.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
 
@@ -163,23 +267,19 @@
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
 
-      vegaEmbed("#treemap", "js/treemap.vg.json", {
-        actions: {
-          export: true,
-          source: false,
-          editor: true,
-        },
-      })
-        .then((result) => {
-          console.log("Treemap loaded successfully");
-        })
-        .catch(console.error);
-
-      vegaEmbed("#stacked", "js/stacked_bar.vg.json", {
+      vegaEmbed("#scatter", "js/obesity_sugar_scatter.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
 
       vegaEmbed("#physical", "js/physical_activity_quadrants.vg.json", {
+        actions: { export: true, source: true, compiled: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#treemap", "js/treemap.vg.json", {
+        actions: { export: true, source: false, editor: true },
+      }).catch(console.error);
+
+      vegaEmbed("#stacked", "js/stacked_bar.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);
 

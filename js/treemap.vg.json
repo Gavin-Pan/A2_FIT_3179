@@ -1,8 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega/v5.json",
   "description": "Treemap of Top 10 foods by sugar calories; percentages relative to top 10 only; color = % of calories from sugar.",
-  "width": 700,
-  "height": 450,
+  "width": 850,
+  "height": 750,
   "padding": 5,
 
   "data": [
@@ -123,17 +123,6 @@
     }
   ],
 
-  "legends": [
-    {
-      "fill": "color",
-      "title": "% Share of Sugar Calories of Top 10 Foods",
-      "orient": "right",
-      "gradientLength": 200,
-      "titleFontSize": 14,
-      "labelFontSize": 12
-    }
-  ],
-
   "marks": [
     {
       "type": "rect",
@@ -172,7 +161,7 @@
             "signal": "datum.FoodName + ' — ' + format(datum.ShareOfTop10, '.1f') + '%'"
           },
           "opacity": {
-            "signal": "(datum.x1 - datum.x0) > 50 && (datum.y1 - datum.y0) > 15 ? 1 : 0"
+            "signal": "(datum.x1 - datum.x0) > 15 && (datum.y1 - datum.y0) > 10 ? 1 : 0"
           }
         }
       }
@@ -220,8 +209,8 @@
           "align": { "value": "left" },
           "baseline": { "value": "middle" },
           "fontSize": { "value": 11 },
-          "fontWeight": { "value": "bold" },
-          "fill": { "value": "#5b0d4d" },
+          "fontWeight": { "value": "normal" },
+          "fill": { "value": "#000000" },
           "limit": { "value": 190 },
           "lineHeight": { "value": 14 },
           "text": {
@@ -237,5 +226,5 @@
     }
   ],
 
-  "title": "Fruits, Vegetables, Seafood to avoid consuming for less Sugar Calories"
+  "title": null
 }

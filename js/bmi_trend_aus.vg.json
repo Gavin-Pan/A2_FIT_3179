@@ -3,6 +3,8 @@
   "description": "Line chart showing BMI trend in Australia over years for both sexes, male, and female (tidy format).",
   "data": { "url": "data/clean_BMI_long.csv" },
   "title": "Rising Average BMI in Australia",
+  "background": "transparent",
+  "config": { "view": { "stroke": null } },
   "transform": [{ "filter": "datum.Country == 'Australia'" }],
   "params": [
     {

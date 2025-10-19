@@ -6,6 +6,29 @@
   --card: #f8fafc; /* slate-50 */
   --border: #e2e8f0; /* slate-200 */
   --brand: #0ea5e9; /* sky-500 */
+
+  --band: #e0f2fe; /* light sky for section band */
+  --band-text: #0c4a6e; /* deep slate/blue for band title */
+
+  /* Page & content width controls */
+  --page-max: 1100px;
+  --viz-max: 900px; /* Maximum width for visualizations */
+  --gutter: 32px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+.site-title,
+.section-title,
+.subhead {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
 }
 
 /* ---------- Base ---------- */
@@ -37,29 +60,177 @@ a:hover {
 }
 
 .container {
-  max-width: 1100px;
+  max-width: var(--page-max);
   margin: 24px auto 64px;
-  padding: 0 16px;
+  padding: 24px 48px 48px;
+  background: #f6f0ff;
+  border: 2px solid #e2e8f0;
+  border-radius: 16px;
+  box-shadow: 0 2px 10px rgba(2, 6, 23, 0.06);
 }
 
-.card {
+/* ---------- Hero ---------- */
+.hero {
+  padding: 8px 0 12px;
+}
+.site-title {
+  font-size: clamp(28px, 5vw, 48px);
+  text-align: center;
+  margin: 8px 0 16px;
+}
+
+/* ---------- Section band headers ---------- */
+.section {
+  margin-top: 40px;
+}
+.section-band {
+  background: var(--band);
+  border: 1px solid #bae6fd;
+  border-radius: 12px;
+  padding: 14px 18px;
+  margin-bottom: 16px;
+}
+.section-title {
+  margin: 0;
+  font-size: clamp(20px, 3vw, 30px);
+  color: var(--band-text);
+  text-align: center;
+  font-weight: 800;
+}
+
+/* ---------- Subheads ---------- */
+.subhead {
+  margin: 16px 0 8px;
+  font-size: clamp(18px, 2.4vw, 24px);
+  font-weight: 700;
+  text-decoration: null;
+  text-underline-offset: 4px;
+}
+.subhead--tight {
+  margin-top: 0;
+}
+
+/* ---------- Two-column text ---------- */
+.split {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  margin: 8px 0 24px;
+  width: 100%;
+}
+.split p {
+  margin: 0;
+}
+.muted {
+  color: var(--muted);
+}
+
+/* Stack on small screens */
+@media (max-width: 900px) {
+  .split {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ---------- Centered content wrapper ---------- */
+.wrap {
+  width: 100%;
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* ---------- Visualization containers ---------- */
+.vis-card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 14px;
-  padding: 16px;
+  padding: 12px;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  margin-bottom: 16px;
 }
 
-.site-title {
-  font-size: clamp(22px, 4vw, 32px);
-  text-align: center;
-  margin: 12px 0 8px;
+/* Single visualization sections - centered and constrained */
+.vis-section {
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 16px;
 }
 
-/* ---------- Vis containers ---------- */
-#scatter {
+/* Text that follows single visualizations should match viz width */
+.vis-section + .split {
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Subheads that precede single visualizations should match viz width */
+.subhead:not(.subhead--tight) {
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Visualizations stacked vertically, all centered */
+.viz-row {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin: 0 auto 12px;
   width: 100%;
-  min-height: 480px;
+  max-width: var(--viz-max);
+}
+
+.viz-row .vis-section {
+  min-width: 0;
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Text following viz-row should match viz width */
+.viz-row + .split {
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 900px) {
+  .viz-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Make embeds fill their containers properly */
+.vis-section .vega-embed,
+.vis-section .vega-embed > div {
+  width: 100% !important;
+}
+
+.vis-section svg,
+.vis-section canvas {
+  max-width: 100% !important;
+  /* Remove: height: auto; */
+  display: block;
+  margin: 0 auto;
+}
+
+/* Transparent background ONLY for charts wrapped in .no-bg */
+.no-bg,
+.no-bg .vega-embed,
+.no-bg .vega-embed > div {
+  background: transparent !important;
+}
+
+.no-bg svg,
+.no-bg canvas {
+  background: transparent !important;
+}
+
+/* Make embeds fill their boxes */
+.vis-card > div[id] {
+  width: 100%;
 }
 
 /* Vega-Embed toolbar */
@@ -67,10 +238,25 @@ a:hover {
   font-size: 12px;
 }
 
-/* ---------- Caption ---------- */
-.eda {
-  margin: 12px auto 0;
-  font-size: 15px;
-  color: var(--muted);
-  max-width: 70ch;
+/* A little extra breathing room after last section */
+.section:last-of-type {
+  margin-bottom: 32px;
+}
+
+/* Section band respects content width */
+.section-band.wrap {
+  max-width: var(--viz-max);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Split text respects viz width */
+.hero .split {
+  max-width: var(--viz-max);
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 24px 24px 48px;
+  }
 }

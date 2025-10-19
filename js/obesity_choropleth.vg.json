@@ -3,6 +3,8 @@
   "width": 960,
   "height": 520,
   "projection": { "type": "equalEarth" },
+  "background": "transparent",
+  "config": { "view": { "stroke": null } },
   "layer": [
     {
       "data": { "sphere": true },

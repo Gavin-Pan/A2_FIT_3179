@@ -2,6 +2,10 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "description": "100% stacked bar: behaviours vs obesity level",
   "data": { "url": "data/ObesityDataSet_raw_and_data_sinthetic.csv" },
+  "background": "transparent",
+  "width": 700,
+  "height": 400,
+  "config": { "view": { "stroke": null } },
 
   "transform": [
     {
@@ -49,8 +53,8 @@
         "labelAngle": -40,
         "labelAlign": "right",
         "labelOverlap": false,
-        "labelFontSize": 11,
-        "titleFontSize": 11,
+        "labelFontSize": 12,
+        "titleFontSize": 12,
         "titleFontWeight": "bold"
       }
     },
@@ -63,8 +67,8 @@
       "axis": {
         "title": "Share of people",
         "format": ".0%",
-        "labelFontSize": 11,
-        "titleFontSize": 11,
+        "labelFontSize": 12,
+        "titleFontSize": 12,
         "titleFontWeight": "bold"
       }
     },
@@ -88,8 +92,11 @@
       },
       "legend": {
         "orient": "right",
-        "labelFontSize": 11,
-        "titleFontSize": 11
+        "labelFontSize": 13,
+        "titleFontSize": 13,
+
+        "labelLimit": 1000,
+        "titleLimit": 1000
       }
     },
 

@@ -1,8 +1,10 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 960,
-  "height": 520,
+  "width": 500,
+  "height": 400,
   "data": { "url": "data/sugar_consumption_dataset_.csv" },
+  "background": "transparent",
+  "config": { "view": { "stroke": null } },
 
   "transform": [
     {
@@ -27,7 +29,7 @@
       "sort": [{ "field": "avg_obesity", "order": "descending" }]
     },
     {
-      "calculate": "datum.obesity_rank <= 4 ? 'Top 4 obesity countries' : 'Other countries'",
+      "calculate": "datum.obesity_rank <= 4 ? 'Worst 4 obese countries' : 'Other countries'",
       "as": "Category"
     }
   ],
@@ -97,8 +99,12 @@
           "field": "Category",
           "type": "nominal",
           "title": null,
+          "legend": {
+            "labelFontSize": 12,
+            "titleFontSize": 12
+          },
           "scale": {
-            "domain": ["Top 4 obesity countries", "Other countries"],
+            "domain": ["Worst 4 obese countries", "Other countries"],
             "range": ["#8b5cf6", "#92400e"]
           }
         },
@@ -122,13 +128,27 @@
     {
       "transform": [{ "filter": "datum.Country == 'China'" }],
       "mark": {
+        "type": "rule",
+        "strokeWidth": 1.5,
+        "color": "#374151"
+      },
+      "encoding": {
+        "x": { "field": "avg_sugar" },
+        "y": { "field": "avg_obesity" },
+        "x2": { "datum": 37.2 },
+        "y2": { "datum": 22.6 }
+      }
+    },
+    {
+      "transform": [{ "filter": "datum.Country == 'China'" }],
+      "mark": {
         "type": "text",
         "align": "left",
         "baseline": "middle",
-        "dx": 10,
-        "dy": -40,
-        "fontSize": 11,
-        "fontStyle": "italic",
+        "dx": 30,
+        "dy": -270,
+        "fontSize": 12,
+        "fontStyle": "normal",
         "color": "#374151"
       },
       "encoding": {
@@ -152,6 +172,6 @@
   "config": {
     "background": "white",
     "view": { "stroke": "transparent" },
-    "axis": { "labelFontSize": 11, "titleFontSize": 11, "grid": false }
+    "axis": { "labelFontSize": 12, "titleFontSize": 12, "grid": false }
   }
 }
