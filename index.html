@@ -9,6 +9,7 @@
     <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-lite@5"></script>
     <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
 
     <link rel="stylesheet" href="css/styles.css" />
     <link
@@ -20,7 +21,7 @@
     <main class="container">
       <!-- HERO -->
       <header class="hero wrap">
-        <h1 class="site-title">The Scarcity of Obesity</h1>
+        <h1 class="site-title"><strong>Scarcity of Obesity</strong></h1>
 
         <div class="split wrap">
           <p>
@@ -49,7 +50,7 @@
         </div>
       </header>
 
-      <!-- SECTION 1 -->
+      <!-- first section -->
       <section class="section">
         <div class="section-band wrap">
           <h2 class="section-title">Whats happening around us?</h2>
@@ -105,7 +106,7 @@
         </div>
       </section>
 
-      <!-- SECTION 2 -->
+      <!-- 2nd section -->
       <section class="section">
         <div class="section-band wrap">
           <h2 class="section-title">Why is obesity happening?</h2>
@@ -167,7 +168,7 @@
         </div>
       </section>
 
-      <!-- SECTION 3 -->
+      <!-- final seciotn -->
       <section class="section">
         <div class="section-band wrap">
           <h2 class="section-title">How to avoid obesity</h2>
@@ -254,11 +255,104 @@
           </p>
         </div>
       </section>
+
+      <hr
+        style="border: 0; height: 6px; background: #ddd; margin: 3rem 0 1.5rem"
+      />
+
+      <footer
+        class="wrap"
+        style="
+          display: flex;
+          justify-content: space-between;
+          align-items: flex-start;
+          gap: 2rem;
+          flex-wrap: wrap;
+          font-size: 0.95rem;
+          color: #555;
+          padding-bottom: 2rem;
+        "
+      >
+        <!-- LEFT SIDE -->
+        <div style="min-width: 240px">
+          <p style="margin: 0 0 0.25rem 0">
+            <strong>Author:</strong>
+            <span style="font-weight: normal">Gavin Pan</span>
+          </p>
+          <p style="margin: 0">
+            <span><strong>Date:</strong> 19 Oct 2025 </span>
+          </p>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div
+          style="
+            min-width: 280px;
+            max-width: 500px;
+            text-align: right;
+            word-break: break-all;
+          "
+        >
+          <p style="margin: 0 0 0.25rem 0"><strong>Data sources:</strong></p>
+          <ul
+            style="
+              margin: 0.25rem 0 0 0;
+              padding: 0;
+              list-style: none;
+              line-height: 1.6;
+            "
+          >
+            <li>
+              <a
+                href="https://github.com/avarma7/Obesity-Exploration-Data-Visualization-Project?tab=readme-ov-file"
+                target="_blank"
+                style="color: #5b5eee; text-decoration: none"
+              >
+                GitHub — Obesity Data Visualization Project
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kaggle.com/datasets/fatemehmehrparvar/obesity-levels"
+                target="_blank"
+                style="color: #5b5eee; text-decoration: none"
+              >
+                Kaggle — Obesity Levels Dataset
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kaggle.com/code/iamtapendu/global-sugar-consumption-trend-analysis/input?select=sugar_consumption_dataset.csv"
+                target="_blank"
+                style="color: #5b5eee; text-decoration: none"
+              >
+                Kaggle — Global Sugar Consumption Analysis
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kaggle.com/datasets/cid007/food-and-vegetable-nutrition-dataset"
+                target="_blank"
+                style="color: #5b5eee; text-decoration: none"
+              >
+                Kaggle — Food & Vegetable Nutrition Dataset
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.kaggle.com/code/scottmduda/visualizing-global-obesity"
+                target="_blank"
+                style="color: #5b5eee; text-decoration: none"
+              >
+                Kaggle — Visualizing Obesity and diseases
+              </a>
+            </li>
+          </ul>
+        </div>
+      </footer>
     </main>
 
-    <script src="https://cdn.jsdelivr.net/npm/vega-wordcloud@4"></script>
     <script>
-      // Keep your existing spec paths/IDs
       vegaEmbed("#map", "js/obesity_choropleth.vg.json", {
         actions: { export: true, source: true, compiled: false, editor: true },
       }).catch(console.error);

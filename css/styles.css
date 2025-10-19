@@ -1,18 +1,17 @@
 /* ---------- Design tokens ---------- */
 :root {
   --bg: #ffffff;
-  --text: #0f172a; /* slate-900 */
-  --muted: #475569; /* slate-600 */
-  --card: #f8fafc; /* slate-50 */
-  --border: #e2e8f0; /* slate-200 */
-  --brand: #0ea5e9; /* sky-500 */
+  --text: #0f172a;
+  --muted: #475569;
+  --card: #f8fafc;
+  --border: #e2e8f0;
+  --brand: #0ea5e9;
 
-  --band: #e0f2fe; /* light sky for section band */
-  --band-text: #0c4a6e; /* deep slate/blue for band title */
+  --band: #e0f2fe;
+  --band-text: #0c4a6e;
 
-  /* Page & content width controls */
   --page-max: 1100px;
-  --viz-max: 900px; /* Maximum width for visualizations */
+  --viz-max: 900px;
   --gutter: 32px;
 }
 
@@ -69,7 +68,6 @@ a:hover {
   box-shadow: 0 2px 10px rgba(2, 6, 23, 0.06);
 }
 
-/* ---------- Hero ---------- */
 .hero {
   padding: 8px 0 12px;
 }
@@ -79,7 +77,6 @@ a:hover {
   margin: 8px 0 16px;
 }
 
-/* ---------- Section band headers ---------- */
 .section {
   margin-top: 40px;
 }
@@ -98,7 +95,6 @@ a:hover {
   font-weight: 800;
 }
 
-/* ---------- Subheads ---------- */
 .subhead {
   margin: 16px 0 8px;
   font-size: clamp(18px, 2.4vw, 24px);
@@ -110,7 +106,7 @@ a:hover {
   margin-top: 0;
 }
 
-/* ---------- Two-column text ---------- */
+/* -------- Two-column text ----- */
 .split {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -125,7 +121,6 @@ a:hover {
   color: var(--muted);
 }
 
-/* Stack on small screens */
 @media (max-width: 900px) {
   .split {
     grid-template-columns: 1fr;
@@ -140,7 +135,6 @@ a:hover {
   margin-right: auto;
 }
 
-/* ---------- Visualization containers ---------- */
 .vis-card {
   background: var(--card);
   border: 1px solid var(--border);
@@ -150,7 +144,6 @@ a:hover {
   margin-bottom: 16px;
 }
 
-/* Single visualization sections - centered and constrained */
 .vis-section {
   max-width: var(--viz-max);
   margin-left: auto;
@@ -158,21 +151,18 @@ a:hover {
   margin-bottom: 16px;
 }
 
-/* Text that follows single visualizations should match viz width */
 .vis-section + .split {
   max-width: var(--viz-max);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Subheads that precede single visualizations should match viz width */
 .subhead:not(.subhead--tight) {
   max-width: var(--viz-max);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Visualizations stacked vertically, all centered */
 .viz-row {
   display: grid;
   grid-template-columns: 1fr;
@@ -189,7 +179,6 @@ a:hover {
   margin-right: auto;
 }
 
-/* Text following viz-row should match viz width */
 .viz-row + .split {
   max-width: var(--viz-max);
   margin-left: auto;
@@ -202,7 +191,6 @@ a:hover {
   }
 }
 
-/* Make embeds fill their containers properly */
 .vis-section .vega-embed,
 .vis-section .vega-embed > div {
   width: 100% !important;
@@ -211,12 +199,11 @@ a:hover {
 .vis-section svg,
 .vis-section canvas {
   max-width: 100% !important;
-  /* Remove: height: auto; */
+
   display: block;
   margin: 0 auto;
 }
 
-/* Transparent background ONLY for charts wrapped in .no-bg */
 .no-bg,
 .no-bg .vega-embed,
 .no-bg .vega-embed > div {
@@ -228,29 +215,24 @@ a:hover {
   background: transparent !important;
 }
 
-/* Make embeds fill their boxes */
 .vis-card > div[id] {
   width: 100%;
 }
 
-/* Vega-Embed toolbar */
 .vega-actions a {
   font-size: 12px;
 }
 
-/* A little extra breathing room after last section */
 .section:last-of-type {
   margin-bottom: 32px;
 }
 
-/* Section band respects content width */
 .section-band.wrap {
   max-width: var(--viz-max);
   margin-left: auto;
   margin-right: auto;
 }
 
-/* Split text respects viz width */
 .hero .split {
   max-width: var(--viz-max);
 }
