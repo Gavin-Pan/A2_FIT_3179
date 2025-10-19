@@ -99,6 +99,17 @@
         },
         { "type": "filter", "expr": "!datum.children" }
       ]
+    },
+
+    {
+      "name": "carrotItem",
+      "source": "treed",
+      "transform": [
+        {
+          "type": "filter",
+          "expr": "indexof(lower(datum.FoodName), 'carrot') >= 0"
+        }
+      ]
     }
   ],
 
@@ -115,7 +126,7 @@
   "legends": [
     {
       "fill": "color",
-      "title": null,
+      "title": "% Share of Sugar Calories of Top 10 Foods",
       "orient": "right",
       "gradientLength": 200,
       "titleFontSize": 14,
@@ -139,7 +150,7 @@
         },
         "update": {
           "tooltip": {
-            "signal": "{'Food': datum.FoodName, 'Share of Top 10 Sugar Calories': format(datum.ShareOfTop10, '.1f') + '%', '% Calories from Sugar': format(datum.PctSugarCals, '.1f') + '%', 'Calories': datum.CaloriesNum, 'Sugars (g)': datum.SugarsNum}"
+            "signal": "{'Food': datum.FoodName, 'Share of Top Sugar Calories': format(datum.ShareOfTop10, '.1f') + '%',  'Sugars (g)': datum.SugarsNum}"
           }
         }
       }
@@ -165,8 +176,66 @@
           }
         }
       }
+    },
+
+    {
+      "type": "rule",
+      "from": { "data": "carrotItem" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "(datum.x0 + datum.x1) / 2" },
+          "y": { "signal": "(datum.y0 + datum.y1) / 2" },
+          "x2": { "signal": "(datum.x0 + datum.x1) / 2 + 15" },
+          "y2": { "signal": "datum.y0 +50" },
+          "stroke": { "value": "#5b0d4d" },
+          "strokeWidth": { "value": 1.5 }
+        }
+      }
+    },
+
+    {
+      "type": "rect",
+      "from": { "data": "carrotItem" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "(datum.x0 + datum.x1) / 2 + 18 - 6" },
+          "y": { "signal": "datum.y0 + 50 - 18" },
+          "width": { "value": 120 },
+          "height": { "value": 78 },
+          "fill": { "value": "white" },
+          "stroke": { "value": "#5b0d4d" },
+          "strokeWidth": { "value": 1 },
+          "cornerRadius": { "value": 3 }
+        }
+      }
+    },
+
+    {
+      "type": "text",
+      "from": { "data": "carrotItem" },
+      "encode": {
+        "enter": {
+          "x": { "signal": "(datum.x0 + datum.x1) / 2 + 18" },
+          "y": { "signal": "datum.y0 + 50" },
+          "align": { "value": "left" },
+          "baseline": { "value": "middle" },
+          "fontSize": { "value": 11 },
+          "fontWeight": { "value": "bold" },
+          "fill": { "value": "#5b0d4d" },
+          "limit": { "value": 190 },
+          "lineHeight": { "value": 14 },
+          "text": {
+            "value": [
+              "Beware of Carrot",
+              "- worst vegetable to",
+              "consume out of",
+              "the top 10 worst"
+            ]
+          }
+        }
+      }
     }
   ],
 
-  "title": "Fruits, Vegetables, Seafood to consume for less Sugar Calories"
+  "title": "Fruits, Vegetables, Seafood to avoid consuming for less Sugar Calories"
 }

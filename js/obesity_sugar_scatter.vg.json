@@ -85,7 +85,13 @@
         }
       ],
       "transform": [{ "filter": { "param": "cat_select" } }],
-      "mark": { "type": "point", "filled": true, "size": 250 },
+      "mark": {
+        "type": "point",
+        "filled": true,
+        "size": 250,
+        "stroke": "#1f2937",
+        "strokeWidth": 1.5
+      },
       "encoding": {
         "color": {
           "field": "Category",
@@ -121,7 +127,7 @@
         "baseline": "middle",
         "dx": 10,
         "dy": -40,
-        "fontSize": 12,
+        "fontSize": 11,
         "fontStyle": "italic",
         "color": "#374151"
       },
@@ -146,6 +152,6 @@
   "config": {
     "background": "white",
     "view": { "stroke": "transparent" },
-    "axis": { "labelFontSize": 12, "titleFontSize": 12, "grid": false }
+    "axis": { "labelFontSize": 11, "titleFontSize": 11, "grid": false }
   }
 }

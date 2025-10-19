@@ -25,6 +25,10 @@
             "key": "cca3",
             "fields": ["obesityRatesByCountry_obesityRate", "country"]
           }
+        },
+        {
+          "calculate": "isValid(datum.obesityRatesByCountry_obesityRate) ? format(datum.obesityRatesByCountry_obesityRate, '.2f') + '%' : 'N/A'",
+          "as": "obesityRateFormatted"
         }
       ],
       "mark": { "type": "geoshape", "stroke": "white", "strokeWidth": 0.5 },
@@ -44,10 +48,9 @@
         "tooltip": [
           { "field": "properties.NAME", "type": "nominal", "title": "Country" },
           {
-            "field": "obesityRatesByCountry_obesityRate",
-            "type": "quantitative",
-            "title": "Obesity rate",
-            "format": ".2f"
+            "field": "obesityRateFormatted",
+            "type": "nominal",
+            "title": "Obesity rate"
           }
         ]
       }
@@ -55,7 +58,7 @@
 
     {
       "data": {
-        "values": [{ "x1": 100.7751, "y1": -50.2744, "x2": 160, "y2": -30 }]
+        "values": [{ "x1": 100.7751, "y1": -50.2744, "x2": 150, "y2": -30 }]
       },
       "mark": {
         "type": "rule",
@@ -92,9 +95,13 @@
       "data": {
         "values": [
           {
-            "longitude": 10,
-            "latitude": -50,
-            "label": "Australia:\nOne of the highest obesity rates in the OECD.\nPublic health campaigns are ongoing."
+            "longitude": 40,
+            "latitude": -42,
+            "label": [
+              "Australia's in 2023 29%",
+              "obesity rate is more",
+              "subtle but still scary!"
+            ]
           }
         ]
       },

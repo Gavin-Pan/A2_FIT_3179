@@ -4,6 +4,13 @@
   "data": { "url": "data/clean_BMI_long.csv" },
   "title": "Rising Average BMI in Australia",
   "transform": [{ "filter": "datum.Country == 'Australia'" }],
+  "params": [
+    {
+      "name": "sex_highlight",
+      "select": { "type": "point", "fields": ["Sex"] },
+      "bind": "legend"
+    }
+  ],
   "mark": { "type": "line", "point": true },
   "encoding": {
     "x": {
@@ -14,7 +21,9 @@
       "axis": {
         "format": "%Y",
         "labelAngle": 0,
-        "labelFontSize": 12,
+        "labelFontSize": 11,
+        "titleFontSize": 11,
+        "titleFontWeight": "bold",
         "grid": false
       }
     },
@@ -22,10 +31,11 @@
       "field": "BMI",
       "type": "quantitative",
       "title": "Average BMI",
-      "scale": {
-        "zero": false
-      },
+      "scale": { "zero": false },
       "axis": {
+        "labelFontSize": 11,
+        "titleFontSize": 11,
+        "titleFontWeight": "bold",
         "grid": false
       }
     },
@@ -36,14 +46,32 @@
       "scale": {
         "domain": ["Both sexes", "Male", "Female"],
         "range": ["#636EFA", "#EF553B", "#00CC96"]
+      },
+      "legend": {
+        "labelFontSize": 11,
+        "titleFontSize": 11
       }
     },
+    "strokeWidth": {
+      "condition": { "param": "sex_highlight", "value": 3 },
+      "value": 1.5
+    },
+    "opacity": {
+      "condition": { "param": "sex_highlight", "value": 1 },
+      "value": 0.2
+    },
     "tooltip": [
-      { "field": "Year", "type": "temporal" },
+      {
+        "field": "Year",
+        "type": "temporal",
+        "timeUnit": "year",
+        "title": "Year"
+      },
       { "field": "Sex", "type": "nominal" },
       { "field": "BMI", "type": "quantitative", "format": ".2f" }
     ]
   },
+
   "width": 600,
   "height": 400
 }

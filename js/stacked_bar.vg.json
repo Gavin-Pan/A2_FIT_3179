@@ -5,22 +5,27 @@
 
   "transform": [
     {
-      "calculate": "replace(datum.NObeyesdad, '_', ' ')",
+      "calculate": "replace(datum.NObeyesdad, /_/g, ' ')",
       "as": "Obesity Level"
     },
-
     { "calculate": "datum.FAVC === 'yes' ? 1 : 0", "as": "FAVC_yes" },
     { "calculate": "datum.SMOKE === 'yes' ? 1 : 0", "as": "SMOKE_yes" },
-
     { "calculate": "toNumber(datum.TUE) >= 2 ? 1 : 0", "as": "TUE_high" },
-
     {
       "fold": ["FAVC_yes", "SMOKE_yes", "TUE_high"],
       "as": ["_behaviour_key", "value"]
     },
     {
-      "calculate": "datum._behaviour_key === 'FAVC_yes' ? 'Do you eat high caloric food frequently?' : datum._behaviour_key === 'SMOKE_yes' ? 'Do you smoke?' : 'How much time do you use technological devices (high screen time)?'",
+      "calculate": "datum._behaviour_key === 'FAVC_yes' ? 'Do you eat high caloric food frequently?' : datum._behaviour_key === 'SMOKE_yes' ? 'Do you smoke?' : 'Did you spend a high amount of time using tech devices (2 hrs or more)?'",
       "as": "Behaviour"
+    }
+  ],
+
+  "params": [
+    {
+      "name": "behaviour_highlight",
+      "select": { "type": "point", "fields": ["Behaviour"] },
+      "bind": "legend"
     }
   ],
 
@@ -43,7 +48,10 @@
       "axis": {
         "labelAngle": -40,
         "labelAlign": "right",
-        "labelOverlap": false
+        "labelOverlap": false,
+        "labelFontSize": 11,
+        "titleFontSize": 11,
+        "titleFontWeight": "bold"
       }
     },
 
@@ -52,7 +60,13 @@
       "field": "value",
       "type": "quantitative",
       "stack": "normalize",
-      "axis": { "title": "Share of people", "format": ".0%" }
+      "axis": {
+        "title": "Share of people",
+        "format": ".0%",
+        "labelFontSize": 11,
+        "titleFontSize": 11,
+        "titleFontWeight": "bold"
+      }
     },
 
     "color": {
@@ -62,9 +76,26 @@
       "sort": [
         "Do you eat high caloric food frequently?",
         "Do you smoke?",
-        "How much time do you use technological devices (high screen time)?"
+        "Did you spend a high amount of time using tech devices (2 hrs or more)?"
       ],
-      "legend": { "orient": "right" }
+      "scale": {
+        "domain": [
+          "Do you eat high caloric food frequently?",
+          "Do you smoke?",
+          "Did you spend a high amount of time using tech devices (2 hrs or more)?"
+        ],
+        "range": ["#4B0082", "#006400", "#CC5500"]
+      },
+      "legend": {
+        "orient": "right",
+        "labelFontSize": 11,
+        "titleFontSize": 11
+      }
+    },
+
+    "opacity": {
+      "condition": { "param": "behaviour_highlight", "value": 1 },
+      "value": 0.25
     },
 
     "tooltip": [
@@ -74,7 +105,7 @@
         "aggregate": "mean",
         "field": "value",
         "type": "quantitative",
-        "title": "Percentage",
+        "title": "Share of respodents",
         "format": ".1%"
       }
     ]

@@ -3,23 +3,13 @@
   "description": "Ranked bars of diseases linked to Overweight (including obesity), sized by Attributable deaths.",
   "width": 900,
   "height": { "signal": "chartH" },
-  "padding": { "top": 10, "left": 10, "right": 10, "bottom": 50 },
+  "padding": { "top": 10, "left": 10, "right": 50, "bottom": 50 },
 
   "signals": [
     { "name": "riskFilter", "value": "Overweight (including obesity)" },
     { "name": "topN", "value": 8 },
     { "name": "chartH", "value": 400 },
 
-    {
-      "name": "sexSel",
-      "value": "All",
-      "bind": {
-        "element": "#controls",
-        "input": "select",
-        "options": ["All", "Persons", "Males", "Females"],
-        "name": "Sex: "
-      }
-    },
     {
       "name": "yearSel",
       "value": "All",
@@ -57,10 +47,6 @@
         },
         {
           "type": "filter",
-          "expr": "sexSel === 'All' ? true : datum.Sex === sexSel"
-        },
-        {
-          "type": "filter",
           "expr": "yearSel === 'All' ? true : toString(datum.Year) === yearSel"
         }
       ]
@@ -72,7 +58,7 @@
         {
           "type": "aggregate",
           "groupby": ["Linked disease"],
-          "ops": ["sum"],
+          "ops": ["mean"],
           "fields": ["DeathsNum"],
           "as": ["DeathsNum"]
         },
@@ -92,6 +78,19 @@
           "type": "collect",
           "sort": { "field": "DeathsNum", "order": "ascending" }
         }
+      ]
+    },
+    {
+      "name": "highestDisease",
+      "source": "byDisease",
+      "transform": [
+        {
+          "type": "window",
+          "sort": { "field": "DeathsNum", "order": "descending" },
+          "ops": ["rank"],
+          "as": ["maxRank"]
+        },
+        { "type": "filter", "expr": "datum.maxRank === 1" }
       ]
     }
   ],
@@ -120,12 +119,20 @@
       "scale": "x",
       "title": "Attributable deaths",
       "format": ",.0f",
-      "grid": true,
+      "grid": false,
       "tickCount": 8,
       "labelOverlap": true,
-      "titlePadding": 10
+      "titlePadding": 10,
+      "labelFontSize": 11,
+      "titleFontSize": 11
     },
-    { "orient": "left", "scale": "y", "title": null, "labelLimit": 300 }
+    {
+      "orient": "left",
+      "scale": "y",
+      "title": null,
+      "labelLimit": 300,
+      "labelFontSize": 11
+    }
   ],
 
   "marks": [
@@ -138,40 +145,73 @@
           "height": { "scale": "y", "band": 1 },
           "x": { "scale": "x", "value": 0 },
           "x2": { "scale": "x", "field": "DeathsNum" },
-          "fill": { "value": "steelblue" }
+          "fill": { "value": "#6A0DAD" }
         },
         "update": {
-          "fillOpacity": { "value": 0.85 },
+          "fillOpacity": { "value": 0.9 },
           "tooltip": {
             "signal": "{'Disease': datum['Linked disease'], 'Attributable deaths': format(datum.DeathsNum, ',')}"
           }
         },
-        "hover": {
-          "fillOpacity": { "value": 1 }
+        "hover": { "fillOpacity": { "value": 1 } }
+      }
+    },
+
+    {
+      "type": "rule",
+      "from": { "data": "highestDisease" },
+      "encode": {
+        "enter": {
+          "x": { "scale": "x", "field": "DeathsNum", "mult": 0.75 },
+          "y": { "scale": "y", "field": "Linked disease", "band": 0.5 },
+          "x2": { "scale": "x", "field": "DeathsNum", "mult": 0.75 },
+          "y2": {
+            "scale": "y",
+            "field": "Linked disease",
+            "band": 0.5,
+            "offset": -60
+          },
+          "stroke": { "value": "#374151" },
+          "strokeWidth": { "value": 1.5 }
         }
       }
     },
     {
       "type": "text",
-      "from": { "data": "byDisease" },
+      "from": { "data": "highestDisease" },
       "encode": {
-        "update": {
-          "y": { "scale": "y", "field": "Linked disease", "band": 0.5 },
-          "baseline": { "value": "middle" },
-          "text": { "signal": "format(datum.DeathsNum, ',')" },
+        "enter": {
+          "x": { "scale": "x", "field": "DeathsNum", "mult": 0.75 },
+          "y": {
+            "scale": "y",
+            "field": "Linked disease",
+            "band": 0.5,
+            "offset": -80
+          },
+          "align": { "value": "center" },
+          "baseline": { "value": "bottom" },
+          "fill": { "value": "#374151" },
           "fontSize": { "value": 11 },
-          "fontWeight": { "value": "bold" },
-          "fill": { "value": "#333" },
-          "x": { "scale": "x", "field": "DeathsNum", "offset": 6 },
-          "align": { "value": "left" }
+          "fontStyle": { "value": "italic" }
+        },
+        "update": {
+          "text": {
+            "signal": "['Highest attributable deaths:', datum['Linked disease'] + ' (' + format(datum.DeathsNum, ',') + ')']"
+          }
         }
       }
     }
   ],
 
   "title": {
-    "text": "Diseases linked to Overweight (including obesity) — Attributable deaths",
+    "text": null,
     "anchor": "start",
-    "fontSize": 16
+    "fontSize": 11
+  },
+
+  "config": {
+    "axis": { "labelFontSize": 11, "titleFontSize": 11, "grid": false },
+    "legend": { "labelFontSize": 11, "titleFontSize": 11 },
+    "title": { "fontSize": 11 }
   }
 }
