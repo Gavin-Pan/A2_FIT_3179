@@ -3,7 +3,7 @@
   "description": "100% stacked bar: behaviours vs obesity level",
   "data": { "url": "data/ObesityDataSet_raw_and_data_sinthetic.csv" },
   "background": "transparent",
-  "width": 700,
+  "width": 800,
   "height": 400,
   "config": { "view": { "stroke": null } },
 
@@ -28,7 +28,14 @@
   "params": [
     {
       "name": "behaviour_highlight",
-      "select": { "type": "point", "fields": ["Behaviour"] },
+      "select": {
+        "type": "point",
+        "fields": ["Behaviour"],
+        "on": "click",
+        "toggle": false,
+        "empty": "all",
+        "clear": "mouseup"
+      },
       "bind": "legend"
     }
   ],
@@ -94,7 +101,6 @@
         "orient": "right",
         "labelFontSize": 13,
         "titleFontSize": 13,
-
         "labelLimit": 1000,
         "titleLimit": 1000
       }
@@ -112,7 +118,7 @@
         "aggregate": "mean",
         "field": "value",
         "type": "quantitative",
-        "title": "Share of respodents",
+        "title": "Share of respondents",
         "format": ".1%"
       }
     ]
